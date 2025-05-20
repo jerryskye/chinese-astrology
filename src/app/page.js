@@ -29,9 +29,7 @@ export default function Home() {
               <th>Animal Sign</th>
             </tr>
           </thead>
-          <tbody>
-            {years}
-          </tbody>
+          {years}
         </table>
       </main>
     </div>

@@ -1,6 +1,6 @@
 export default function CalendarYear({ year, from, signs, elements }) {
   return (
-    <>
+    <tbody>
       <tr>
         <th rowSpan="2">{year}</th>
         <td>Jan 1 - {from}</td>
@@ -12,6 +12,6 @@ export default function CalendarYear({ year, from, signs, elements }) {
         <td>{elements[1]}</td>
         <td>{signs[1]}</td>
       </tr>
-    </>
+    </tbody>
   );
 }

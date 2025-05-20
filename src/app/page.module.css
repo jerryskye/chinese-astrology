@@ -189,6 +189,8 @@ a.secondary {
   font-weight: 600;
 }
 
-.table tbody tr:hover {
+/* Row hover effect */
+.table tbody:hover th[rowSpan],
+.table tbody tr:hover td {
   background: var(--gray-alpha-200);
 }
