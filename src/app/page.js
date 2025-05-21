@@ -1,12 +1,20 @@
 import styles from "./page.module.css";
 import CalendarYear from "../CalendarYear.js";
+import { CalendarChinese }from "date-chinese";
 
 const calculateYearTable = function () {
-  return [
-    {year: 1996, from: "Feb 19", signs: ["Rat", "Pig"], elements: ["Fire", "Wood"]},
-    {year: 1997, from: "Feb 07", signs: ["Ox", "Rat"], elements: ["Fire", "Earth"]},
-    // Add more years as needed
-  ];
+  const cal = new CalendarChinese()
+  return [...Array(40).keys()].map((i) => {
+    const newYear = cal.newYear(1984 + i);
+    cal.fromJDE(newYear);
+    const date = cal.toDate();
+    return {
+      year: date.getFullYear(),
+      from: date.toLocaleDateString('en-US', { month: 'long', day: 'numeric' }),
+      signs: ["Pig", "Rat"],
+      elements: ["Wood", "Fire"]
+    };
+  });
 };
 
 export default function Home() {
