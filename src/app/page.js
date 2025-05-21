@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import CalendarYear from "../CalendarYear.js";
-import { CalendarChinese }from "date-chinese";
+import { CalendarChinese } from "date-chinese";
 
 const calculateYearTable = function () {
   const cal = new CalendarChinese()
@@ -9,8 +9,7 @@ const calculateYearTable = function () {
     cal.fromJDE(newYear);
     const date = cal.toDate();
     return {
-      year: date.getFullYear(),
-      from: date.toLocaleDateString('en-US', { month: 'long', day: 'numeric' }),
+      date: date,
       signs: ["Pig", "Rat"],
       elements: ["Wood", "Fire"]
     };
@@ -18,8 +17,8 @@ const calculateYearTable = function () {
 };
 
 export default function Home() {
-  const years = calculateYearTable().map(({ year, from, signs, elements }) => {
-    return <CalendarYear key={year} year={year} from={from} signs={signs} elements={elements} />;
+  const years = calculateYearTable().map(({ date, signs, elements }) => {
+    return <CalendarYear key={date} date={date} signs={signs} elements={elements} />;
   });
 
   return (
