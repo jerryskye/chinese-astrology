@@ -8,17 +8,13 @@ const calculateYearTable = function () {
     const newYear = cal.newYear(1984 + i);
     cal.fromJDE(newYear);
     const date = cal.toDate();
-    return {
-      date: date,
-      signs: ["Pig", "Rat"],
-      elements: ["Wood", "Fire"]
-    };
+    return { date: date };
   });
 };
 
 export default function Home() {
-  const years = calculateYearTable().map(({ date, signs, elements }) => {
-    return <CalendarYear key={date} date={date} signs={signs} elements={elements} />;
+  const years = calculateYearTable().map(({ date }) => {
+    return <CalendarYear key={date} date={date} />;
   });
 
   return (
