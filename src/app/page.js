@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import CalendarYear from "../CalendarYear.js";
 import { CalendarChinese } from "date-chinese";
+import ZodiacCalculator from "../ZodiacCalculator";
 
 const calculateYearTable = function () {
   const cal = new CalendarChinese()
@@ -8,18 +9,17 @@ const calculateYearTable = function () {
     const newYear = cal.newYear(1984 + i);
     cal.fromJDE(newYear);
     const date = cal.toDate();
-    return { date: date };
+    return <CalendarYear key={date} date={date} />;
   });
 };
 
 export default function Home() {
-  const years = calculateYearTable().map(({ date }) => {
-    return <CalendarYear key={date} date={date} />;
-  });
+  const years = calculateYearTable();
 
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <ZodiacCalculator />
         <table className={styles.table}>
           <thead>
             <tr>
