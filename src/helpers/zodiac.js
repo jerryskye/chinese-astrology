@@ -1,75 +1,53 @@
 export function calculateSigns(year) {
   switch (year % 12) {
     case 0:
-        return ['Goat', 'Monkey'];
-        break;
+        return ['Goat 🐐', 'Monkey 🐒'];
     case 1:
-        return ['Monkey', 'Rooster'];
-        break;
+        return ['Monkey 🐒', 'Rooster 🐓'];
     case 2:
-        return ['Rooster', 'Dog'];
-        break;
+        return ['Rooster 🐓', 'Dog 🐶'];
     case 3:
-        return ['Dog', 'Pig'];
-        break;
+        return ['Dog 🐶', 'Pig 🐷'];
     case 4:
-        return ['Pig', 'Rat'];
-        break;
+        return ['Pig 🐷', 'Rat 🐀'];
     case 5:
-        return ['Rat', 'Ox'];
-        break;
+        return ['Rat 🐀', 'Ox 🐂'];
     case 6:
-        return ['Ox', 'Tiger'];
-        break;
+        return ['Ox 🐂', 'Tiger 🐯'];
     case 7:
-        return ['Tiger', 'Rabbit'];
-        break;
+        return ['Tiger 🐯', 'Rabbit 🐰'];
     case 8:
-        return ['Rabbit', 'Dragon'];
-        break;
+        return ['Rabbit 🐰', 'Dragon 🐉'];
     case 9:
-        return ['Dragon', 'Snake'];
-        break;
+        return ['Dragon 🐉', 'Snake 🐍'];
     case 10:
-        return ['Snake', 'Horse'];
-        break;
+        return ['Snake 🐍', 'Horse 🐴'];
     case 11:
-        return ['Horse', 'Goat'];
-        break;
+        return ['Horse 🐴', 'Goat 🐐'];
   }
 }
 
 export function calculateElements(year) {
   switch (year % 10) {
     case 0:
-      return ['Earth', 'Metal'];
-      break;
+      return ['Earth ⛰️', 'Metal ⛓'];
     case 1:
-      return ['Metal', 'Metal'];
-      break;
+       return ['Metal ⛓', 'Metal ⛓'];
     case 2:
-      return ['Metal', 'Water'];
-      break;
+      return ['Metal ⛓', 'Water 🌊'];
     case 3:
-      return ['Water', 'Water'];
-      break;
+      return ['Water 🌊', 'Water 🌊'];
     case 4:
-      return ['Water', 'Wood'];
-      break;
+      return ['Water 🌊', 'Wood 🪵'];
     case 5:
-      return ['Wood', 'Wood'];
-      break;
+      return ['Wood 🪵', 'Wood 🪵'];
     case 6:
-      return ['Wood', 'Fire'];
-      break;
+      return ['Wood 🪵', 'Fire 🔥'];
     case 7:
-      return ['Fire', 'Fire'];
-      break;
+      return ['Fire 🔥', 'Fire 🔥'];
     case 8:
-      return ['Fire', 'Earth'];
-      break;
+      return ['Fire 🔥', 'Earth ⛰️'];
     case 9:
-      return ['Earth', 'Earth'];
-      break;
+      return ['Earth ⛰️', 'Earth ⛰️'];
   }
-} 
+}
