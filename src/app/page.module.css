@@ -189,9 +189,12 @@ a.secondary {
   font-weight: 600;
 }
 
-/* Row hover effect */
-.table tbody:hover th[rowSpan],
-.table tbody tr:hover td {
+.clickableRow td {
+  cursor: pointer;
+}
+
+.clickableRow:hover td,
+.clickableRow:hover th {
   background: var(--gray-alpha-200);
 }
 
@@ -261,4 +264,20 @@ select.timePicker {
 .result p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
+}
+
+.learnMoreButton {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--gray-alpha-200);
+  color: inherit;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.learnMoreButton:hover {
+  background-color: var(--gray-alpha-100);
 }

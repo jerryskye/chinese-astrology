@@ -4,8 +4,10 @@ import { useState, useEffect } from 'react';
 import styles from './app/page.module.css';
 import { calculateSigns, calculateElements } from './helpers/zodiac';
 import { CalendarChinese } from 'date-chinese';
+import { useRouter } from 'next/navigation';
 
 export default function ZodiacCalculator() {
+  const router = useRouter();
   const [birthDate, setBirthDate] = useState('');
   const [birthTime, setBirthTime] = useState('12:00');
   const [timezone, setTimezone] = useState('UTC');
@@ -13,11 +15,21 @@ export default function ZodiacCalculator() {
   const [zodiacInfo, setZodiacInfo] = useState(null);
 
   useEffect(() => {
-    // Set the user's timezone and available timezones after component mounts
     const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     const availableTimezones = Intl.supportedValuesOf('timeZone');
     setTimezones(availableTimezones);
-    setTimezone(userTimezone);
+
+    const savedBirthDate = localStorage.getItem('birthDate') || '';
+    const savedBirthTime = localStorage.getItem('birthTime') || '12:00';
+    const savedTimezone = localStorage.getItem('timezone') || userTimezone;
+
+    setBirthDate(savedBirthDate);
+    setBirthTime(savedBirthTime);
+    setTimezone(savedTimezone);
+
+    if (savedBirthDate) {
+      calculateZodiac(savedBirthDate, savedBirthTime, savedTimezone);
+    }
   }, []);
 
   const calculateZodiac = (date, time, selectedTimezone) => {
@@ -49,12 +61,14 @@ export default function ZodiacCalculator() {
   const handleDateChange = (e) => {
     const date = e.target.value;
     setBirthDate(date);
+    localStorage.setItem('birthDate', date);
     calculateZodiac(date, birthTime, timezone);
   };
 
   const handleTimeChange = (e) => {
     const time = e.target.value;
     setBirthTime(time);
+    localStorage.setItem('birthTime', time);
     if (birthDate) {
       calculateZodiac(birthDate, time, timezone);
     }
@@ -63,7 +77,16 @@ export default function ZodiacCalculator() {
   const handleTimezoneChange = (e) => {
     const newTimezone = e.target.value;
     setTimezone(newTimezone);
+    localStorage.setItem('timezone', newTimezone);
     calculateZodiac(birthDate, birthTime, newTimezone);
+  };
+
+  const handleLearnMore = () => {
+    if (zodiacInfo) {
+      const element = zodiacInfo.element.split(' ')[0].toLowerCase();
+      const sign = zodiacInfo.sign.split(' ')[0].toLowerCase();
+      router.push(`/${element}/${sign}`);
+    }
   };
 
   return (
@@ -110,8 +133,14 @@ export default function ZodiacCalculator() {
         <div className={styles.result}>
           <p>Your Chinese Zodiac Sign: {zodiacInfo.sign}</p>
           <p>Your Element: {zodiacInfo.element}</p>
+          <button 
+            onClick={handleLearnMore}
+            className={styles.learnMoreButton}
+          >
+            Learn more about {zodiacInfo.element.split(' ')[0]} {zodiacInfo.sign.split(' ')[0]}
+          </button>
         </div>
       )}
     </div>
   );
-} 
+}
