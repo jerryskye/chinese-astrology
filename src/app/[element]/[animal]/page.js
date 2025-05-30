@@ -1,5 +1,6 @@
 import mainStyles from "../../page.module.css";
 import styles from "./page.module.css";
+import CompanionCalculator from "../../../CompanionCalculator";
 
 const elements = ["wood", "fire", "earth", "metal", "water"];
 const animals = [
@@ -24,7 +25,6 @@ export default async function ElementAnimalPage({ params }) {
   return (
     <div className={mainStyles.page}>
       <main className={mainStyles.main}>
-        
         <h1>{capitalizedElement} {capitalizedAnimal}</h1>
         
         <div className={styles.elementAnimalContent}>
@@ -60,6 +60,8 @@ export default async function ElementAnimalPage({ params }) {
             </p>
           </section>
         </div>
+        
+        <CompanionCalculator />
       </main>
     </div>
   );

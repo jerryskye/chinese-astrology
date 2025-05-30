@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import styles from './app/page.module.css';
-import { calculateSigns, calculateElements } from './helpers/zodiac';
-import { CalendarChinese } from 'date-chinese';
+import { calculateChineseZodiac } from './helpers/zodiac';
 import { useRouter } from 'next/navigation';
 
 export default function ZodiacCalculator() {
@@ -34,28 +33,8 @@ export default function ZodiacCalculator() {
 
   const calculateZodiac = (date, time, selectedTimezone) => {
     if (!date) return;
-    
-    const cal = new CalendarChinese();
-    
-    const localDate = new Date(date + 'T' + time);
-    const options = { timeZone: selectedTimezone };
-    const dateInTimezone = new Date(localDate.toLocaleString('en-US', options));
-    
-    const year = dateInTimezone.getFullYear();
-    
-    const newYearJDE = cal.newYear(year);
-    cal.fromJDE(newYearJDE);
-    const newYearDate = cal.toDate();
-    
-    const index = dateInTimezone < newYearDate ? 0 : 1;
-    
-    const signs = calculateSigns(year);
-    const elements = calculateElements(year);
-    
-    setZodiacInfo({
-      sign: signs[index],
-      element: elements[index],
-    });
+    const result = calculateChineseZodiac(date, time, selectedTimezone);
+    setZodiacInfo(result);
   };
 
   const handleDateChange = (e) => {
