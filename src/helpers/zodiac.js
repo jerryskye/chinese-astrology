@@ -61,16 +61,16 @@ export function calculateChineseZodiac(date, time, timezone) {
   const localDate = new Date(`${date}T${time}`);
   const options = { timeZone: timezone };
   const dateInTimezone = new Date(localDate.toLocaleString('en-US', options));
-  
+
   const year = dateInTimezone.getFullYear();
   const newYearJDE = cal.newYear(year);
   cal.fromJDE(newYearJDE);
   const newYearDate = cal.toDate();
-  
+
   const index = dateInTimezone < newYearDate ? 0 : 1;
   const signs = calculateSigns(year);
   const elements = calculateElements(year);
-  
+
   return {
     sign: signs[index],
     element: elements[index]
@@ -81,11 +81,21 @@ export function calculateCompanionSign(date, time, timezone) {
   if (!date) return null;
 
   const localDate = new Date(`${date}T${time}`);
-  const options = { timeZone: timezone };
-  const dateInUTC = new Date(localDate.toLocaleString('en-US', options));
-  const utcHours = dateInUTC.getUTCHours();
-  const utcMinutes = dateInUTC.getUTCMinutes();
-  const timeInHours = utcHours + utcMinutes / 60;
+  
+  let hours, minutes;
+  
+  if (timezone === 'UTC') {
+    // For UTC timezone, use the time directly
+    hours = localDate.getHours();
+    minutes = localDate.getMinutes();
+  } else {
+    // For other timezones, use the existing conversion
+    const options = { timeZone: timezone };
+    const dateInUTC = new Date(localDate.toLocaleString('en-US', options));
+    hours = dateInUTC.getUTCHours();
+    minutes = dateInUTC.getUTCMinutes();
+  }
+  const timeInHours = hours + minutes / 60;
 
   if ((timeInHours >= 23 && timeInHours <= 24) || (timeInHours >= 0 && timeInHours < 1)) {
     return 'Rat 🐀';
