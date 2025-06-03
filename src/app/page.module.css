@@ -295,3 +295,23 @@ select.timePicker {
 .link:hover {
   opacity: 0.8;
 }
+
+.zodiacCircle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.yearCell {
+  opacity: 1 !important;
+  color: inherit !important;
+}
+
+.greyedOut {
+  opacity: 0.5;
+}
+
+.greyedOut td {
+  color: #666 !important;
+}
