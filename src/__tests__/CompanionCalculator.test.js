@@ -32,6 +32,7 @@ describe('CompanionCalculator', () => {
 
     expect(calculateChineseZodiac).toHaveBeenCalledWith('2024-01-01', '12:00', expect.any(String));
     expect(calculateCompanionSign).toHaveBeenCalledWith('2024-01-01', '12:00', expect.any(String));
+    expect(screen.getByText(/your chinese zodiac sign: dragon/i)).toBeInTheDocument();
     expect(screen.getByText(/your companion sign: tiger/i)).toBeInTheDocument();
   });
 

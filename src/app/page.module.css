@@ -281,3 +281,17 @@ select.timePicker {
 .learnMoreButton:hover {
   background-color: var(--gray-alpha-100);
 }
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: opacity 0.2s;
+}
+
+.link:hover {
+  opacity: 0.8;
+}

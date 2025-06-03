@@ -1,5 +1,6 @@
 import mainStyles from "../../page.module.css";
 import styles from "./page.module.css";
+import CompanionCalculator from "../../../CompanionCalculator";
 import elementAnimalData from "../../../helpers/elementAnimalData";
 import Link from "next/link";
 
@@ -28,7 +29,7 @@ export default async function ElementAnimalPage({ params }) {
   return (
     <div className={mainStyles.page}>
       <main className={mainStyles.main}>
-        <Link href="/" className={styles.backLink}>
+        <Link href="/" className={mainStyles.link}>
           ← Back to homepage
         </Link>
 
@@ -48,6 +49,8 @@ export default async function ElementAnimalPage({ params }) {
             </section>
           ))}
         </div>
+
+        <CompanionCalculator />
       </main>
     </div>
   );

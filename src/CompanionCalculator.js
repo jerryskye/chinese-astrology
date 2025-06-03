@@ -109,6 +109,7 @@ export default function CompanionCalculator() {
         </div>
         {companionSign && (
           <div className={styles.result}>
+            <p>Your Chinese Zodiac Sign: {zodiacSign}</p>
             <p>Your Companion Sign: {companionSign}</p>
           </div>
         )}
@@ -120,6 +121,12 @@ export default function CompanionCalculator() {
           companionSign={companionSign}
         />
       )}
+      <a href="#" className={styles.backLink} onClick={(e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }}>
+        ↑ Back to top
+      </a>
     </>
   );
 } 

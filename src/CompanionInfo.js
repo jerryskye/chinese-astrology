@@ -6,9 +6,13 @@ export default function CompanionInfo({ zodiacSign, companionSign }) {
 
   return (
     <div>
-      <h1>{zodiacSign} with a {companionSign} companion</h1>
+      <h1>{zodiacSign} with a {companionSign} Companion</h1>
       <div className={styles.elementAnimalContent}>
-        <p>{compatibilityText}</p>
+        <section>
+          {compatibilityText.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </section>
       </div>
     </div>
   );
