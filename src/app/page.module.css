@@ -281,3 +281,37 @@ select.timePicker {
 .learnMoreButton:hover {
   background-color: var(--gray-alpha-100);
 }
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: opacity 0.2s;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.zodiacCircle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.yearCell {
+  opacity: 1 !important;
+  color: inherit !important;
+}
+
+.greyedOut {
+  opacity: 0.5;
+}
+
+.greyedOut td {
+  color: #666 !important;
+}
