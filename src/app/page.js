@@ -18,28 +18,28 @@ const calculateYearTable = function (selectedAnimal = null) {
   const currentYear = new Date().getFullYear();
   const startYear = currentYear - 7;
   const endYear = startYear - 69;
-  
+
   return [...Array(70).keys()].map((i) => {
     const year = endYear + i;
     // Get lunar new year date for this year
     const newYear = cal.newYear(year);
     cal.fromJDE(newYear);
     const lunarNewYear = cal.toDate();
-    
+
     // Get the animals for both parts of the year
     const previousAnimal = getAnimalForYear(year - 1); // For Jan 1 to Lunar New Year
     const currentAnimal = getAnimalForYear(year);      // For Lunar New Year onwards
-    
+
     // If we're filtering by animal, check if either this year or previous year matches
-    if (selectedAnimal && 
-        currentAnimal !== selectedAnimal && 
+    if (selectedAnimal &&
+        currentAnimal !== selectedAnimal &&
         previousAnimal !== selectedAnimal) {
       return null;
     }
 
     return (
-      <CalendarYear 
-        key={year} 
+      <CalendarYear
+        key={year}
         date={lunarNewYear}
         previousAnimal={previousAnimal}
         currentAnimal={currentAnimal}
@@ -61,8 +61,8 @@ export default function Home() {
   };
 
   const years = calculateYearTable(selectedAnimal);
-  const tableTitle = selectedAnimal 
-    ? `Years of the ${selectedAnimal}` 
+  const tableTitle = selectedAnimal
+    ? `Years of the ${selectedAnimal}`
     : "Find your lunar birth year";
 
   return (
