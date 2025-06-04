@@ -275,10 +275,15 @@ const ZodiacCircle = ({ onAnimalSelect, selectedAnimal }) => {
       ref={canvasRef}
       width={380}
       height={380}
-      style={{ margin: '0 auto', display: 'block', cursor: 'pointer' }}
+      style={{
+        margin: '0 auto',
+        display: 'block',
+        cursor: (hoveredSection !== -1 || isYinYangHovered) ? 'pointer' : 'default'
+      }}
+      onClick={handleClick}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      onClick={handleClick}
+      data-testid="zodiac-circle"
     />
   );
 };
