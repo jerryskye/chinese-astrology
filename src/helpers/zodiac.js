@@ -81,9 +81,9 @@ export function calculateCompanionSign(date, time, timezone) {
   if (!date) return null;
 
   const localDate = new Date(`${date}T${time}`);
-  
+
   let hours, minutes;
-  
+
   if (timezone === 'UTC') {
     // For UTC timezone, use the time directly
     hours = localDate.getHours();

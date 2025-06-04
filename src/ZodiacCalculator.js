@@ -112,7 +112,7 @@ export default function ZodiacCalculator() {
         <div className={styles.result}>
           <p>Your Chinese Zodiac Sign: {zodiacInfo.sign}</p>
           <p>Your Element: {zodiacInfo.element}</p>
-          <button 
+          <button
             onClick={handleLearnMore}
             className={styles.learnMoreButton}
           >
