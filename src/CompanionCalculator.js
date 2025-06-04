@@ -114,14 +114,14 @@ export default function CompanionCalculator() {
           </div>
         )}
       </div>
-      
+
       {zodiacSign && companionSign && (
-        <CompanionInfo 
+        <CompanionInfo
           zodiacSign={zodiacSign}
           companionSign={companionSign}
         />
       )}
-      <a href="#" className={styles.backLink} onClick={(e) => {
+      <a href="#" className={styles.link} onClick={(e) => {
         e.preventDefault();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }}>
@@ -129,4 +129,4 @@ export default function CompanionCalculator() {
       </a>
     </>
   );
-} 
+}
