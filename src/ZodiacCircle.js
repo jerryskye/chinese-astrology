@@ -213,17 +213,9 @@ const ZodiacCircle = ({ onAnimalSelect, selectedAnimal }) => {
           gradientEndY
         );
 
-        if (animal.name === selectedAnimal) {
-          // Gold gradient for selected animal
-          gradient.addColorStop(0, '#e0bb00');     // Gold
-          gradient.addColorStop(0.5, '#ffd700');   // Bright gold
-          gradient.addColorStop(1, '#ffdf00');     // Light gold
-        } else {
-          // Original hover gradient
-          gradient.addColorStop(0, '#4169e1');     // Royal blue
-          gradient.addColorStop(0.5, '#1e90ff');   // Dodger blue
-          gradient.addColorStop(1, '#87ceeb');     // Sky blue
-        }
+        gradient.addColorStop(0, '#4169e1');     // Royal blue
+        gradient.addColorStop(0.5, '#1e90ff');   // Dodger blue
+        gradient.addColorStop(1, '#87ceeb');     // Sky blue
 
         // Draw the border with clipping to prevent overlap
         ctx.save();
