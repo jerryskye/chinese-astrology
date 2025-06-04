@@ -11,7 +11,7 @@ describe('CompanionInfo', () => {
     // Check the content - Dragon is an excellent companion for the Rat
     expect(screen.getByText(/This is a lucky combination, for the Dragon is an excellent companion for the Rat/)).toBeInTheDocument();
     expect(screen.getByText(/The voyage will be magical/)).toBeInTheDocument();
-    expect(screen.getByText(/In deepest harmony with himself, the Rat will leave his bottomless depths and will ride his scaled companion across the Milky Way/)).toBeInTheDocument();
+    expect(screen.getByText(/Here is a Companion strong enough for the Rat/)).toBeInTheDocument();
   });
 
   test('all zodiac sign combinations have valid compatibility data', () => {
