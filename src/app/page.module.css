@@ -193,8 +193,14 @@ a.secondary {
   cursor: pointer;
 }
 
+/* Base hover styles */
 .clickableRow:hover td,
 .clickableRow:hover th {
+  background: var(--gray-alpha-200);
+}
+
+/* When either row is hovered, highlight the year cell */
+tbody:hover th.yearCell {
   background: var(--gray-alpha-200);
 }
 
