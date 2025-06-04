@@ -79,7 +79,7 @@ const drawYinYang = (ctx, centerX, centerY, radius, isHovered) => {
   ctx.restore();
 };
 
-const ZodiacCircle = ({ onAnimalSelect }) => {
+const ZodiacCircle = ({ onAnimalSelect, selectedAnimal }) => {
   const canvasRef = useRef(null);
   const [hoveredSection, setHoveredSection] = useState(-1);
   const [isYinYangHovered, setIsYinYangHovered] = useState(false);
@@ -198,7 +198,7 @@ const ZodiacCircle = ({ onAnimalSelect }) => {
       ctx.fillStyle = animal.isYang ? '#ff0000' : '#ffffff';
       ctx.fill();
 
-      if (isHovered) {
+      if (isHovered || animal.name === selectedAnimal) {
         // Create gradient for the border
         const midAngle = (startAngle + endAngle) / 2;
         const gradientStartX = centerX + (radius - 5) * Math.cos(midAngle);
@@ -212,17 +212,41 @@ const ZodiacCircle = ({ onAnimalSelect }) => {
           gradientEndX,
           gradientEndY
         );
-        gradient.addColorStop(0, '#4169e1');     // Royal blue
-        gradient.addColorStop(0.5, '#1e90ff');   // Dodger blue
-        gradient.addColorStop(1, '#87ceeb');     // Sky blue
 
+        if (animal.name === selectedAnimal) {
+          // Gold gradient for selected animal
+          gradient.addColorStop(0, '#e0bb00');     // Gold
+          gradient.addColorStop(0.5, '#ffd700');   // Bright gold
+          gradient.addColorStop(1, '#ffdf00');     // Light gold
+        } else {
+          // Original hover gradient
+          gradient.addColorStop(0, '#4169e1');     // Royal blue
+          gradient.addColorStop(0.5, '#1e90ff');   // Dodger blue
+          gradient.addColorStop(1, '#87ceeb');     // Sky blue
+        }
+
+        // Draw the border with clipping to prevent overlap
+        ctx.save();
+        ctx.beginPath();
+        ctx.moveTo(centerX, centerY);
+        ctx.arc(centerX, centerY, radius + 5, startAngle, endAngle);
+        ctx.lineTo(centerX, centerY);
+        ctx.closePath();
+        ctx.clip();
+
+        ctx.beginPath();
+        ctx.moveTo(centerX, centerY);
+        ctx.arc(centerX, centerY, radius, startAngle, endAngle);
+        ctx.closePath();
         ctx.strokeStyle = gradient;
         ctx.lineWidth = 5;
+        ctx.stroke();
+        ctx.restore();
       } else {
         ctx.strokeStyle = '#000000';
         ctx.lineWidth = 1;
+        ctx.stroke();
       }
-      ctx.stroke();
 
       // Add animal name
       ctx.translate(centerX, centerY);
@@ -252,7 +276,7 @@ const ZodiacCircle = ({ onAnimalSelect }) => {
     };
 
     render();
-  }, [hoveredSection, isYinYangHovered]);
+  }, [hoveredSection, isYinYangHovered, selectedAnimal]);
 
   return (
     <canvas

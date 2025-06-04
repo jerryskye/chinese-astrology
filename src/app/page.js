@@ -69,7 +69,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.zodiacCircle}>
-          <ZodiacCircle onAnimalSelect={handleAnimalSelect} />
+          <ZodiacCircle onAnimalSelect={handleAnimalSelect} selectedAnimal={selectedAnimal} />
         </div>
         <ZodiacCalculator />
         <table className={styles.table} ref={tableRef}>
