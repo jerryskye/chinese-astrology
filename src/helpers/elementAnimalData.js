@@ -137,7 +137,7 @@ const elementAnimalData = {
   },
   fire: {
     rat: {
-      "Characteristics of the Fire Rat": ["The Fire element is of midday, of the South, of summer. Fire is Yang, it is the element which heats, burns, transforms, confuses. For the Rat it can become internal Fire, a creative flame, a live and rapid force, but this can represent great danger, for it also devours, consumes and transmutes. Its great power can be destructive. Allied to the Rat it can bring death or light."],
+      "Characteristics of the Fire Rat": ["The Fire element is of midday, of the South, of summer. Fire is Yang, it is the element which heats, burns, transforms, confuses. For the Rat it can become an internal Fire, a creative flame, a live and rapid force, but this can represent great danger, for it also devours, consumes and transmutes. Its great power can be destructive. Allied to the Rat it can bring death or light."],
       Health: ["The organ of Fire is the heart; its flavour is bitter. The Fire Rat should beware of the change in seasons. Moreover, the explosive and burning nature of this rodent should kindle his heart but not burn it out, for, like all of us, Rats have only one."],
       "The Fire Rat and others": [
         "Fire is often synonymous with war. It is lucid and clairvoyant, but also violent, irascible and impassioned. The Rat possesses within himself these same elements, and Fire will reinforce them. The Fire Rat could become both an impassioned and a lucid man of action.",
