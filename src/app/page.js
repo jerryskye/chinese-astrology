@@ -45,7 +45,6 @@ const calculateYearTable = function (selectedAnimal = null, loading = false, onC
         previousAnimal={previousAnimal}
         currentAnimal={currentAnimal}
         selectedAnimal={selectedAnimal}
-        loading={loading}
         onCellClick={onCellClick}
       />
     );
