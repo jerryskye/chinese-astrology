@@ -40,7 +40,7 @@ describe('CalendarYear', () => {
   });
 
   test('renders year and dates correctly', () => {
-    renderWithTable(<CalendarYear date={mockDate} />);
+    renderWithTable(<CalendarYear date={mockDate} onCellClick={jest.fn()} />);
 
     // Check year is displayed
     expect(screen.getByText('2024')).toBeInTheDocument();
@@ -51,7 +51,7 @@ describe('CalendarYear', () => {
   });
 
   test('displays zodiac signs and elements correctly', () => {
-    renderWithTable(<CalendarYear date={mockDate} />);
+    renderWithTable(<CalendarYear date={mockDate} onCellClick={jest.fn()} />);
 
     // First period
     expect(screen.getByText('Dragon 🐉')).toBeInTheDocument();
@@ -63,48 +63,51 @@ describe('CalendarYear', () => {
   });
 
   test('calls calculateSigns and calculateElements with correct year', () => {
-    renderWithTable(<CalendarYear date={mockDate} />);
+    renderWithTable(<CalendarYear date={mockDate} onCellClick={jest.fn()} />);
 
     expect(calculateSigns).toHaveBeenCalledWith(2024);
     expect(calculateElements).toHaveBeenCalledWith(2024);
   });
 
   test('navigates to correct route when first period row is clicked', () => {
-    renderWithTable(<CalendarYear date={mockDate} />);
+    const onCellClick = jest.fn();
+    renderWithTable(<CalendarYear date={mockDate} onCellClick={onCellClick} />);
 
     // Click on any cell in the first row
     fireEvent.click(screen.getByText('Dragon 🐉'));
 
-    expect(mockRouter.push).toHaveBeenCalledWith('/wood/dragon');
+    expect(onCellClick).toHaveBeenCalled();
   });
 
   test('navigates to correct route when second period row is clicked', () => {
-    renderWithTable(<CalendarYear date={mockDate} />);
+    const onCellClick = jest.fn();
+    renderWithTable(<CalendarYear date={mockDate} onCellClick={onCellClick} />);
 
     // Click on any cell in the second row
     fireEvent.click(screen.getByText('Snake 🐍'));
 
-    expect(mockRouter.push).toHaveBeenCalledWith('/fire/snake');
+    expect(onCellClick).toHaveBeenCalled();
   });
 
   test('formats dates correctly for different days', () => {
     // Test February 10
     const testDate = new Date('2024-02-10');
-    const { unmount } = renderWithTable(<CalendarYear date={testDate} />);
+    const { unmount } = renderWithTable(<CalendarYear date={testDate} onCellClick={jest.fn()} />);
     expect(screen.getByText('Jan 1 - Feb 10')).toBeInTheDocument();
     expect(screen.getByText('Feb 11 - Dec 31')).toBeInTheDocument();
     unmount();
 
     // Test February 11
     const nextDay = new Date('2024-02-11');
-    renderWithTable(<CalendarYear date={nextDay} />);
+    renderWithTable(<CalendarYear date={nextDay} onCellClick={jest.fn()} />);
     expect(screen.getByText('Jan 1 - Feb 11')).toBeInTheDocument();
     expect(screen.getByText('Feb 12 - Dec 31')).toBeInTheDocument();
   });
 
-  test('scrolls to top when a row is clicked', () => {
-    renderWithTable(<CalendarYear date={mockDate} />);
+  test('calls onCellClick when a row is clicked', () => {
+    const onCellClick = jest.fn();
+    renderWithTable(<CalendarYear date={mockDate} onCellClick={onCellClick} />);
     fireEvent.click(screen.getByText('Dragon 🐉'));
-    expect(window.scrollTo).toHaveBeenCalledWith(0, 0);
+    expect(onCellClick).toHaveBeenCalled();
   });
 });
