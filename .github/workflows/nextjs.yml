@@ -75,7 +75,6 @@ jobs:
         run: npm test
       # Only run build and deployment steps if on main branch
       - name: Build with Next.js
-        if: github.ref == 'refs/heads/main'
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
