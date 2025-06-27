@@ -16,10 +16,6 @@ jest.mock('next/navigation', () => ({
   }))
 }));
 
-beforeAll(() => {
-  window.scrollTo = jest.fn();
-});
-
 const renderWithTable = (component) => {
   return render(
     <table>
