@@ -16,6 +16,7 @@ const CalendarYear = ({ date, selectedAnimal, previousAnimal, currentAnimal }) =
 
   const handleRowClick = (sign, element) => {
     router.push(`/${element.split(' ')[0].toLowerCase()}/${sign.split(' ')[0].toLowerCase()}`);
+    window.scrollTo(0, 0);
   };
 
   const isFirstRowGreyedOut = selectedAnimal && previousAnimal !== selectedAnimal;

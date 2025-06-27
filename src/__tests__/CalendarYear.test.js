@@ -16,6 +16,10 @@ jest.mock('next/navigation', () => ({
   }))
 }));
 
+beforeAll(() => {
+  window.scrollTo = jest.fn();
+});
+
 const renderWithTable = (component) => {
   return render(
     <table>
@@ -96,5 +100,11 @@ describe('CalendarYear', () => {
     renderWithTable(<CalendarYear date={nextDay} />);
     expect(screen.getByText('Jan 1 - Feb 11')).toBeInTheDocument();
     expect(screen.getByText('Feb 12 - Dec 31')).toBeInTheDocument();
+  });
+
+  test('scrolls to top when a row is clicked', () => {
+    renderWithTable(<CalendarYear date={mockDate} />);
+    fireEvent.click(screen.getByText('Dragon 🐉'));
+    expect(window.scrollTo).toHaveBeenCalledWith(0, 0);
   });
 });
