@@ -3,7 +3,6 @@
 import { calculateSigns, calculateElements } from './helpers/zodiac';
 import { useRouter } from 'next/navigation';
 import styles from './app/page.module.css';
-import { useState } from 'react';
 
 const CalendarYear = ({ date, selectedAnimal, previousAnimal, currentAnimal, onCellClick }) => {
   const router = useRouter();
