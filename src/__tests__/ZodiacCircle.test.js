@@ -71,6 +71,13 @@ describe('ZodiacCircle', () => {
     expect(canvas).toHaveAttribute('height', '380');
   });
 
+  test('applies spinning class to canvas when spinning is true', () => {
+    render(<ZodiacCircle onAnimalSelect={mockOnAnimalSelect} selectedAnimal={null} spinning={true} />);
+    const canvas = screen.getByTestId('zodiac-circle');
+    // The className will be the CSS module class, so just check for any class
+    expect(canvas.className).toMatch(/spinning/);
+  });
+
   test('calls onAnimalSelect when clicking on a section', () => {
     render(<ZodiacCircle onAnimalSelect={mockOnAnimalSelect} selectedAnimal={null} />);
     const canvas = screen.getByTestId('zodiac-circle');

@@ -6,6 +6,7 @@ import ZodiacCalculator from "../ZodiacCalculator";
 import ZodiacCircle from "../ZodiacCircle";
 import animals from "../helpers/animals";
 import { useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 
 const getAnimalForYear = (year) => {
   const startYear = 1900; // Rat year
@@ -13,7 +14,7 @@ const getAnimalForYear = (year) => {
   return animals[offset].name;
 };
 
-const calculateYearTable = function (selectedAnimal = null) {
+const calculateYearTable = function (selectedAnimal = null, loading = false, onCellClick = null) {
   const cal = new CalendarChinese();
   const currentYear = new Date().getFullYear();
   const startYear = currentYear - 7;
@@ -44,6 +45,7 @@ const calculateYearTable = function (selectedAnimal = null) {
         previousAnimal={previousAnimal}
         currentAnimal={currentAnimal}
         selectedAnimal={selectedAnimal}
+        onCellClick={onCellClick}
       />
     );
   }).filter(Boolean);
@@ -51,7 +53,9 @@ const calculateYearTable = function (selectedAnimal = null) {
 
 export default function Home() {
   const [selectedAnimal, setSelectedAnimal] = useState(null);
+  const [loading, setLoading] = useState(false);
   const tableRef = useRef(null);
+  const router = useRouter();
 
   const handleAnimalSelect = (animal) => {
     setSelectedAnimal(animal);
@@ -60,7 +64,14 @@ export default function Home() {
     }, 100);
   };
 
-  const years = calculateYearTable(selectedAnimal);
+  const handleCellClick = (rowIdx, colIdx, sign, element) => {
+    if (loading) return;
+    setLoading(true);
+    router.push(`/${element.split(' ')[0].toLowerCase()}/${sign.split(' ')[0].toLowerCase()}`);
+    window.scrollTo(0, 0);
+  };
+
+  const years = calculateYearTable(selectedAnimal, loading, handleCellClick);
   const tableTitle = selectedAnimal
     ? `Years of the ${selectedAnimal}`
     : "Find your lunar birth year";
@@ -69,7 +80,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.zodiacCircle}>
-          <ZodiacCircle onAnimalSelect={handleAnimalSelect} selectedAnimal={selectedAnimal} />
+          <ZodiacCircle onAnimalSelect={handleAnimalSelect} selectedAnimal={selectedAnimal} spinning={loading} />
         </div>
         <ZodiacCalculator />
         <table className={styles.table} ref={tableRef}>

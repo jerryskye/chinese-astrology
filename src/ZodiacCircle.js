@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import animals from './helpers/animals';
+import styles from './app/page.module.css';
 
 const drawYinYang = (ctx, centerX, centerY, radius, isHovered) => {
   // Save the current context state
@@ -79,7 +80,7 @@ const drawYinYang = (ctx, centerX, centerY, radius, isHovered) => {
   ctx.restore();
 };
 
-const ZodiacCircle = ({ onAnimalSelect, selectedAnimal }) => {
+const ZodiacCircle = ({ onAnimalSelect, selectedAnimal, spinning }) => {
   const canvasRef = useRef(null);
   const [hoveredSection, setHoveredSection] = useState(-1);
   const [isYinYangHovered, setIsYinYangHovered] = useState(false);
@@ -275,6 +276,7 @@ const ZodiacCircle = ({ onAnimalSelect, selectedAnimal }) => {
       ref={canvasRef}
       width={380}
       height={380}
+      className={spinning ? styles.spinning : ''}
       style={{
         margin: '0 auto',
         display: 'block',
