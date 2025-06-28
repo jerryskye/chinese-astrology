@@ -104,6 +104,6 @@ describe('CalendarYear', () => {
     const onCellClick = jest.fn();
     renderWithTable(<CalendarYear date={mockDate} onCellClick={onCellClick} />);
     fireEvent.click(screen.getByText('Dragon 🐉'));
-    expect(onCellClick).toHaveBeenCalled();
+    expect(onCellClick).toHaveBeenCalledWith(0, 2, 'Dragon 🐉', 'Wood 🪵');
   });
 });
