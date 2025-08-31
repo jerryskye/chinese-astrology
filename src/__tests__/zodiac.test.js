@@ -38,6 +38,220 @@ describe('zodiac calculations', () => {
       const result = calculateChineseZodiac(null, '12:00', mockTimezone);
       expect(result).toBeNull();
     });
+
+    describe('historical figures zodiac signs', () => {
+      test('Charlotte Brontë (born April 21, 1816) should be Rat with Fire element', () => {
+        const result = calculateChineseZodiac('1816-04-21', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Luis Buñuel (born February 22, 1900) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1900-02-22', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('François-René de Chateaubriand (born September 4, 1768) should be Rat with Earth element', () => {
+        const result = calculateChineseZodiac('1768-09-04', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Henrik Ibsen (born March 20, 1828) should be Rat with Earth element', () => {
+        const result = calculateChineseZodiac('1828-03-20', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Eugène Ionesco (born November 26, 1909) should be Rooster with Earth element', () => {
+        const result = calculateChineseZodiac('1909-11-26', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rooster 🐓');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Jack London (born January 12, 1876) should be Pig with Fire element', () => {
+        const result = calculateChineseZodiac('1876-01-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Pig 🐷');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Claude Monet (born November 14, 1840) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1840-11-14', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Wolfgang Amadeus Mozart (born January 27, 1756) should be Pig with Fire element', () => {
+        const result = calculateChineseZodiac('1756-01-27', '12:00', mockTimezone);
+        expect(result.sign).toBe('Pig 🐷');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Auguste Rodin (born November 12, 1840) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1840-11-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('William Shakespeare (baptized April 26, 1564) should be Rat with Wood element', () => {
+        const result = calculateChineseZodiac('1564-04-26', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Percy Bysshe Shelley (born August 4, 1792) should be Rat with Water element', () => {
+        const result = calculateChineseZodiac('1792-08-04', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Johann Strauss II (born October 25, 1825) should be Rooster with Wood element', () => {
+        const result = calculateChineseZodiac('1825-10-25', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rooster 🐓');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Pyotr Ilyich Tchaikovsky (born May 7, 1840) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1840-05-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Leo Tolstoy (born September 9, 1828) should be Rat with Earth element', () => {
+        const result = calculateChineseZodiac('1828-09-09', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Henri de Toulouse-Lautrec (born November 24, 1864) should be Rat with Wood element', () => {
+        const result = calculateChineseZodiac('1864-11-24', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Émile Zola (born April 2, 1840) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1840-04-02', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Antoine de Saint-Exupéry (born June 29, 1900) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1900-06-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Louis Lumière (born October 5, 1864) should be Rat with Wood element', () => {
+        const result = calculateChineseZodiac('1864-10-05', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Konrad Adenauer (born January 5, 1876) should be Pig with Fire element', () => {
+        const result = calculateChineseZodiac('1876-01-05', '12:00', mockTimezone);
+        expect(result.sign).toBe('Pig 🐷');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Lucrezia Borgia (born April 18, 1480) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1480-04-18', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Jimmy Carter (born October 1, 1924) should be Rat with Wood element', () => {
+        const result = calculateChineseZodiac('1924-10-01', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Charles I (born November 19, 1600) should be Rat with Metal element', () => {
+        const result = calculateChineseZodiac('1600-11-19', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Charles I (born November 19, 1600) should have correct element', () => {
+        const result = calculateChineseZodiac('1600-11-19', '12:00', mockTimezone);
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Carl von Clausewitz (born July 1, 1780) should be Rat', () => {
+        const result = calculateChineseZodiac('1780-07-01', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Benjamin Disraeli (born December 21, 1804) should be Rat', () => {
+        const result = calculateChineseZodiac('1804-12-21', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Heinrich Himmler (born October 7, 1900) should be Rat', () => {
+        const result = calculateChineseZodiac('1900-10-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Lawrence of Arabia (born August 16, 1888) should be Rat', () => {
+        const result = calculateChineseZodiac('1888-08-16', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Mata Hari (born August 7, 1876) should be Rat', () => {
+        const result = calculateChineseZodiac('1876-08-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Peter the Great (born June 9, 1672) should be Rat', () => {
+        const result = calculateChineseZodiac('1672-06-09', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Chiang Kai-shek (born October 31, 1887) should be Pig', () => {
+        const result = calculateChineseZodiac('1887-10-31', '12:00', mockTimezone);
+        expect(result.sign).toBe('Pig 🐷');
+      });
+
+      test('George Washington (born February 22, 1732) should be Rat', () => {
+        const result = calculateChineseZodiac('1732-02-22', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Werner von Braun (born March 23, 1912) should be Rat', () => {
+        const result = calculateChineseZodiac('1912-03-23', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Pablo Casals (born December 29, 1876) should be Rat', () => {
+        const result = calculateChineseZodiac('1876-12-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Maurice Chevalier (born September 12, 1888) should be Rat', () => {
+        const result = calculateChineseZodiac('1888-09-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Manuel de Falla (born November 23, 1876) should be Rat', () => {
+        const result = calculateChineseZodiac('1876-11-23', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Galileo Galilei (born February 15, 1564) should be Rat', () => {
+        const result = calculateChineseZodiac('1564-02-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Joseph Haydn (born March 31, 1732) should be Rat', () => {
+        const result = calculateChineseZodiac('1732-03-31', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+
+      test('Gioachino Rossini (born February 29, 1792) should be Rat', () => {
+        const result = calculateChineseZodiac('1792-02-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+      });
+    });
   });
 
   describe('calculateCompanionSign', () => {
