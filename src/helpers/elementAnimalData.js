@@ -16,7 +16,8 @@ const elementAnimalData = {
       "The Year of the Wood Rat": [
         "The culminating point of a Wood Rat year will be springtime, the period of growth and prosperity. Leaving winter behind him, the Rat will move away from his Northern territory and travel East. His Yin aspect will tend towards the dynamism of the Yang. The Rat should profit from this season to brave new worlds and to create. Be supple in all senses of the term, know how to adapt yourself; this will be your winning card.",
         "Tendency of the year: A year for diplomacy and suppleness, favourable for international relations; a year also for expanding agricultural activities and for an increase in the family. But an egotistical attitude will bring about disasters and a pervasive climate of anarchy."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Rat": "William Shakespeare (1564), Henri de Toulouse-Lautrec (1864), Louis Lumière (1864), Jimmy Carter (1924), Carl von Clausewitz (1780), Benjamin Disraeli (1804), Heinrich Himmler (1900), Lawrence of Arabia (1888), Mata Hari (1876), Peter the Great (1672), George Washington (1732), Werner von Braun (1912), Pablo Casals (1876), Maurice Chevalier (1888), Manuel de Falla (1876), Galileo Galilei (1564), Joseph Haydn (1732), Gioachino Rossini (1792)"
     },
     ox: {
       "Characteristics of the Wood Ox": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. The Wood Ox will tend to be more passionate than the Ox on its own; he will be quick to anger - which can represent a danger - and he will have a compulsion to lose his way, a summons to self-destructiveness. He is also in danger of being oversensitive, but his dignified attitude will conceal this. However, the scales will be balanced in his favour due to his strong will and great sense of equilibrium; he will survive. His need for harmony will always win out."],
@@ -26,6 +27,9 @@ const elementAnimalData = {
       "The Year of the Wood Ox": [
         "The culminating point for a Wood Ox year will be spring, a period of growth and prosperity. The Ox will set out from his winter habitat in the North and travel East. His Yin aspect will reach out towards the dynamism of the Yang. Springtime for an Ox is synonymous with birth, life and work. Therefore, no hesitations! Give of yourself fully during this season, so favourable for creation, but remember to be flexible and open, ready to listen and absorb every impression. In this year of renewal you can apply novel techniques and new methods. Open your eyes and prick up your ears because fortune favours you.",
         "Tendency of the year: Be flexible and diplomatic and profit from your good luck, but do not sink into egotism; share happiness and joy throughout the year. Deny your true spirit or thwart your good impulses and you may be faced with your world in ruins."
+      ],
+      "Famous people born in the year of the Wood Ox": [
+        "Famous people born in the year of the Wood Ox include..."
       ]
     },
     tiger: {
@@ -33,14 +37,20 @@ const elementAnimalData = {
       Health: ["The organ of Wood is the liver; its flavour is acid. Outbursts of anger and passion are at times necessary. But restrain yourself; if you go too far you will end up an anxious Tiger, turning round in circles in a cage of your obsessions and hallucinations."],
       "The Wood Tiger and others": ["The Wood Tiger will appear relaxed and at ease, giving the impression of taking things lightly. Alas, this is an illusion and a mask, behind which he skillfully hides a highly anxious nature. If he allows himself to be overcome by this anxiety he will head straight for failure. The Wood Tiger, however, will know how to improvise and give free rein to his fertile imagination; in this way creativity will win out over reasoning."],
       "Some advice for a Wood Tiger": ["You are passionate, engaging, at ease (at least on the surface) and a lover of liberty. The stage attracts you, the limelight awaits you, the crowd's eyes are fixed upon you. Allow your inspiration free rein."],
-      "The Year of the Wood Tiger": ["The culminating point for a Wood Tiger year will be springtime, a period of growth and prosperity. The Tiger will become extremely dynamic due to the Yang force which he bears withing him; thus he will be more enterprising and more creative. Profit from this period to start some new enterprise or develop your artistic talents - Wood is by nature poetic. However, always retain your flexibility; in this way you will find it easy to adapt and gain a new lease on life. This is the period to do so because your opportunism will be remarkably well paid."]
+      "The Year of the Wood Tiger": ["The culminating point for a Wood Tiger year will be springtime, a period of growth and prosperity. The Tiger will become extremely dynamic due to the Yang force which he bears withing him; thus he will be more enterprising and more creative. Profit from this period to start some new enterprise or develop your artistic talents - Wood is by nature poetic. However, always retain your flexibility; in this way you will find it easy to adapt and gain a new lease on life. This is the period to do so because your opportunism will be remarkably well paid."],
+      "Famous people born in the year of the Wood Tiger": [
+        "Famous people born in the year of the Wood Tiger include..."
+      ]
     },
     rabbit: {
       "Characteristics of the Wood Rabbit": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. It is an Element which suits the Rabbit perfectly. He will rediscover the mildness of the fertile and creative mid-season, which will restore his equilibrium, release his inventive powers and reinforce his taste for the beautiful. He will be pushed out of his nest and discover the spectacle of dawn. This Element will develop in the Rabbit a sense of adventure, a passion for travel and a love of nature. But Wood is also a symbol of violence, even of destruction and self-destruction. Although he will not lose his dignity nor his reserve, the Wood Rabbit will be vulnerable to internal jolts and passionate love storms which will leave him giddy and bewildered. If your instinctive impulses are allowed to dominate you, they will blind you. Overcome your aggresiveness; do not allow yourself to be drowned by your emotions."],
       Health: ["The organ of Wood is the liver; its flavour is acid. The Wood Rabbit will often be anxious, anguished and tormented. He will tend to worry and fret. Do not bite your paws, and be careful not to overeat."],
       "The Wood Rabbit and others": ["Socially, the Wood Rabbit is relaxed and calm and well in control of his anguished nature which, if unrestrained, would lead him to fail in all his enterprises and be catastrophic for those around him. His tendency to be self-destructive would be nourished and lead him to ruin. Faced with established rules, the Wood Rabbit opts for a supple attitude. He prefers to improvise and allow his imagination free rein, which encourages his creative spirit. The Wood Rabbit has poetic gifts and is attracted to the arts in general - unless he chooses horticulture or landscaping, which can please his sense of beauty and harmony while fulfilling his need for space and liberty."],
       "Some advice for a Wood Rabbit": ["You possess a good figure and are elegant, poetic and have an artistic soul. You do not appreciate restraints and obligations, so take responsibility for yourself and do not impose rigid restrictions on yourself or you will explode. Leave your anxiety in the cloakroom, polish your act as the aesthetic seducer and allow yourself to enjoy the applause."],
-      "The Year of the Wood Rabbit": ["The culminating point of a Wood Rabbit year will be spring, a period of growth and prosperity. He will be alive with a new energy urging him to create, whose principal source of inspiration will be nature. It is a year of harmony and suppleness which he must make use of with art and mastery. In some cases, however, the tendency may be reversed: there are criminal acts and conspiracies in the air."]
+      "The Year of the Wood Rabbit": ["The culminating point of a Wood Rabbit year will be spring, a period of growth and prosperity. He will be alive with a new energy urging him to create, whose principal source of inspiration will be nature. It is a year of harmony and suppleness which he must make use of with art and mastery. In some cases, however, the tendency may be reversed: there are criminal acts and conspiracies in the air."],
+      "Famous people born in the year of the Wood Rabbit": [
+        "Famous people born in the year of the Wood Rabbit include..."
+      ]
     },
     dragon: {
       "Characteristics of the Wood Dragon": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. The mid-season will be fertile and creative for the Dragon; it will bring equilibrium and the power to create; a taste for the beautiful, harmony and nature, inducing him to leave his subterranean grotto or come down from his nest. The Dragon will discover that there are treasures other than those he guards so jealously. Celestial, he will be able to place his feet more firmly on the ground; aquatic, he will discover the solid earth; and subterranean, he will surface and face the shining dawn. But Wood is also the symbol of excessive passion and anger; the Dragon should be careful of this tendency."],
@@ -53,6 +63,9 @@ const elementAnimalData = {
       "The Year of the Wood Dragon": [
         "The culminating point for a Wood Dragon year will be spring, a period of growth and prosperity.",
         "You will be full of renewed energy and will discover that you have a creative soul; nature will be your source of inspiration. It will bring you beauty, harmony and the suppleness necessary to accomplish your work."
+      ],
+      "Famous people born in the year of the Wood Dragon": [
+        "Famous people born in the year of the Wood Dragon include..."
       ]
     },
     snake: {
@@ -147,7 +160,8 @@ const elementAnimalData = {
       "The Year of the Fire Rat": [
         "The culminating point of the Fire Rat will be summer, the period of creation, of material or spiritual advances, an active period but one which tends to become devouring. Leaving winter behind him, the Rat will move away from his Northern territory and travel South, to warm himself under the summer sun. Abandoning his Yin aspect, he will stretch towards the hyperdynamic 'great Yang'.",
         "Tendency of the year: This is a year favourable to cultural development, but there lurks a danger of overreaction in all areas, often synonymous with a general sense of uneasiness, sometimes disguised by a destructive whirl of activity."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Rat": "Charlotte Brontë (1816)"
     },
     ox: {
       "Characteristics of the Fire Ox": ["The Fire element is of the midday, of the South, of summer. Fire is Yang; it is the element which animates; it quickens and transforms. For the Ox, Fire will be a flame to emblazon his feeling for harmony and beauty; for this dreamer it will be a creative, or perhaps even mystical, spark. But it can also blind or devour him. Fire is light or joy - also, at times, the symbol of destruction."],
@@ -243,7 +257,9 @@ const elementAnimalData = {
       "The Year of the Fire Rooster": [
         "The culminating point for a Fire Rooster year will be summer, a period of creation.",
         "This will be an active and enriching year, both materially and spiritually, and you will be full of energy. However, do not do too much nor spread yourself too thin or you will tire and lose confidence."
-      ]
+      ],
+      "Famous people born in the Year of the Earth Rooster": "Eugène Ionesco (1909)",
+      "Famous people born in the Year of the Wood Rooster": "Johann Strauss II (1825)"
     },
     dog: {
       "Characteristics of the Fire Dog": [
@@ -272,7 +288,9 @@ const elementAnimalData = {
       "The Year of the Fire Pig": [
         "The culminating point for a Fire Pig year will be the summer, a period of creation.",
         "This will be a year of action; you will be able to use your energies to be aggressive and courageous. Luck will smile on you during the entire year. However, learn how to control yourself: do not give in to outbursts of anger and avoid dispersing your gifts too widely. A year full of creativity lies before you."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Pig": "Chiang Kai-shek (1887)",
+      "Famous people born in the Year of the Wood Pig": "Jack London (1876), Wolfgang Amadeus Mozart (1756), Konrad Adenauer (1876)"
     }
   },
   earth: {
@@ -285,7 +303,8 @@ const elementAnimalData = {
         "The culminating point - summer.",
         "The Earth Rat will be extremely well-provided for, indeed well-off. Summer being the period of abundance, he will not have to search for nourishment. Freed from material contingencies, he should give himself to others, not imprison himself in a comfort essentially gangrenous and self-destructive.",
         "Tendency for the year: Creativity and productivity; knowing how to receive without forgetting to give!"
-      ]
+      ],
+      "Famous people born in the Year of the Earth Rat": "François-René de Chateaubriand (1768), Henrik Ibsen (1828), Leo Tolstoy (1828)"
     },
     ox: {
       "Characteristics of the Earth Ox": ["This is an afternoon Earth, the humid and hot Earth of summer. For the Ox, this heavy, abundant and fertile earth of rich grasslands, symbol of retreat and contemplation, is a paradise. Alas, it can also encroach upon him, stick to his hooves and deaden his tread; the grasslands may become a swamp. Although the Ox is close to the Earth, he should not be its prisoner. He must release it, not be buried beneath it, body and soul."],
@@ -409,7 +428,8 @@ const elementAnimalData = {
         "The culminating point will be autumn, when he must beware of self-destruction.",
         "The winter Rat will leave the North for the West, his Yin tendency will be reinforced by the Yin of autumn, and this may be accompanied by a loss of speed, of energy and of dynamism. There is a danger of regression.",
         "Tendency of the year: A period of dryness, of hardening; a period favourable for a dictatorial regime favouring a military state."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Rat": "Luis Buñuel (1900), Claude Monet (1840), Auguste Rodin (1840), Pyotr Ilyich Tchaikovsky (1840), Émile Zola (1840), Antoine de Saint-Exupéry (1900), Lucrezia Borgia (1480), Charles I (1600)"
     },
     ox: {
       "Characteristics of the Metal Ox": ["Metal is of the night, of the autumn and of cold. It symbolizes clarity, purity and precision. You tend to be rigid, perhaps even austere. You are an excellent administrator and an organizer who will be an incisive and implacable leader. You need the concrete, the real, and to the devil with sensitivity and nice feelings; the important thing is to achieve the goal. A touch moralistic, you are attracted to the mystical and the ascetic. Will you therefore choose isolation and give up society? Does your body, so strongly allied to the Earth, seem so heavy? In short, be careful: there is danger of your being too austere and a killjoy."],
@@ -562,7 +582,8 @@ const elementAnimalData = {
         "The culminating point in the Water Rat year will be winter, a period of gestation. The Yin influence reinforces itself and the Northern Rat will remain in the North, linked to his Water element.",
         "The Water Rat in a Water year will have a tendency to splash and flounder in the mud. He should make use of this year to mature his ideas, time being on his side, but not to the extent that he should allow himself to be undermined by inertia.",
         "The tendencies for such a year suggest that it can be excellent for women - for creative work, legal schemes and change - but there is a risk that plans entered into precipitously will be frustrating. Reflection will be more valuable than impulse."
-      ]
+      ],
+      "Famous people born in the Year of the Water Rat": "Percy Bysshe Shelley (1792)"
     },
     ox: {
       "Characteristics of the Water Ox": ["Water of winter nights, rigour and severity; calm and deep Water to be feared and respected; still Water sheltering underwater demons asleep in its depths; fetid and muddy Water of the marsh, a refuge of crawling creatures. Water can be a token of the total arrest of motion; or, for an Ox searching for peace, beauty and harmony, it can be limpid and bracing. Of the Yin tendency and coming from the North, the Ox can become a wall, a closed, placid mask - reserved, distant and mysterious."],
