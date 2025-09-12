@@ -251,6 +251,223 @@ describe('zodiac calculations', () => {
         const result = calculateChineseZodiac('1792-02-29', '12:00', mockTimezone);
         expect(result.sign).toBe('Rat 🐀');
       });
+
+      test('Johann Sebastian Bach (born March 31, 1685) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1685-03-31', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('William Blake (born November 28, 1757) should be Ox with Fire element', () => {
+        const result = calculateChineseZodiac('1757-11-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Richard Burton (born November 10, 1925) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1925-11-10', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Albert Camus (born November 7, 1913) should be Ox with Water element', () => {
+        const result = calculateChineseZodiac('1913-11-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Charlie Chaplin (born April 16, 1889) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1889-04-16', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Georges Clemenceau (born September 28, 1841) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1841-09-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Jean Cocteau (born July 5, 1889) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1889-07-05', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Dante Alighieri (born May 21, 1265) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1265-05-21', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Walt Disney (born December 5, 1901) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1901-12-05', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Jean Dubuffet (born July 31, 1901) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1901-07-31', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Antonín Dvořák (born September 8, 1841) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1841-09-08', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Geronimo (born June 1829) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1829-06-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Alberto Giacometti (born October 10, 1901) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1901-10-10', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Martin Heidegger (born September 26, 1889) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1889-09-26', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Adolf Hitler (born April 20, 1889) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1889-04-20', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Rudyard Kipling (born December 30, 1865) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1865-12-30', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Marquis de Lafayette (born September 6, 1757) should be Ox with Fire element', () => {
+        const result = calculateChineseZodiac('1757-09-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Vivien Leigh (born November 5, 1913) should be Ox with Water element', () => {
+        const result = calculateChineseZodiac('1913-11-05', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Ferdinand de Lesseps (born November 19, 1805) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1805-11-19', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('André Malraux (born November 3, 1901) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1901-11-03', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Napoléon Bonaparte (born August 15, 1769) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1769-08-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Jawaharlal Nehru (born November 14, 1889) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1889-11-14', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Richard Nixon (born January 9, 1913) should be Rat with Water element', () => {
+        const result = calculateChineseZodiac('1913-01-09', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rat 🐀');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Pierre-Auguste Renoir (born February 25, 1841) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1841-02-25', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Cecil Rhodes (born July 5, 1853) should be Ox with Water element', () => {
+        const result = calculateChineseZodiac('1853-07-05', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Richard the Lionheart (born September 8, 1157) should be Ox with Fire element', () => {
+        const result = calculateChineseZodiac('1157-09-08', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Peter Paul Rubens (born June 28, 1577) should be Ox with Fire element', () => {
+        const result = calculateChineseZodiac('1577-06-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Vincent van Gogh (born March 30, 1853) should be Ox with Water element', () => {
+        const result = calculateChineseZodiac('1853-03-30', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Peter Sellers (born September 8, 1925) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1925-09-08', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Arthur Wellesley, 1st Duke of Wellington (born May 1, 1769) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1769-05-01', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('William Butler Yeats (born June 13, 1865) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1865-06-13', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Hans Christian Andersen (born April 2, 1805) should be Ox with Wood element', () => {
+        const result = calculateChineseZodiac('1805-04-02', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      // Other zodiac signs
+      test('Desiderius Erasmus (born around October 28, 1466) should be Dog with Fire element', () => {
+        const result = calculateChineseZodiac('1466-10-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dog 🐶');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Niccolò Machiavelli (born May 3, 1469) should be Ox with Earth element', () => {
+        const result = calculateChineseZodiac('1469-05-03', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Madame de Pompadour (born December 29, 1721) should be Ox with Metal element', () => {
+        const result = calculateChineseZodiac('1721-12-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Ox 🐂');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Emiliano Zapata (born August 8, 1879) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1879-08-08', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
     });
   });
 
