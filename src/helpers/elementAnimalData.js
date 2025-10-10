@@ -28,7 +28,7 @@ const elementAnimalData = {
         "The culminating point for a Wood Ox year will be spring, a period of growth and prosperity. The Ox will set out from his winter habitat in the North and travel East. His Yin aspect will reach out towards the dynamism of the Yang. Springtime for an Ox is synonymous with birth, life and work. Therefore, no hesitations! Give of yourself fully during this season, so favourable for creation, but remember to be flexible and open, ready to listen and absorb every impression. In this year of renewal you can apply novel techniques and new methods. Open your eyes and prick up your ears because fortune favours you.",
         "Tendency of the year: Be flexible and diplomatic and profit from your good luck, but do not sink into egotism; share happiness and joy throughout the year. Deny your true spirit or thwart your good impulses and you may be faced with your world in ruins."
       ],
-      "Famous people born in the year of the Wood Ox": "Johann Sebastian Bach (1685), Dante Alighieri (1265), Rudyard Kipling (1865), Ferdinand de Lesseps (1805), Peter Sellers (1925), William Butler Yeats (1865), Hans Christian Andersen (1805)"
+      "Famous people born in the Year of the Wood Ox": "Johann Sebastian Bach (1685), Dante Alighieri (1265), Rudyard Kipling (1865), Ferdinand de Lesseps (1805), Peter Sellers (1925), William Butler Yeats (1865), Hans Christian Andersen (1805)"
     },
     tiger: {
       "Characteristics of the Wood Tiger": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. Wood brings a little gentleness to our Tiger, softening his aggresive nature and opening his pride to nuances. In the spring, the seed buried deep in the soil during the long winter blossoms, and nature is reborn. Wood symbolizes the breaking of dawn and this will incite the Tiger to leave his hiding place. Wood stretches its branches towards the heavens in the direction of harmony, but also plunges its roots deep into the earth. This double movement is a balancing factor for the Tiger. But Wood is equally the symbol of passion, violence and even destruction and self-destruction. The Wood Tiger is thus an ambivalent person. Beneath his peaceful exterior his spirit is stirred by excessive and explosive impulses. For this reason others will find his behaviour strange and often disconcertring."],
@@ -36,9 +36,7 @@ const elementAnimalData = {
       "The Wood Tiger and others": ["The Wood Tiger will appear relaxed and at ease, giving the impression of taking things lightly. Alas, this is an illusion and a mask, behind which he skillfully hides a highly anxious nature. If he allows himself to be overcome by this anxiety he will head straight for failure. The Wood Tiger, however, will know how to improvise and give free rein to his fertile imagination; in this way creativity will win out over reasoning."],
       "Some advice for a Wood Tiger": ["You are passionate, engaging, at ease (at least on the surface) and a lover of liberty. The stage attracts you, the limelight awaits you, the crowd's eyes are fixed upon you. Allow your inspiration free rein."],
       "The Year of the Wood Tiger": ["The culminating point for a Wood Tiger year will be springtime, a period of growth and prosperity. The Tiger will become extremely dynamic due to the Yang force which he bears withing him; thus he will be more enterprising and more creative. Profit from this period to start some new enterprise or develop your artistic talents - Wood is by nature poetic. However, always retain your flexibility; in this way you will find it easy to adapt and gain a new lease on life. This is the period to do so because your opportunism will be remarkably well paid."],
-      "Famous people born in the year of the Wood Tiger": [
-        "Famous people born in the year of the Wood Tiger include..."
-      ]
+      "Famous people born in the Year of the Wood Tiger": "Alec Guinness (1914), Oscar Wilde (1854)"
     },
     rabbit: {
       "Characteristics of the Wood Rabbit": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. It is an Element which suits the Rabbit perfectly. He will rediscover the mildness of the fertile and creative mid-season, which will restore his equilibrium, release his inventive powers and reinforce his taste for the beautiful. He will be pushed out of his nest and discover the spectacle of dawn. This Element will develop in the Rabbit a sense of adventure, a passion for travel and a love of nature. But Wood is also a symbol of violence, even of destruction and self-destruction. Although he will not lose his dignity nor his reserve, the Wood Rabbit will be vulnerable to internal jolts and passionate love storms which will leave him giddy and bewildered. If your instinctive impulses are allowed to dominate you, they will blind you. Overcome your aggresiveness; do not allow yourself to be drowned by your emotions."],
@@ -46,8 +44,8 @@ const elementAnimalData = {
       "The Wood Rabbit and others": ["Socially, the Wood Rabbit is relaxed and calm and well in control of his anguished nature which, if unrestrained, would lead him to fail in all his enterprises and be catastrophic for those around him. His tendency to be self-destructive would be nourished and lead him to ruin. Faced with established rules, the Wood Rabbit opts for a supple attitude. He prefers to improvise and allow his imagination free rein, which encourages his creative spirit. The Wood Rabbit has poetic gifts and is attracted to the arts in general - unless he chooses horticulture or landscaping, which can please his sense of beauty and harmony while fulfilling his need for space and liberty."],
       "Some advice for a Wood Rabbit": ["You possess a good figure and are elegant, poetic and have an artistic soul. You do not appreciate restraints and obligations, so take responsibility for yourself and do not impose rigid restrictions on yourself or you will explode. Leave your anxiety in the cloakroom, polish your act as the aesthetic seducer and allow yourself to enjoy the applause."],
       "The Year of the Wood Rabbit": ["The culminating point of a Wood Rabbit year will be spring, a period of growth and prosperity. He will be alive with a new energy urging him to create, whose principal source of inspiration will be nature. It is a year of harmony and suppleness which he must make use of with art and mastery. In some cases, however, the tendency may be reversed: there are criminal acts and conspiracies in the air."],
-      "Famous people born in the year of the Wood Rabbit": [
-        "Famous people born in the year of the Wood Rabbit include..."
+      "Famous people born in the Year of the Wood Rabbit": [
+        "Famous people born in the Year of the Wood Rabbit include..."
       ]
     },
     dragon: {
@@ -62,8 +60,8 @@ const elementAnimalData = {
         "The culminating point for a Wood Dragon year will be spring, a period of growth and prosperity.",
         "You will be full of renewed energy and will discover that you have a creative soul; nature will be your source of inspiration. It will bring you beauty, harmony and the suppleness necessary to accomplish your work."
       ],
-      "Famous people born in the year of the Wood Dragon": [
-        "Famous people born in the year of the Wood Dragon include..."
+      "Famous people born in the Year of the Wood Dragon": [
+        "Famous people born in the Year of the Wood Dragon include..."
       ]
     },
     snake: {
@@ -170,7 +168,7 @@ const elementAnimalData = {
         "The culminating point for a Fire Ox year will be summer, a period of creation and material and spiritual progress; an active year which you will move through at high speed. Take care not to run out of breath, slow down if necessary and do not overdo things.",
         "Tendency of the year: An excellent, rich and productive year, fertile in every sense and in all directions. Nevertheless, try to relax: hypertention can lead to depression. Fire heats and animates, but it also consumes: a single spark can ignite an entire town."
       ],
-      "Famous people born in the Year of the Fire Ox": "Marquis de Lafayette (1757), William Blake (1757), Richard the Lionheart (1157), Peter Paul Rubens (1577)"
+      "Famous people born in the Year of the Fire Ox": "Marquis de Lafayette (1757), William Blake (1757), Richard the Lionheart (1157), Peter Paul Rubens (1577), Isadora Duncan (1877)"
     },
     tiger: {
       "Characteristics of the Fire Tiger": ["The Fire element is of midday, of the South, of summer. Fire is Yang, it animates, quickens and transforms. For the Tiger, Fire will be a flame of energy and dynamism, a creative, stimulating and rapid force. Refrain from pulling on this feline's whiskers, for he will leap at your throat. Ideas will flash and fly as fast as lightning and answers will be right on target. But be careful of asking questions to which he can find no solution, for the Fire Tiger can be as explosive as nitroglycerin."],
@@ -178,7 +176,7 @@ const elementAnimalData = {
       "The Fire Tiger and others": ["Fire is often a symbol of war. As an Element of lucidity and clairvoyance, it is also a symbol of passion and violence. Happily, the moderation of the Tiger and his double Yin-Yang nature will balance and temper this sometimes destructive Element. Although the Fire Tiger is impetuous and ardent, he is also lucid and active; a loyal, royal and virtuous Tiger - unless, of course, he joins a circus."],
       "Some advice for a Fire Tiger": ["By playing with Fire you risk burning your boasts and transforming your life into a desert. A little moderation is called for."],
       "The Year of the Fire Tiger": ["The culminating point for a Fire Tiger year will be summer, a period of creation and spiritual progress. While it is a hyperactive year, do not allow the Fire which devours to overwhelm you. Leaving the East to go South, the Fire Tiger will be doubly Yang, approaching the 'great Yang'. An overwhelming year: be careful of fire smouldering under ashes and smoking in the bowels of volcanoes."],
-      "Famous people born in the Year of the Fire Tiger": ""
+      "Famous people born in the Year of the Fire Tiger": "Sun Yat-sen (1866), H. G. Wells (1866)"
     },
     rabbit: {
       "Characteristics of the Fire Rabbit": [
@@ -323,7 +321,8 @@ const elementAnimalData = {
       Health: ["The Earth's organ is the spleen; its flavour is sweet. Unless he leaves his chosen lair, the Earth Tiger will be reduced quickly to a heavy tomcat. Encroachment of the body means encroachment of the mind. No Tiger sleeps on cotton-wool, and so he must stretch his limbs, roar his warcry and do his exercises. Do not overeat - choose raw vegetable as your diet."],
       "The Earth Tiger and others": ["The Tiger has his feet firmly on the ground. He behaves prudently, sometimes even egotistically. His sense of propriety is highly developed but he only attains his objectives at the price of repeated and often endless efforts. He will be crafty enough to intimidate those who question him and will make an excellent financier or a clever banker. Within the family circle he has a tendency to play the despotic patriarch. Mrs Earth Tiger often appears charming and fascinating, but can also appear slightly vampish."],
       "Some advice for an Earth Tiger": ["Although you dream of fortresses or impregnable castles, go out a bit, expand your horizons and do not retreat or contemplate too much or stand stiffly by your safe deposit box. The Earth Tiger is first and foremost a seducer; so, if you do not want to be offered a basket to sleep in, show your fangs, get on the road and stop locking your door."],
-      "The Year of the Earth Tiger": ["The culminating point for an Earth Tiger year is summer. The Tiger will find comfort and security, abundance and good hunting during this season. However, profit from this period by finding time to turn towards others. Do not over-cultivate your feeling of superiority; this could rebound and disrupt your peace."]
+      "The Year of the Earth Tiger": ["The culminating point for an Earth Tiger year is summer. The Tiger will find comfort and security, abundance and good hunting during this season. However, profit from this period by finding time to turn towards others. Do not over-cultivate your feeling of superiority; this could rebound and disrupt your peace."],
+      "Famous people born in the Year of the Earth Tiger": "Louis XIV (1638), Karl Marx (1818)"
     },
     rabbit: {
       "Characteristics of the Earth Rabbit": ["This is an afternoon Earth, the humid and hot Earth of summer. It is the symbol of the well-cushioned, soft nest, of comfort and abundance; an Earth of slow and profound transformations. It is a blessing for the Rabbit, a warm refuge for repose and solitude, inviting him to meditate and dream. Here he will be far from the aggressions of the outside world, safe from indiscreet looks, trials and tribulations. But care is needed: the Rabbit tends to be a bit of a stay-at-home, and the Earth Element is likely to aggravate this tendency, turning him into a lazy and sated animal."],
@@ -457,7 +456,8 @@ const elementAnimalData = {
       "The Year of the Metal Tiger": [
         "The culminating point in a Metal Tiger year will be autumn.",
         "You will leave the East for the West; your Yin tendency will be strengthened by the Yin aspect of autumn, which sometimes causes a loss of energy and dynamism. Beware of self-destructive or masochistic tendencies; be less stiff and less introverted. Work at becoming physically and mentally supple - otherwise you will be exposed to the worst violence of your feelings."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Tiger": "Dwight D. Eisenhower (1890), Ho Chi Minh (1890), Vyacheslav Molotov (1890)"
     },
     rabbit: {
       "Characteristics of the Metal Rabbit": [
@@ -607,7 +607,8 @@ const elementAnimalData = {
       Health: ["The Water organ is the kidney; its flavour is salty. The Water Tiger will probably enjoy mudbaths, but he should not indulge in them for too long for if he does, gently but surely he will get bogged down. He has to keep on the move, take trips and avoid being transfixed by any one place or idea. Water should be his tonic; it is the best way for him to recharge his batteries."],
       "The Water Tiger and others": ["The Water Tiger will be sedate, calm and reserved; he knows how to listen. Not unexpectedly for a Tiger, he will thus govern with ease. By controlling passions and curbing effusiveness he will be a peaceful, prudent leader, an energetic liberal. Not in the least bit mystical, he will concentrate on political and social issues and humanitarian causes, directing campaigns with firmness and suppleness. Mr Water Tiger will be a good father, if slightly overprotective and overbearing; and Mrs Tiger, although dominating, will be courageous and generous."],
       "Some advice for a Water Tiger": ["Beware of taking yourself too seriously: your ideas, noble as they are, should be put into practice, otherwise you and your fur coat will end badly. If you hold back your energy too much you will wander permanently over mined territory and may be blown up. A Water Tiger must assume his own responsibilities."],
-      "The Year of the Water Tiger": ["The culminating point for the Water Tiger year will be winter, a period of gestation. It should be a period for invigorating yourself, not for floundering. Try to give your ideas and projects careful consideration during this period; make use of the time to reflect on them. But do so with a positive attitude; do not be morose or your thinking will deteriorate, bringing about a slow but certain degradation. Too much hesitation can be fatal for you."]
+      "The Year of the Water Tiger": ["The culminating point for the Water Tiger year will be winter, a period of gestation. It should be a period for invigorating yourself, not for floundering. Try to give your ideas and projects careful consideration during this period; make use of the time to reflect on them. But do so with a positive attitude; do not be morose or your thinking will deteriorate, bringing about a slow but certain degradation. Too much hesitation can be fatal for you."],
+"Famous people born in the Year of the Water Tiger": "John Steinbeck (1902), Mary, Queen of Scots (1542), Charles Lindbergh (1902), Paganini (1782)"
     },
     rabbit: {
       "Characteristics of the Water Rabbit": [
@@ -623,7 +624,8 @@ const elementAnimalData = {
       "The Year of the Water Rabbit": [
         "The culminating point of a Water Rabbit year will be winter, a period of gestation.",
         "A year of reflection rather than action. However, do not become bogged down nor flounder about too much. If you do not sometimes leave your retreat you will have a false idea of things and of the world around you. Make this a year for projects and leave the flowers in your garden to bloom in their own good time. Practice cultivation in the fresh air, not in a greenhouse."
-      ]
+      ],
+      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783)"
     },
     dragon: {
       "Characteristics of the Water Dragon": [
