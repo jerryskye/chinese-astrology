@@ -17,7 +17,7 @@ const elementAnimalData = {
         "The culminating point of a Wood Rat year will be springtime, the period of growth and prosperity. Leaving winter behind him, the Rat will move away from his Northern territory and travel East. His Yin aspect will tend towards the dynamism of the Yang. The Rat should profit from this season to brave new worlds and to create. Be supple in all senses of the term, know how to adapt yourself; this will be your winning card.",
         "Tendency of the year: A year for diplomacy and suppleness, favourable for international relations; a year also for expanding agricultural activities and for an increase in the family. But an egotistical attitude will bring about disasters and a pervasive climate of anarchy."
       ],
-      "Famous people born in the Year of the Wood Rat": "William Shakespeare (1564), Henri de Toulouse-Lautrec (1864), Louis Lumière (1864), Jimmy Carter (1924), Carl von Clausewitz (1780), Benjamin Disraeli (1804), Heinrich Himmler (1900), Lawrence of Arabia (1888), Mata Hari (1876), Peter the Great (1672), George Washington (1732), Werner von Braun (1912), Pablo Casals (1876), Maurice Chevalier (1888), Manuel de Falla (1876), Galileo Galilei (1564), Joseph Haydn (1732), Gioachino Rossini (1792)"
+      "Famous people born in the Year of the Wood Rat": "William Shakespeare (1564), Henri de Toulouse-Lautrec (1864), Louis Lumière (1864), Jimmy Carter (1924), Benjamin Disraeli (1804), Galileo Galilei (1564)"
     },
     ox: {
       "Characteristics of the Wood Ox": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. The Wood Ox will tend to be more passionate than the Ox on its own; he will be quick to anger - which can represent a danger - and he will have a compulsion to lose his way, a summons to self-destructiveness. He is also in danger of being oversensitive, but his dignified attitude will conceal this. However, the scales will be balanced in his favour due to his strong will and great sense of equilibrium; he will survive. His need for harmony will always win out."],
@@ -28,7 +28,7 @@ const elementAnimalData = {
         "The culminating point for a Wood Ox year will be spring, a period of growth and prosperity. The Ox will set out from his winter habitat in the North and travel East. His Yin aspect will reach out towards the dynamism of the Yang. Springtime for an Ox is synonymous with birth, life and work. Therefore, no hesitations! Give of yourself fully during this season, so favourable for creation, but remember to be flexible and open, ready to listen and absorb every impression. In this year of renewal you can apply novel techniques and new methods. Open your eyes and prick up your ears because fortune favours you.",
         "Tendency of the year: Be flexible and diplomatic and profit from your good luck, but do not sink into egotism; share happiness and joy throughout the year. Deny your true spirit or thwart your good impulses and you may be faced with your world in ruins."
       ],
-      "Famous people born in the Year of the Wood Ox": "Johann Sebastian Bach (1685), Dante Alighieri (1265), Rudyard Kipling (1865), Ferdinand de Lesseps (1805), Peter Sellers (1925), William Butler Yeats (1865), Hans Christian Andersen (1805)"
+      "Famous people born in the Year of the Wood Ox": "Johann Sebastian Bach (1685), Dante Alighieri (1265), Rudyard Kipling (1865), Ferdinand de Lesseps (1805), Peter Sellers (1925), William Butler Yeats (1865), Hans Christian Andersen (1805), Richard Burton (1925)"
     },
     tiger: {
       "Characteristics of the Wood Tiger": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. Wood brings a little gentleness to our Tiger, softening his aggresive nature and opening his pride to nuances. In the spring, the seed buried deep in the soil during the long winter blossoms, and nature is reborn. Wood symbolizes the breaking of dawn and this will incite the Tiger to leave his hiding place. Wood stretches its branches towards the heavens in the direction of harmony, but also plunges its roots deep into the earth. This double movement is a balancing factor for the Tiger. But Wood is equally the symbol of passion, violence and even destruction and self-destruction. The Wood Tiger is thus an ambivalent person. Beneath his peaceful exterior his spirit is stirred by excessive and explosive impulses. For this reason others will find his behaviour strange and often disconcertring."],
@@ -139,7 +139,8 @@ const elementAnimalData = {
       "The Year of the Wood Pig": [
         "The culminating point for a Wood Pig year will be spring, a period of growth and prosperity.",
         "A harmonious and balanced year, favourable for artists and creators. Remain in contact with nature, which will sharpen your sensitivity. Be more diplomatic and tolerant; accept the fact that others may not always think as you do."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Pig": "Jack London (1876), Wolfgang Amadeus Mozart (1756), Konrad Adenauer (1876)"
     }
   },
   fire: {
@@ -155,7 +156,7 @@ const elementAnimalData = {
         "The culminating point of the Fire Rat will be summer, the period of creation, of material or spiritual advances, an active period but one which tends to become devouring. Leaving winter behind him, the Rat will move away from his Northern territory and travel South, to warm himself under the summer sun. Abandoning his Yin aspect, he will stretch towards the hyperdynamic 'great Yang'.",
         "Tendency of the year: This is a year favourable to cultural development, but there lurks a danger of overreaction in all areas, often synonymous with a general sense of uneasiness, sometimes disguised by a destructive whirl of activity."
       ],
-      "Famous people born in the Year of the Fire Rat": "Charlotte Brontë (1816)"
+      "Famous people born in the Year of the Fire Rat": "Charlotte Brontë (1816), Mata Hari (1876), Pablo Casals (1876), Manuel de Falla (1876)"
     },
     ox: {
       "Characteristics of the Fire Ox": ["The Fire element is of the midday, of the South, of summer. Fire is Yang; it is the element which animates; it quickens and transforms. For the Ox, Fire will be a flame to emblazon his feeling for harmony and beauty; for this dreamer it will be a creative, or perhaps even mystical, spark. But it can also blind or devour him. Fire is light or joy - also, at times, the symbol of destruction."],
@@ -287,8 +288,7 @@ const elementAnimalData = {
         "The culminating point for a Fire Pig year will be the summer, a period of creation.",
         "This will be a year of action; you will be able to use your energies to be aggressive and courageous. Luck will smile on you during the entire year. However, learn how to control yourself: do not give in to outbursts of anger and avoid dispersing your gifts too widely. A year full of creativity lies before you."
       ],
-      "Famous people born in the Year of the Fire Pig": "Chiang Kai-shek (1887)",
-      "Famous people born in the Year of the Wood Pig": "Jack London (1876), Wolfgang Amadeus Mozart (1756), Konrad Adenauer (1876)"
+      "Famous people born in the Year of the Fire Pig": "Chiang Kai-shek (1887)"
     }
   },
   earth: {
@@ -302,7 +302,7 @@ const elementAnimalData = {
         "The Earth Rat will be extremely well-provided for, indeed well-off. Summer being the period of abundance, he will not have to search for nourishment. Freed from material contingencies, he should give himself to others, not imprison himself in a comfort essentially gangrenous and self-destructive.",
         "Tendency for the year: Creativity and productivity; knowing how to receive without forgetting to give!"
       ],
-      "Famous people born in the Year of the Earth Rat": "François-René de Chateaubriand (1768), Henrik Ibsen (1828), Leo Tolstoy (1828)"
+      "Famous people born in the Year of the Earth Rat": "François-René de Chateaubriand (1768), Henrik Ibsen (1828), Leo Tolstoy (1828), Lawrence of Arabia (1888), Maurice Chevalier (1888)"
     },
     ox: {
       "Characteristics of the Earth Ox": ["This is an afternoon Earth, the humid and hot Earth of summer. For the Ox, this heavy, abundant and fertile earth of rich grasslands, symbol of retreat and contemplation, is a paradise. Alas, it can also encroach upon him, stick to his hooves and deaden his tread; the grasslands may become a swamp. Although the Ox is close to the Earth, he should not be its prisoner. He must release it, not be buried beneath it, body and soul."],
@@ -313,7 +313,7 @@ const elementAnimalData = {
         "The culminating point is summer. The Earth Ox will be in his element. Because it is a year of abundance and fertility, he will have no material problems. The Ox will feel even freer than usual and will want to discover other lands. He should, however, be prepared for a gregarious life, be outgoing and keep his egotism under control, rather than wrapping himself up in comfortable solitude.",
         "Tendency of the year: Propitious for creators and productive for businessmen and craftsmen; but do not forget that there are other animals on this earth. The more brilliant and original the talent, the more likely it is to be recognized."
       ],
-      "Famous people born in the Year of the Earth Ox": "Niccolò Machiavelli (1469), Charlie Chaplin (1889), Jean Cocteau (1889), Geronimo (1829), Martin Heidegger (1889), Adolf Hitler (1889), Napoléon Bonaparte (1769), Jawaharlal Nehru (1889), Arthur Wellesley, 1st Duke of Wellington (1769)"
+      "Famous people born in the Year of the Earth Ox": "Niccolò Machiavelli (1469), Charlie Chaplin (1889), Jean Cocteau (1889), Geronimo (1829), Martin Heidegger (1889), Adolf Hitler (1889), Napoléon Bonaparte (1769), Jawaharlal Nehru (1889), Arthur Wellesley, 1st Duke of Wellington (1769), Pergolese (January 1710)"
     },
     tiger: {
       "Characteristics of the Earth Tiger": ["This is an afternoon Earth, the humid and hot Earth of summer. It is a favourable Element for the Tiger, who will blossom. It will be a place of meditation, a refuge and a hiding place from which he can safely watch out for prey. But he should be careful not to become too dependent on it or allow himself to be trapped by the sticky warmth which saturates his robe. It is important that his Yang aspect should serve as a catalyst for his actions, inciting him to leave his refuge and wander at will. For the Tiger, the Earth Element can be a little too comfortable, and he risks anaesthetizing his irreplaceable dynamic virtues."],
@@ -321,7 +321,7 @@ const elementAnimalData = {
       "The Earth Tiger and others": ["The Tiger has his feet firmly on the ground. He behaves prudently, sometimes even egotistically. His sense of propriety is highly developed but he only attains his objectives at the price of repeated and often endless efforts. He will be crafty enough to intimidate those who question him and will make an excellent financier or a clever banker. Within the family circle he has a tendency to play the despotic patriarch. Mrs Earth Tiger often appears charming and fascinating, but can also appear slightly vampish."],
       "Some advice for an Earth Tiger": ["Although you dream of fortresses or impregnable castles, go out a bit, expand your horizons and do not retreat or contemplate too much or stand stiffly by your safe deposit box. The Earth Tiger is first and foremost a seducer; so, if you do not want to be offered a basket to sleep in, show your fangs, get on the road and stop locking your door."],
       "The Year of the Earth Tiger": ["The culminating point for an Earth Tiger year is summer. The Tiger will find comfort and security, abundance and good hunting during this season. However, profit from this period by finding time to turn towards others. Do not over-cultivate your feeling of superiority; this could rebound and disrupt your peace."],
-      "Famous people born in the Year of the Earth Tiger": "Louis XIV (1638), Karl Marx (1818), Joseph Stalin (1878)"
+      "Famous people born in the Year of the Earth Tiger": "Louis XIV (1638), Karl Marx (1818), Joseph Stalin (1878), Emily Brontë (1818), Robespierre (1758)"
     },
     rabbit: {
       "Characteristics of the Earth Rabbit": ["This is an afternoon Earth, the humid and hot Earth of summer. It is the symbol of the well-cushioned, soft nest, of comfort and abundance; an Earth of slow and profound transformations. It is a blessing for the Rabbit, a warm refuge for repose and solitude, inviting him to meditate and dream. Here he will be far from the aggressions of the outside world, safe from indiscreet looks, trials and tribulations. But care is needed: the Rabbit tends to be a bit of a stay-at-home, and the Earth Element is likely to aggravate this tendency, turning him into a lazy and sated animal."],
@@ -432,7 +432,7 @@ const elementAnimalData = {
         "The winter Rat will leave the North for the West, his Yin tendency will be reinforced by the Yin of autumn, and this may be accompanied by a loss of speed, of energy and of dynamism. There is a danger of regression.",
         "Tendency of the year: A period of dryness, of hardening; a period favourable for a dictatorial regime favouring a military state."
       ],
-      "Famous people born in the Year of the Metal Rat": "Luis Buñuel (1900), Claude Monet (1840), Auguste Rodin (1840), Pyotr Ilyich Tchaikovsky (1840), Émile Zola (1840), Antoine de Saint-Exupéry (1900), Lucrezia Borgia (1480), Charles I (1600)"
+      "Famous people born in the Year of the Metal Rat": "Luis Buñuel (1900), Claude Monet (1840), Auguste Rodin (1840), Pyotr Ilyich Tchaikovsky (1840), Émile Zola (1840), Antoine de Saint-Exupéry (1900), Lucrezia Borgia (1480), Charles I (1600), Carl von Clausewitz (1780), Heinrich Himmler (1900)"
     },
     ox: {
       "Characteristics of the Metal Ox": ["Metal is of the night, of the autumn and of cold. It symbolizes clarity, purity and precision. You tend to be rigid, perhaps even austere. You are an excellent administrator and an organizer who will be an incisive and implacable leader. You need the concrete, the real, and to the devil with sensitivity and nice feelings; the important thing is to achieve the goal. A touch moralistic, you are attracted to the mystical and the ascetic. Will you therefore choose isolation and give up society? Does your body, so strongly allied to the Earth, seem so heavy? In short, be careful: there is danger of your being too austere and a killjoy."],
@@ -443,7 +443,7 @@ const elementAnimalData = {
         "The culminating point in the year of a Metal Ox will be autumn. He will leave the wintery North to travel West. His Yin tendency will be strengthened by the Yin of autumn, a combination associated with lethargy and a perceptible lessening of dynamic force.",
         "Tendency of the year: Hardening and dryness, both physically and morally. Be careful not to adopt 'regulations' at odds with your nature: at best these will bring you temporary victory, but more likely prolonged depression. One thinks one has wone, but one has lost more than from defeat. Too late and one will ask, who was the true victor?"
       ],
-      "Famous people born in the Year of the Metal Ox": "Madame de Pompadour (1721), Georges Clemenceau (1841), Walt Disney (1901), Jean Dubuffet (1901), Antonín Dvořák (1841), Alberto Giacometti (1901), André Malraux (1901), Pierre-Auguste Renoir (1841)"
+      "Famous people born in the Year of the Metal Ox": "Madame de Pompadour (1721), Georges Clemenceau (1841), Walt Disney (1901), Jean Dubuffet (1901), Antonín Dvořák (1841), Alberto Giacometti (1901), André Malraux (1901), Pierre-Auguste Renoir (1841), Charles Lindbergh (February 1902)"
     },
     tiger: {
       "Characteristics of the Metal Tiger": [
@@ -457,7 +457,7 @@ const elementAnimalData = {
         "The culminating point in a Metal Tiger year will be autumn.",
         "You will leave the East for the West; your Yin tendency will be strengthened by the Yin aspect of autumn, which sometimes causes a loss of energy and dynamism. Beware of self-destructive or masochistic tendencies; be less stiff and less introverted. Work at becoming physically and mentally supple - otherwise you will be exposed to the worst violence of your feelings."
       ],
-      "Famous people born in the Year of the Metal Tiger": "Dwight D. Eisenhower (1890), Ho Chi Minh (1890), Vyacheslav Molotov (1890), Agatha Christie (1890)"
+      "Famous people born in the Year of the Metal Tiger": "Dwight D. Eisenhower (1890), Ho Chi Minh (1890), Vyacheslav Molotov (1890), Agatha Christie (1890), Beethoven (1770), Charles de Gaulle (1890)"
     },
     rabbit: {
       "Characteristics of the Metal Rabbit": [
@@ -494,7 +494,8 @@ const elementAnimalData = {
       "The Year of the Metal Snake": [
         "The culminating point for a Metal Snake year will be autumn. The Yin tendency of the mid-season will unite with the Yang of the Snake, bringing moderation and equilibrium.",
         "Profit from the alternation of Yin and Yang to rediscover your ancestral suppleness; release your armour and relax morally and physically. You have everything to gain, for rigidity is not a necessary element in governing; learn that relaxation and suppleness do not signify weakness."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Snake": "Lola Montez (1821)"
     },
     horse: {
       "Characteristics of the Metal Horse": [
@@ -592,7 +593,7 @@ const elementAnimalData = {
         "The Water Rat in a Water year will have a tendency to splash and flounder in the mud. He should make use of this year to mature his ideas, time being on his side, but not to the extent that he should allow himself to be undermined by inertia.",
         "The tendencies for such a year suggest that it can be excellent for women - for creative work, legal schemes and change - but there is a risk that plans entered into precipitously will be frustrating. Reflection will be more valuable than impulse."
       ],
-      "Famous people born in the Year of the Water Rat": "Percy Bysshe Shelley (1792)"
+      "Famous people born in the Year of the Water Rat": "Percy Bysshe Shelley (1792), Richard Nixon (January 1913), Peter the Great (1672), George Washington (1732), Werner von Braun (1912), Joseph Haydn (1732), Gioachino Rossini (1792)"
     },
     ox: {
       "Characteristics of the Water Ox": ["Water of winter nights, rigour and severity; calm and deep Water to be feared and respected; still Water sheltering underwater demons asleep in its depths; fetid and muddy Water of the marsh, a refuge of crawling creatures. Water can be a token of the total arrest of motion; or, for an Ox searching for peace, beauty and harmony, it can be limpid and bracing. Of the Yin tendency and coming from the North, the Ox can become a wall, a closed, placid mask - reserved, distant and mysterious."],
@@ -603,7 +604,7 @@ const elementAnimalData = {
         "The culminating point for the Water Ox year will be winter, a period of gestation. The Yin reinforces the Yin, and the Ox of the North remains in the North, united with Water. You hardly move at all, so make use of this period of immersion to assess your true position, so that you can eventually set forth in a spirit of confidence and boldness. This waiting should not be a period of resignation; do not let things 'go mouldy' but instead recharge your batteries.",
         "Tendency of the year: More favourable for the female Oxen than for the males, and good for creators and artists. Changes are imminent, but reflect more than twice before taking the plunge."
       ],
-      "Famous people born in the Year of the Water Ox": "Albert Camus (1913), Vivien Leigh (1913), Richard Nixon (1913), Cecil Rhodes (1853), Vincent van Gogh (1853)"
+      "Famous people born in the Year of the Water Ox": "Albert Camus (1913), Vivien Leigh (1913), Cecil Rhodes (1853), Vincent van Gogh (1853)"
     },
     tiger: {
       "Characteristics of the Water Tiger": ["Water of winter nights, rigour and severity; calm and deep Water to be feared and respected; still Water sheltering underwater demons asleep in its depths; fetid and muddy Water of the marsh, a refuge of crawling creatures. Water Tiger, who can make any domain his own territory or his particular universe, will quickly become acclimatised to the humid Element: mud, marshes, reeds or the heat of the rainforest will stick to his Yin skin. As to the coldness, rigorousness and severity of ice - the symbol of the arrest of all motion - the Tiger will know how to dominate and invigorate it by bringing the dynamic Yang element to Water: in effect, a story of scoring a point and bringing grist to his mill! What is more, the Tiger is almost the only feline who adores swimming."],
@@ -611,7 +612,7 @@ const elementAnimalData = {
       "The Water Tiger and others": ["The Water Tiger will be sedate, calm and reserved; he knows how to listen. Not unexpectedly for a Tiger, he will thus govern with ease. By controlling passions and curbing effusiveness he will be a peaceful, prudent leader, an energetic liberal. Not in the least bit mystical, he will concentrate on political and social issues and humanitarian causes, directing campaigns with firmness and suppleness. Mr Water Tiger will be a good father, if slightly overprotective and overbearing; and Mrs Tiger, although dominating, will be courageous and generous."],
       "Some advice for a Water Tiger": ["Beware of taking yourself too seriously: your ideas, noble as they are, should be put into practice, otherwise you and your fur coat will end badly. If you hold back your energy too much you will wander permanently over mined territory and may be blown up. A Water Tiger must assume his own responsibilities."],
       "The Year of the Water Tiger": ["The culminating point for the Water Tiger year will be winter, a period of gestation. It should be a period for invigorating yourself, not for floundering. Try to give your ideas and projects careful consideration during this period; make use of the time to reflect on them. But do so with a positive attitude; do not be morose or your thinking will deteriorate, bringing about a slow but certain degradation. Too much hesitation can be fatal for you."],
-      "Famous people born in the Year of the Water Tiger": "John Steinbeck (1902), Mary, Queen of Scots (1542), Charles Lindbergh (1902), Paganini (1782), Stendhal (January 1783)"
+      "Famous people born in the Year of the Water Tiger": "John Steinbeck (1902), Mary, Queen of Scots (1542), Paganini (1782), Stendhal (January 1783)"
     },
     rabbit: {
       "Characteristics of the Water Rabbit": [
