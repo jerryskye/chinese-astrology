@@ -44,9 +44,7 @@ const elementAnimalData = {
       "The Wood Rabbit and others": ["Socially, the Wood Rabbit is relaxed and calm and well in control of his anguished nature which, if unrestrained, would lead him to fail in all his enterprises and be catastrophic for those around him. His tendency to be self-destructive would be nourished and lead him to ruin. Faced with established rules, the Wood Rabbit opts for a supple attitude. He prefers to improvise and allow his imagination free rein, which encourages his creative spirit. The Wood Rabbit has poetic gifts and is attracted to the arts in general - unless he chooses horticulture or landscaping, which can please his sense of beauty and harmony while fulfilling his need for space and liberty."],
       "Some advice for a Wood Rabbit": ["You possess a good figure and are elegant, poetic and have an artistic soul. You do not appreciate restraints and obligations, so take responsibility for yourself and do not impose rigid restrictions on yourself or you will explode. Leave your anxiety in the cloakroom, polish your act as the aesthetic seducer and allow yourself to enjoy the applause."],
       "The Year of the Wood Rabbit": ["The culminating point of a Wood Rabbit year will be spring, a period of growth and prosperity. He will be alive with a new energy urging him to create, whose principal source of inspiration will be nature. It is a year of harmony and suppleness which he must make use of with art and mastery. In some cases, however, the tendency may be reversed: there are criminal acts and conspiracies in the air."],
-      "Famous people born in the Year of the Wood Rabbit": [
-        "Famous people born in the Year of the Wood Rabbit include..."
-      ]
+      "Famous people born in the Year of the Wood Rabbit": "Thomas Carlyle (1795), John Keats (1795), Edith Piaf (1915), Orson Welles (1915)"
     },
     dragon: {
       "Characteristics of the Wood Dragon": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. The mid-season will be fertile and creative for the Dragon; it will bring equilibrium and the power to create; a taste for the beautiful, harmony and nature, inducing him to leave his subterranean grotto or come down from his nest. The Dragon will discover that there are treasures other than those he guards so jealously. Celestial, he will be able to place his feet more firmly on the ground; aquatic, he will discover the solid earth; and subterranean, he will surface and face the shining dawn. But Wood is also the symbol of excessive passion and anger; the Dragon should be careful of this tendency."],
@@ -176,7 +174,7 @@ const elementAnimalData = {
       "The Fire Tiger and others": ["Fire is often a symbol of war. As an Element of lucidity and clairvoyance, it is also a symbol of passion and violence. Happily, the moderation of the Tiger and his double Yin-Yang nature will balance and temper this sometimes destructive Element. Although the Fire Tiger is impetuous and ardent, he is also lucid and active; a loyal, royal and virtuous Tiger - unless, of course, he joins a circus."],
       "Some advice for a Fire Tiger": ["By playing with Fire you risk burning your boasts and transforming your life into a desert. A little moderation is called for."],
       "The Year of the Fire Tiger": ["The culminating point for a Fire Tiger year will be summer, a period of creation and spiritual progress. While it is a hyperactive year, do not allow the Fire which devours to overwhelm you. Leaving the East to go South, the Fire Tiger will be doubly Yang, approaching the 'great Yang'. An overwhelming year: be careful of fire smouldering under ashes and smoking in the bowels of volcanoes."],
-      "Famous people born in the Year of the Fire Tiger": "Sun Yat-sen (1866), H. G. Wells (1866)"
+      "Famous people born in the Year of the Fire Tiger": "Sun Yat-sen (1866), H. G. Wells (1866), Queen Christina of Sweden (1626), Elizabeth II (1926), Francisco Goya (1746), Wassily Kandinsky (1866), Jerry Lewis (1926), Marilyn Monroe (1926), Fidel Castro (1926)"
     },
     rabbit: {
       "Characteristics of the Fire Rabbit": [
@@ -186,7 +184,8 @@ const elementAnimalData = {
       Health: ["The organ of Fire is the heart; its flavour is bitter. Fire of summer and of the South, it will consume the Yin of the Rabbit. Be careful of changes in temperature. Avoid outbursts of anger and distrust your tendency towards aggressiveness - do not allow yourself to become violent. Keep a close watch on your heart. Eat vegetables rather than meat."],
       "The Fire Rabbit and others": ["Fire is often a symbol of war, passion and violence. The Fire Rabbit prefers aggressiveness and open confrontation to diplomatic compromise; coming to terms is not his strong point. A man of action and combat, he combines energy with daring. However, due to his prudence and reserve, he will not hesitate, if need be, to send others to the frontline so that he can be the first to reap any rewards. The Fire Rabbit will be artistic, original and anticonformist, and will be happy in this environment provided his life is well-organized."],
       "Some advice for a Fire Rabbit": ["Although you are strongly attracted to distinguished and bold actions and wild adventures, you should remain faithful to your deepest nature. Reason should always be in control of your excesses, which are not always sincere unless they are symptomatic of an inner crisis and are thus therapeutic."],
-      "The Year of the Fire Rabbit": ["The culminating point of a Fire Rabbit year will be summer, a period of creation, material and spiritual uplift and action, but often slightly consuming. The Rabbit will leave the full moon of mid-autumn to warm himself in the summer sun of the South. His Yin tendency will move towards the Great Yang, which will provide him with remarkable dynamism."]
+      "The Year of the Fire Rabbit": ["The culminating point of a Fire Rabbit year will be summer, a period of creation, material and spiritual uplift and action, but often slightly consuming. The Rabbit will leave the full moon of mid-autumn to warm himself in the summer sun of the South. His Yin tendency will move towards the Great Yang, which will provide him with remarkable dynamism."],
+      "Famous people born in the Year of the Fire Rabbit": "Pierre Bonnard (1867), Marie Curie (1867), Giuseppe Garibaldi (1807), Luigi Pirandello (1867), Arturo Toscanini (1867)"
     },
     dragon: {
       "Characteristics of the Fire Dragon": [
@@ -322,7 +321,7 @@ const elementAnimalData = {
       "The Earth Tiger and others": ["The Tiger has his feet firmly on the ground. He behaves prudently, sometimes even egotistically. His sense of propriety is highly developed but he only attains his objectives at the price of repeated and often endless efforts. He will be crafty enough to intimidate those who question him and will make an excellent financier or a clever banker. Within the family circle he has a tendency to play the despotic patriarch. Mrs Earth Tiger often appears charming and fascinating, but can also appear slightly vampish."],
       "Some advice for an Earth Tiger": ["Although you dream of fortresses or impregnable castles, go out a bit, expand your horizons and do not retreat or contemplate too much or stand stiffly by your safe deposit box. The Earth Tiger is first and foremost a seducer; so, if you do not want to be offered a basket to sleep in, show your fangs, get on the road and stop locking your door."],
       "The Year of the Earth Tiger": ["The culminating point for an Earth Tiger year is summer. The Tiger will find comfort and security, abundance and good hunting during this season. However, profit from this period by finding time to turn towards others. Do not over-cultivate your feeling of superiority; this could rebound and disrupt your peace."],
-      "Famous people born in the Year of the Earth Tiger": "Louis XIV (1638), Karl Marx (1818)"
+      "Famous people born in the Year of the Earth Tiger": "Louis XIV (1638), Karl Marx (1818), Joseph Stalin (1878)"
     },
     rabbit: {
       "Characteristics of the Earth Rabbit": ["This is an afternoon Earth, the humid and hot Earth of summer. It is the symbol of the well-cushioned, soft nest, of comfort and abundance; an Earth of slow and profound transformations. It is a blessing for the Rabbit, a warm refuge for repose and solitude, inviting him to meditate and dream. Here he will be far from the aggressions of the outside world, safe from indiscreet looks, trials and tribulations. But care is needed: the Rabbit tends to be a bit of a stay-at-home, and the Earth Element is likely to aggravate this tendency, turning him into a lazy and sated animal."],
@@ -330,7 +329,7 @@ const elementAnimalData = {
       "The Earth Rabbit and others": ["The Rabbit will certainly have his paws on the ground. Materialistic and prudent, he will be a good financier, subtle banker or a shrewd businessman. He will be the kind of whom one says 'he made himself through sheer hard work'. And this is true: he is a hard worker who accumulates the fruits of his efforts and will amass money and speculate with it. He possesses a strong family sense and will often be a despotic parent, brooding over his offspring to the point of smothering them."],
       "Some advice for an Earth Rabbit": ["Above all, do not become too wrapped up in yourself. Broaden your horizons, take a holiday, mingle with others or participate in group work. Do not confine yourself to a world of mortgages and inventories. You need outdoor activity. Interest yourself in something other than your nest and your clover. Find a hobby. A little passion in your life would help loosen your overly rigid lifestyle."],
       "The Year of the Earth Rabbit": ["The culminating point of an Earth Rabbit year is summer. It is a favourable year in which the Rabbit will no longer have to hunt to feed himself and he will be served on a silver platter. Thus freed from daily obligations, the Rabbit should offer his services to some charitable activity. Be watchful of your attitude towards your personal comforts - you could well become narcissistic."],
-      "Famous people born in the Year of the Earth Rabbit": "Emiliano Zapata (1879)"
+      "Famous people born in the Year of the Earth Rabbit": "Emiliano Zapata (1879), Jean-Baptiste-Siméon Chardin (1699), Gustave Courbet (1819), Albert Einstein (1879), Paul Klee (1879), Catherine de Medici (1519), Jacques Offenbach (1819), Jean Racine (1639), Friedrich Schiller (1759), Leon Trotsky (1879), Queen Victoria (1819)"
     },
     dragon: {
       "Characteristics of the Earth Dragon": [
@@ -370,7 +369,8 @@ const elementAnimalData = {
       Health: ["The Earth's organ is the spleen; its flavour is sweet. The Earth Goat should make sure to remain active, otherwise he will become morose and gain weight, which would considerably impede his excursions into the world of dreams and fantasy. Meditation would then rapidly become lax and self-destructive. Live outdoors: you have nothing in common with the underground crawling creatures; above all, your are light and airy and belong to the heavens."],
       "The Earth Goat and others": ["The Earth Goat will be more realistic than the other Goats, which will cause him to be both more prudent and more mistrustful. Unlike the others, he will prefer to make money, accumulate it and speculate with it. He will possess some talent for work and a professional conscience, but will rarely have any breadth of vision, for his carefree and whimsical character will always get the upper hand. However, in an artistic profession - above all the stage - he will bring seriousness to everything he undertakes, and still amass some savings for rainy days. His dreams, tinged with a certain gravity and slightly romantic melancholy, can push him towards philosophy, religion or the occult sciences. While this will soothe his anxieties and provide a secure channel for his secret fears, his need for friendship and universal love will become inflamed by his passion for ritual and daily devotion."],
       "Some advice for an Earth Goat": ["The studious and far-sighted character of your earthly nature will never put an end to your tricks and impulsive pranks. So do not keep your head lowered, staring down at the toes of your boots: raise your eyes and contemplate the stars."],
-      "The Year of the Earth Goat": ["The culminating point for an Earth Goat year is summer, when the Earth is hot and humid. You can turn towards what attracts you - the arts in general - for this year you will be free of material constraints and so, simply free. Know how to make the most of this year; avoid idleness and inertia, which would not be good for you. You need the broad daylight, the fresh open air and space."]
+      "The Year of the Earth Goat": ["The culminating point for an Earth Goat year is summer, when the Earth is hot and humid. You can turn towards what attracts you - the arts in general - for this year you will be free of material constraints and so, simply free. Know how to make the most of this year; avoid idleness and inertia, which would not be good for you. You need the broad daylight, the fresh open air and space."],
+      "Famous people born in the Year of the Earth Goat": "Eva Peron (1919)"
     },
     monkey: {
       "Characteristics of the Earth Monkey": [
@@ -457,7 +457,7 @@ const elementAnimalData = {
         "The culminating point in a Metal Tiger year will be autumn.",
         "You will leave the East for the West; your Yin tendency will be strengthened by the Yin aspect of autumn, which sometimes causes a loss of energy and dynamism. Beware of self-destructive or masochistic tendencies; be less stiff and less introverted. Work at becoming physically and mentally supple - otherwise you will be exposed to the worst violence of your feelings."
       ],
-      "Famous people born in the Year of the Metal Tiger": "Dwight D. Eisenhower (1890), Ho Chi Minh (1890), Vyacheslav Molotov (1890)"
+      "Famous people born in the Year of the Metal Tiger": "Dwight D. Eisenhower (1890), Ho Chi Minh (1890), Vyacheslav Molotov (1890), Agatha Christie (1890)"
     },
     rabbit: {
       "Characteristics of the Metal Rabbit": [
@@ -467,7 +467,8 @@ const elementAnimalData = {
       Health: ["Metal's organ is the lung; its flavour is pungent. In seeking an equilibrium, the Metal Rabbit must keep a watch on his lungs, for their proper function is a source of physical and spiritual harmony. Blockages of all kinds can be dangerous. Do not allow your organs and heart to dry up!"],
       "The Metal Rabbit and others": ["The Metal Rabbit is energetic, constant and a man of his word. He can be a warrior or a man of the law. He commands, judges and decides. He has a good feel for organizations, but at times may be slightly too blunt in his approach - plain-speaking will come more easily to him than tact and diplomacy. Maintain the moral and physical suppleness of the Rabbit; a stiff neck and a dry, cold heart are not in the nature of your symbolic animal. Rediscover agility, grace and patience. Be energetic, but do not forget that the excessive, in any form, turns against its author. File down your claws and become more supple; indulgence is not necessarily self-indulgence."],
       "Some advice for a Metal Rabbit": ["Do some relaxing exercises or yoga. Write poems and listen to music; do not encase yourself in an iron corset - it will harm your fur."],
-      "The Year of the Metal Rabbit": ["The culminating point of a Metal Rabbit year will be autumn. You will often experience a loss of energy and dynamism, and suffer from depression and a lack of self-confidence. This may perhaps be due to a lack of suppleness or a certain moral stiffness which does not suit your deepest nature. A period of waiting and uncertainty."]
+      "The Year of the Metal Rabbit": ["The culminating point of a Metal Rabbit year will be autumn. You will often experience a loss of energy and dynamism, and suffer from depression and a lack of self-confidence. This may perhaps be due to a lack of suppleness or a certain moral stiffness which does not suit your deepest nature. A period of waiting and uncertainty."],
+      "Famous people born in the Year of the Metal Rabbit": "Max Ernst (1891), Henry Miller (1891), Sergei Prokofiev (1891), Erwin Rommel (1891), Walter Scott (1771)"
     },
     dragon: {
       "Characteristics of the Metal Dragon": [
@@ -520,7 +521,8 @@ const elementAnimalData = {
       "The Year of the Metal Goat": [
         "The culminating point for a Metal Goat year will be autumn. The Yin tendency of the mid-season will balance the Yang of the Goat, bringing tolerance and moderation.",
         "Profit from this year to find again your suppleness and freedom. Leave your armour and your shield in the closet. A certain rigour will be all to the good if you can then accomplish a delicate piece of work. Use it, but keep a light touch and an open mind; this will be a gust of fresh air which will be up to you to prolong."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Goat": "Confucius (551 BCE)"
     },
     monkey: {
     "Characteristics of the Metal Monkey": [
@@ -546,7 +548,8 @@ const elementAnimalData = {
       "The Year of the Metal Rooster": [
         "The culminating point for a Metal Rooster year will be autumn.",
         "Do not neglect your physical form; do the necessary exercises, for this will improve your general equilibrium. Take care not to be too excessive or you will stiffen and suffer from an erroneous vision of the world. Take time to listen to your body and your heart. In this way you will become more sensitive to the needs of others."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Rooster": "Anne Boleyn (1501)"
     },
     dog: {
       "Characteristics of the Metal Dog": [
@@ -608,7 +611,7 @@ const elementAnimalData = {
       "The Water Tiger and others": ["The Water Tiger will be sedate, calm and reserved; he knows how to listen. Not unexpectedly for a Tiger, he will thus govern with ease. By controlling passions and curbing effusiveness he will be a peaceful, prudent leader, an energetic liberal. Not in the least bit mystical, he will concentrate on political and social issues and humanitarian causes, directing campaigns with firmness and suppleness. Mr Water Tiger will be a good father, if slightly overprotective and overbearing; and Mrs Tiger, although dominating, will be courageous and generous."],
       "Some advice for a Water Tiger": ["Beware of taking yourself too seriously: your ideas, noble as they are, should be put into practice, otherwise you and your fur coat will end badly. If you hold back your energy too much you will wander permanently over mined territory and may be blown up. A Water Tiger must assume his own responsibilities."],
       "The Year of the Water Tiger": ["The culminating point for the Water Tiger year will be winter, a period of gestation. It should be a period for invigorating yourself, not for floundering. Try to give your ideas and projects careful consideration during this period; make use of the time to reflect on them. But do so with a positive attitude; do not be morose or your thinking will deteriorate, bringing about a slow but certain degradation. Too much hesitation can be fatal for you."],
-"Famous people born in the Year of the Water Tiger": "John Steinbeck (1902), Mary, Queen of Scots (1542), Charles Lindbergh (1902), Paganini (1782)"
+      "Famous people born in the Year of the Water Tiger": "John Steinbeck (1902), Mary, Queen of Scots (1542), Charles Lindbergh (1902), Paganini (1782), Stendhal (January 1783)"
     },
     rabbit: {
       "Characteristics of the Water Rabbit": [
@@ -625,7 +628,7 @@ const elementAnimalData = {
         "The culminating point of a Water Rabbit year will be winter, a period of gestation.",
         "A year of reflection rather than action. However, do not become bogged down nor flounder about too much. If you do not sometimes leave your retreat you will have a false idea of things and of the world around you. Make this a year for projects and leave the flowers in your garden to bloom in their own good time. Practice cultivation in the fresh air, not in a greenhouse."
       ],
-      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783)"
+      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783), Edvard Grieg (1843), Martin Luther (1483), Raphael (1483), Georges Simenon (1903)"
     },
     dragon: {
       "Characteristics of the Water Dragon": [
