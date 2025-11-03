@@ -629,6 +629,216 @@ describe('zodiac calculations', () => {
         expect(result.sign).toBe('Rabbit 🐰');
         expect(result.element).toBe('Earth ⛰️');
       });
+
+      test('Anne Boleyn (born July 1, 1501) should be Rooster with Metal element', () => {
+        const result = calculateChineseZodiac('1501-07-01', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rooster 🐓');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Pierre Bonnard (born October 3, 1867) should be Rabbit with Fire element', () => {
+        const result = calculateChineseZodiac('1867-10-03', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Thomas Carlyle (born December 4, 1795) should be Rabbit with Wood element', () => {
+        const result = calculateChineseZodiac('1795-12-04', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Fidel Castro (born August 13, 1926) should be Tiger with Fire element', () => {
+        const result = calculateChineseZodiac('1926-08-13', '12:00', mockTimezone);
+        expect(result.sign).toBe('Tiger 🐯');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Jean-Baptiste-Siméon Chardin (born November 2, 1699) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1699-11-02', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Agatha Christie (born September 15, 1890) should be Tiger with Metal element', () => {
+        const result = calculateChineseZodiac('1890-09-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Tiger 🐯');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Confucius (born September 28, 551 BCE) should be Goat with Metal element', () => {
+        const result = calculateChineseZodiac('-000550-09-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Gustave Courbet (born June 10, 1819) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1819-06-10', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Marie Curie (born November 7, 1867) should be Rabbit with Fire element', () => {
+        const result = calculateChineseZodiac('1867-11-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Albert Einstein (born March 14, 1879) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1879-03-14', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Max Ernst (born April 2, 1891) should be Rabbit with Metal element', () => {
+        const result = calculateChineseZodiac('1891-04-02', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Giuseppe Garibaldi (born July 4, 1807) should be Rabbit with Fire element', () => {
+        const result = calculateChineseZodiac('1807-07-04', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Edvard Grieg (born June 15, 1843) should be Rabbit with Water element', () => {
+        const result = calculateChineseZodiac('1843-06-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('John Keats (born October 31, 1795) should be Rabbit with Wood element', () => {
+        const result = calculateChineseZodiac('1795-10-31', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Paul Klee (born December 18, 1879) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1879-12-18', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Martin Luther (born November 10, 1483) should be Rabbit with Water element', () => {
+        const result = calculateChineseZodiac('1483-11-10', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Catherine de Medici (born April 13, 1519) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1519-04-13', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Henry Miller (born December 26, 1891) should be Rabbit with Metal element', () => {
+        const result = calculateChineseZodiac('1891-12-26', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Jacques Offenbach (born June 20, 1819) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1819-06-20', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Eva Peron (born May 7, 1919) should be Goat with Earth element', () => {
+        const result = calculateChineseZodiac('1919-05-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Edith Piaf (born December 19, 1915) should be Rabbit with Wood element', () => {
+        const result = calculateChineseZodiac('1915-12-19', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Luigi Pirandello (born June 28, 1867) should be Rabbit with Fire element', () => {
+        const result = calculateChineseZodiac('1867-06-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Sergei Prokofiev (born April 23, 1891) should be Rabbit with Metal element', () => {
+        const result = calculateChineseZodiac('1891-04-23', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Jean Racine (born December 21, 1639) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1639-12-21', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Raphael (born April 6, 1483) should be Rabbit with Water element', () => {
+        const result = calculateChineseZodiac('1483-04-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Erwin Rommel (born November 15, 1891) should be Rabbit with Metal element', () => {
+        const result = calculateChineseZodiac('1891-11-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Friedrich Schiller (born November 10, 1759) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1759-11-10', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Walter Scott (born August 15, 1771) should be Rabbit with Metal element', () => {
+        const result = calculateChineseZodiac('1771-08-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Georges Simenon (born February 13, 1903) should be Rabbit with Water element', () => {
+        const result = calculateChineseZodiac('1903-02-13', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Joseph Stalin (born December 18, 1878) should be Tiger with Earth element', () => {
+        const result = calculateChineseZodiac('1878-12-18', '12:00', mockTimezone);
+        expect(result.sign).toBe('Tiger 🐯');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Stendhal (born January 23, 1783) should be Tiger with Water element', () => {
+        const result = calculateChineseZodiac('1783-01-23', '12:00', mockTimezone);
+        expect(result.sign).toBe('Tiger 🐯');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Arturo Toscanini (born March 25, 1867) should be Rabbit with Fire element', () => {
+        const result = calculateChineseZodiac('1867-03-25', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Leon Trotsky (born November 7, 1879) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1879-11-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Queen Victoria (born May 24, 1819) should be Rabbit with Earth element', () => {
+        const result = calculateChineseZodiac('1819-05-24', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Orson Welles (born May 6, 1915) should be Rabbit with Wood element', () => {
+        const result = calculateChineseZodiac('1915-05-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Wood 🪵');
+      });
     });
   });
 
