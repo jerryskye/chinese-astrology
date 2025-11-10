@@ -58,9 +58,7 @@ const elementAnimalData = {
         "The culminating point for a Wood Dragon year will be spring, a period of growth and prosperity.",
         "You will be full of renewed energy and will discover that you have a creative soul; nature will be your source of inspiration. It will bring you beauty, harmony and the suppleness necessary to accomplish your work."
       ],
-      "Famous people born in the Year of the Wood Dragon": [
-        "Famous people born in the Year of the Wood Dragon include..."
-      ]
+      "Famous people born in the Year of the Wood Dragon": "Sarah Bernhardt (1844), Salvador Dalí (1904), Anatole France (1844), John Gielgud (1904), Graham Greene (1904), Immanuel Kant (1724), Friedrich Nietzsche (1844), Oppenheimer (1904), Francis Petrarch (1304), Nikolai Rimsky-Korsakov (1844), Paul Verlaine (1844)"
     },
     snake: {
       "Characteristics of the Wood Snake": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. Springtime will be fertile for the Snake, bringing him equilibrium and a sense of creation, encouraging him to develop his taste and desire for harmony and beauty. Nature will become his ally and inspiration, a fountain to which the Snake will go to slake his thirst, to become stronger and to discover nature's multiple powers and secrets. But Wood also contains passion, anger and vulnerability which, if excessive, has a tendency to cause one to lose all sense of proportion and, in turn, become destructive and devastating. The Snake should remain vigilant and lucid and try not to give in to this negative aspect of his Element."],
@@ -110,7 +108,8 @@ const elementAnimalData = {
       "The Year of the Wood Rooster": [
         "The culminating point for a Wood Rooster year will be spring, a period of growth and prosperity.",
         "Profit from this year to recharge your batteries. Be creative, discover Mother Nature and do not give in to anger; be supple, tolerant and seek harmony."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Rooster": "Johann Strauss II (1825)"
     },
     dog: {
       "Characteristics of the Wood Dog": [
@@ -186,7 +185,7 @@ const elementAnimalData = {
       "The Fire Rabbit and others": ["Fire is often a symbol of war, passion and violence. The Fire Rabbit prefers aggressiveness and open confrontation to diplomatic compromise; coming to terms is not his strong point. A man of action and combat, he combines energy with daring. However, due to his prudence and reserve, he will not hesitate, if need be, to send others to the frontline so that he can be the first to reap any rewards. The Fire Rabbit will be artistic, original and anticonformist, and will be happy in this environment provided his life is well-organized."],
       "Some advice for a Fire Rabbit": ["Although you are strongly attracted to distinguished and bold actions and wild adventures, you should remain faithful to your deepest nature. Reason should always be in control of your excesses, which are not always sincere unless they are symptomatic of an inner crisis and are thus therapeutic."],
       "The Year of the Fire Rabbit": ["The culminating point of a Fire Rabbit year will be summer, a period of creation, material and spiritual uplift and action, but often slightly consuming. The Rabbit will leave the full moon of mid-autumn to warm himself in the summer sun of the South. His Yin tendency will move towards the Great Yang, which will provide him with remarkable dynamism."],
-      "Famous people born in the Year of the Fire Rabbit": "Pierre Bonnard (1867), Marie Curie (1867), Giuseppe Garibaldi (1807), Luigi Pirandello (1867), Arturo Toscanini (1867)"
+      "Famous people born in the Year of the Fire Rabbit": "Pierre Bonnard (1867), Marie Curie (1867), Giuseppe Garibaldi (1807), Luigi Pirandello (1867), Arturo Toscanini (1867), Charles Perrault (1628), Emanuel Swedenborg (1688)"
     },
     dragon: {
       "Characteristics of the Fire Dragon": [
@@ -199,7 +198,8 @@ const elementAnimalData = {
       "The Year of the Fire Dragon": [
         "The culminating point in a Fire Dragon year will be summer, a period of creation. Your Yang tendency will bring you indestructible dynamism.",
         "This will be a year of action and creation, of material success and spiritual elevation. However, do not let your Fire devour your body and soul. At a critical moment, a sudden leap can assure you unexpected triumph."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Dragon": "Sigmund Freud (1856), Edward Heath (1916), François Mitterrand (1916), Philippe Pétain (1856), G. B. Shaw (1856), Harold Wilson (1916)"
     },
     snake: {
       "Characteristics of the Fire Snake": [
@@ -256,8 +256,7 @@ const elementAnimalData = {
         "The culminating point for a Fire Rooster year will be summer, a period of creation.",
         "This will be an active and enriching year, both materially and spiritually, and you will be full of energy. However, do not do too much nor spread yourself too thin or you will tire and lose confidence."
       ],
-      "Famous people born in the Year of the Earth Rooster": "Eugène Ionesco (1909)",
-      "Famous people born in the Year of the Wood Rooster": "Johann Strauss II (1825)"
+
     },
     dog: {
       "Characteristics of the Fire Dog": [
@@ -329,7 +328,7 @@ const elementAnimalData = {
       "The Earth Rabbit and others": ["The Rabbit will certainly have his paws on the ground. Materialistic and prudent, he will be a good financier, subtle banker or a shrewd businessman. He will be the kind of whom one says 'he made himself through sheer hard work'. And this is true: he is a hard worker who accumulates the fruits of his efforts and will amass money and speculate with it. He possesses a strong family sense and will often be a despotic parent, brooding over his offspring to the point of smothering them."],
       "Some advice for an Earth Rabbit": ["Above all, do not become too wrapped up in yourself. Broaden your horizons, take a holiday, mingle with others or participate in group work. Do not confine yourself to a world of mortgages and inventories. You need outdoor activity. Interest yourself in something other than your nest and your clover. Find a hobby. A little passion in your life would help loosen your overly rigid lifestyle."],
       "The Year of the Earth Rabbit": ["The culminating point of an Earth Rabbit year is summer. It is a favourable year in which the Rabbit will no longer have to hunt to feed himself and he will be served on a silver platter. Thus freed from daily obligations, the Rabbit should offer his services to some charitable activity. Be watchful of your attitude towards your personal comforts - you could well become narcissistic."],
-      "Famous people born in the Year of the Earth Rabbit": "Emiliano Zapata (1879), Jean-Baptiste-Siméon Chardin (1699), Gustave Courbet (1819), Albert Einstein (1879), Paul Klee (1879), Catherine de Medici (1519), Jacques Offenbach (1819), Jean Racine (1639), Friedrich Schiller (1759), Leon Trotsky (1879), Queen Victoria (1819)"
+      "Famous people born in the Year of the Earth Rabbit": "Emiliano Zapata (1879), Jean-Baptiste-Siméon Chardin (1699), Gustave Courbet (1819), Albert Einstein (1879), Paul Klee (1879), Catherine de Medici (1519), Jacques Offenbach (1819), Jean Racine (1639), Friedrich Schiller (1759), Leon Trotsky (1879), Queen Victoria (1819), Anne Bronte (January 1820), Georges Danton (1759), Douglas MacArthur (January 1880)"
     },
     dragon: {
       "Characteristics of the Earth Dragon": [
@@ -339,7 +338,8 @@ const elementAnimalData = {
       Health: ["The Earth's organ is the spleen; its flavour is sweet. If the Earth Dragon does not become active he may become morose and gain weight. If you do not take hold of yourself in time you may suffer from mental paralysis, and a shapeless Dragon will frighten no one - so stand up and exert some energy."],
       "The Earth Dragon and others": ["The Earth Dragon is more realistic than the other Dragons. He is materialistic, prudent and suspicious, and tends to enjoy accumulating wealth and speculating. He will be a hard and conscientious worker, but, due to his fear of taking risks, he may lack imagination. He will be an understanding father, and Mrs Dragon will be exceedingly material."],
       "Some advice for an Earth Dragon": ["You stay at home too much and think too much about your work; becoming maniacal and despotic. If you do not change your habits, people will start to avoid you. Add a bit of feeling to your relationships, become more fervent; learn to dream a little."],
-      "The Year of the Earth Dragon": ["The culminating point for an Earth Dragon year will be summer, which is favourable for the Dragon. Freed from material constraints, the Dragon can devote himself to creating and research. However, do not close yourself up in your ivory tower; open the doors, widen your horizons, listen to your heart. Isolation could lead to mistakes in judgement and to catastrophe."]
+      "The Year of the Earth Dragon": ["The culminating point for an Earth Dragon year will be summer, which is favourable for the Dragon. Freed from material constraints, the Dragon can devote himself to creating and research. However, do not close yourself up in your ivory tower; open the doors, widen your horizons, listen to your heart. Isolation could lead to mistakes in judgement and to catastrophe."],
+      "Famous people born in the Year of the Earth Dragon": "Honoré Daumier (1808), Louis David (1748), Maxim Gorky (1868), Napoleon III (1808), Tsar Nicolas II (1868), Karlheinz Stockhausen (1928), Roger Vadim (1928), Édouard Vuillard (1868)"
     },
     snake: {
       "Characteristics of the Earth Snake": [
@@ -395,7 +395,7 @@ const elementAnimalData = {
         "The culminating point for an Earth Rooster year will be summer.",
         "It will be a favourable time for the Rooster, who will no longer need to worry about how he is to eat. Freed from this constraint, the Earth Rooster should overcome his egotism, open his heart and enlarge his horizons beyond his 'territory'."
       ],
-      "Famous people born in the Year of the Earth Rooster": ""
+      "Famous people born in the Year of the Earth Rooster": "Eugène Ionesco (1909)"
     },
     dog: {
       "Characteristics of the Earth Dog": [
@@ -443,7 +443,7 @@ const elementAnimalData = {
         "The culminating point in the year of a Metal Ox will be autumn. He will leave the wintery North to travel West. His Yin tendency will be strengthened by the Yin of autumn, a combination associated with lethargy and a perceptible lessening of dynamic force.",
         "Tendency of the year: Hardening and dryness, both physically and morally. Be careful not to adopt 'regulations' at odds with your nature: at best these will bring you temporary victory, but more likely prolonged depression. One thinks one has wone, but one has lost more than from defeat. Too late and one will ask, who was the true victor?"
       ],
-      "Famous people born in the Year of the Metal Ox": "Madame de Pompadour (1721), Georges Clemenceau (1841), Walt Disney (1901), Jean Dubuffet (1901), Antonín Dvořák (1841), Alberto Giacometti (1901), André Malraux (1901), Pierre-Auguste Renoir (1841), Charles Lindbergh (February 1902)"
+      "Famous people born in the Year of the Metal Ox": "Madame de Pompadour (1721), Georges Clemenceau (1841), Walt Disney (1901), Jean Dubuffet (1901), Antonín Dvořák (1841), Alberto Giacometti (1901), André Malraux (1901), Pierre-Auguste Renoir (1841), Charles Lindbergh (February 1902), Barbara Cartland (1901)"
     },
     tiger: {
       "Characteristics of the Metal Tiger": [
@@ -468,7 +468,7 @@ const elementAnimalData = {
       "The Metal Rabbit and others": ["The Metal Rabbit is energetic, constant and a man of his word. He can be a warrior or a man of the law. He commands, judges and decides. He has a good feel for organizations, but at times may be slightly too blunt in his approach - plain-speaking will come more easily to him than tact and diplomacy. Maintain the moral and physical suppleness of the Rabbit; a stiff neck and a dry, cold heart are not in the nature of your symbolic animal. Rediscover agility, grace and patience. Be energetic, but do not forget that the excessive, in any form, turns against its author. File down your claws and become more supple; indulgence is not necessarily self-indulgence."],
       "Some advice for a Metal Rabbit": ["Do some relaxing exercises or yoga. Write poems and listen to music; do not encase yourself in an iron corset - it will harm your fur."],
       "The Year of the Metal Rabbit": ["The culminating point of a Metal Rabbit year will be autumn. You will often experience a loss of energy and dynamism, and suffer from depression and a lack of self-confidence. This may perhaps be due to a lack of suppleness or a certain moral stiffness which does not suit your deepest nature. A period of waiting and uncertainty."],
-      "Famous people born in the Year of the Metal Rabbit": "Max Ernst (1891), Henry Miller (1891), Sergei Prokofiev (1891), Erwin Rommel (1891), Walter Scott (1771)"
+      "Famous people born in the Year of the Metal Rabbit": "Max Ernst (1891), Henry Miller (1891), Sergei Prokofiev (1891), Erwin Rommel (1891), Walter Scott (1771), Joan of Arc (1412), Lewis Carroll (1832), Frederick the Great (1712), Édouard Manet (1832)"
     },
     dragon: {
       "Characteristics of the Metal Dragon": [
@@ -481,7 +481,8 @@ const elementAnimalData = {
       "The Year of the Metal Dragon": [
         "The culminating point in a Metal Dragon year will be autumn. The Yin tendency of the mid-season will blend with the Yang of the Dragon, making him more temperate and balanced.",
         "Do not confuse suppleness with relaxation or a loss of energy. Use this period to pay more attention to yourself and to others; this will be favourable for you if you do not allow yourself to feel guilty because you are letting go. There are times when it is better to bend than to break, which requires strength and self-control."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Dragon": "Friedrich Engels (1820)"
     },
     snake: {
       "Characteristics of the Metal Snake": [
@@ -495,7 +496,7 @@ const elementAnimalData = {
         "The culminating point for a Metal Snake year will be autumn. The Yin tendency of the mid-season will unite with the Yang of the Snake, bringing moderation and equilibrium.",
         "Profit from the alternation of Yin and Yang to rediscover your ancestral suppleness; release your armour and relax morally and physically. You have everything to gain, for rigidity is not a necessary element in governing; learn that relaxation and suppleness do not signify weakness."
       ],
-      "Famous people born in the Year of the Metal Snake": "Lola Montez (1821)"
+      "Famous people born in the Year of the Metal Snake": "Lola Montez (1821), Mustafa Kemal Atatürk (1881)"
     },
     horse: {
       "Characteristics of the Metal Horse": [
@@ -629,7 +630,7 @@ const elementAnimalData = {
         "The culminating point of a Water Rabbit year will be winter, a period of gestation.",
         "A year of reflection rather than action. However, do not become bogged down nor flounder about too much. If you do not sometimes leave your retreat you will have a false idea of things and of the world around you. Make this a year for projects and leave the flowers in your garden to bloom in their own good time. Practice cultivation in the fresh air, not in a greenhouse."
       ],
-      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783), Edvard Grieg (1843), Martin Luther (1483), Raphael (1483), Georges Simenon (1903)"
+      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783), Edvard Grieg (1843), Martin Luther (1483), Raphael (1483), Georges Simenon (February 1903), Cary Grant (1904)"
     },
     dragon: {
       "Characteristics of the Water Dragon": [
@@ -643,7 +644,8 @@ const elementAnimalData = {
         "The culminating point in a Water Dragon year will be winter, a period of gestation. The Yin of Water will balance the Yang of the Dragon.",
         "A year in which action and reflection will alternate. Remain vigilant and distrust sleeping waters. If you go deep-sea diving, do not forget to come to the surface eventually.",
         "Intense effort is needed to avoid having your most grandiose projects and enterprises bogged down."
-      ]
+      ],
+      "Famous people born in the Year of the Water Dragon": "Pearl Buck (1892), Eiffel (1832), Francisco Franco (1892), Haile Selassie (1892), Arthur Honegger (1892), Novalis (1772), Mary Pickford (1892), Jean-Jacques Rousseau (1712), Josip Broz Tito (1892)"
     },
     snake: {
       "Characteristics of the Water Snake": [
