@@ -1136,6 +1136,276 @@ describe('zodiac calculations', () => {
         expect(result.sign).toBe('Dragon 🐉');
         expect(result.element).toBe('Fire 🔥');
       });
+
+      test('Robert Baden-Powell (born February 22, 1857) should be Snake with Fire element', () => {
+        const result = calculateChineseZodiac('1857-02-22', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Bela Bartok (born March 25, 1881) should be Snake with Metal element', () => {
+        const result = calculateChineseZodiac('1881-03-25', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Charles Baudelaire (born April 9, 1821) should be Snake with Metal element', () => {
+        const result = calculateChineseZodiac('1821-04-09', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Alexander Borodin (born November 12, 1833) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1833-11-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Johannes Brahms (born May 7, 1833) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1833-05-07', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Louis Braille (born January 4, 1809) should be Dragon with Earth element', () => {
+        const result = calculateChineseZodiac('1809-01-04', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('John Calvin (born July 10, 1509) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1509-07-10', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Nicolaus Copernicus (born February 19, 1473) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1473-02-19', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Charles Darwin (born February 12, 1809) should be Dragon with Earth element', () => {
+        const result = calculateChineseZodiac('1809-02-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Fyodor Dostoyevsky (born November 11, 1821) should be Snake with Metal element', () => {
+        const result = calculateChineseZodiac('1821-11-11', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Gustave Flaubert (born December 12, 1821) should be Snake with Metal element', () => {
+        const result = calculateChineseZodiac('1821-12-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Gabriel Faure (born May 12, 1845) should be Snake with Wood element', () => {
+        const result = calculateChineseZodiac('1845-05-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Arthur Fleming (born June 12, 1905) should be Snake with Wood element', () => {
+        const result = calculateChineseZodiac('1905-06-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Henry Fonda (born May 16, 1905) should be Snake with Wood element', () => {
+        const result = calculateChineseZodiac('1905-05-16', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Mahatma Gandhi (born October 2, 1869) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1869-10-02', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Greta Garbo (born September 18, 1905) should be Snake with Wood element', () => {
+        const result = calculateChineseZodiac('1905-09-18', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Paul Getty (born December 15, 1892) should be Dragon with Water element', () => {
+        const result = calculateChineseZodiac('1892-12-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Andre Gide (born November 22, 1869) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1869-11-22', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('William Ewart Gladstone (born December 29, 1809) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1809-12-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Johann Wolfgang von Goethe (born August 28, 1749) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1749-08-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Nikolai Gogol (born April 1, 1809) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1809-04-01', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Princess Grace (born November 12, 1929) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1929-11-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('John Kennedy (born May 29, 1917) should be Snake with Fire element', () => {
+        const result = calculateChineseZodiac('1917-05-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Henri Désiré Landru (born April 12, 1869) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1869-04-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Abraham Lincoln (born February 12, 1809) should be Dragon with Earth element', () => {
+        const result = calculateChineseZodiac('1809-02-12', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Harold Lloyd (born April 20, 1893) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1893-04-20', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Louis-Philippe I (born October 6, 1773) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1773-10-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Martin Luther King Jr. (born January 15, 1929) should be Dragon with Earth element', () => {
+        const result = calculateChineseZodiac('1929-01-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Mao Tse-tung (born December 26, 1893) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1893-12-26', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Madame Mao (born March 19, 1914) should be Tiger with Wood element', () => {
+        const result = calculateChineseZodiac('1914-03-19', '12:00', mockTimezone);
+        expect(result.sign).toBe('Tiger 🐯');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Henri Matisse (born December 31, 1869) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1869-12-31', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Felix Mendelssohn (born February 3, 1809) should be Dragon with Earth element', () => {
+        const result = calculateChineseZodiac('1809-02-03', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Joan Miró (born April 20, 1893) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1893-04-20', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Michel de Montaigne (born February 28, 1533) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1533-02-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Charles de Montesquieu (born January 18, 1689) should be Dragon with Earth element', () => {
+        const result = calculateChineseZodiac('1689-01-18', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Alfred Nobel (born October 21, 1833) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1833-10-21', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Jacqueline Onassis (born July 28, 1929) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1929-07-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Pablo Picasso (born October 25, 1881) should be Snake with Metal element', () => {
+        const result = calculateChineseZodiac('1881-10-25', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Edgar Allan Poe (born January 19, 1809) should be Dragon with Earth element', () => {
+        const result = calculateChineseZodiac('1809-01-19', '12:00', mockTimezone);
+        expect(result.sign).toBe('Dragon 🐉');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Cardinal Richelieu (born September 9, 1585) should be Rooster with Wood element', () => {
+        const result = calculateChineseZodiac('1585-09-09', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rooster 🐓');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Jean-Paul Sartre (born June 21, 1905) should be Snake with Wood element', () => {
+        const result = calculateChineseZodiac('1905-06-21', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Franz Schubert (born January 31, 1797) should be Snake with Fire element', () => {
+        const result = calculateChineseZodiac('1797-01-31', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Alfred Tennyson (born August 6, 1809) should be Snake with Earth element', () => {
+        const result = calculateChineseZodiac('1809-08-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('St Vincent of Paul (born April 24, 1581) should be Snake with Metal element', () => {
+        const result = calculateChineseZodiac('1581-04-24', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Mae West (born August 17, 1893) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1893-08-17', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
     });
   });
 
