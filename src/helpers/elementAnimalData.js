@@ -66,7 +66,7 @@ const elementAnimalData = {
       "The Wood Snake and others": ["The Wood Element will have a positive influence on the Snake's social life. Aware of his weaknesses, such as his anxiety and self-questioning, he will respond to his predicament with a relaxed attitude, preferring his imagination to run free rather than be constricted by the rigid structures of a society in which he feels asphyxiated. This is a just and reasonable attitude especially suiting the Snake, who prefers the circle to the square and the curve to the angle. With deliberate improvisation, the Snake will extricate himself marvellously from the most difficult situations; he will glide and sneak in and out and let the storm pass; then, when it is all over, he will reappear, tranquil and calm. Inventive and creative, he will be a painter, poet, musician, craftsman, or even a gardener, nurseryman or landscape architect - someone who combines beauty with space."],
       "Some advice for a Wood Snake": ["You are a symbol of harmony, charm and beauty; you dream of space and liberty. Relax and yield to the imaginative. You have the soul of an artist, so do not close yourself up in an office or allow yourself to be choked by conventional pursuits. Being of Wood, you would end up drying up."],
       "The Year of the Wood Snake": ["The culminating point for a Wood Snake year will be spring, a period of growth and prosperity. Beauty and harmony will be your companions during this year. The Wood Snake will be in his best physical and mental form, supple and intuitive."],
-      "Famous people born in the Year of the Wood Snake": "Gabriel Faure (1845), Arthur Fleming (1905), Henry Fonda (1905), Greta Garbo (1905), Jean-Paul Sartre (1905)"
+      "Famous people born in the Year of the Wood Snake": "Gabriel Faure (1845), Arthur Fleming (1905), Henry Fonda (1905), Greta Garbo (1905), Jean-Paul Sartre (1905), Cicero (106 BCE)"
     },
     horse: {
       "Characteristics of the Wood Horse": ["Wood is of the morning and of springtime. Its temperate nature loves harmony and beauty. This season will be fruitful and creative for this elegant Horse. It will bring equilibrium and power and, by moderating his impetuous spirit and strengthening his creative powers, develop his sense of beauty and need for harmony to the maximum. Nature in its entirety will be offered to the Horse, attracting him far from the stable, offering him the promise of new spaces to conquer and lands to discover, which will satisfy his impatient, passionate nature. But, like the Horse, Wood is also passionate, excessive and easily carried away, and the Wood Horse will thus often be vulnerable, jealous and possessive."],
@@ -76,7 +76,8 @@ const elementAnimalData = {
       "The Year of the Wood Horse": [
         "The culminating point for a Wood Horse year will be spring, a period of growth and prosperity.",
         "This will be a creative year, full of new energy and strength, ideas and projects. Apparently insoluble conflicts and problems can be resolved."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Horse": "Edgar Degas (1834), Aldous Huxley (1894), Nikita Khrushchev (1894), Jean Renoir (1894), Duke of Windsor (Edward VIII) (1894)"
     },
     goat: {
       "Characteristics of the Wood Goat": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. Springtime is a symbol of gentleness, a period in which all of nature awakens and opens itself to the forces of youth, creation and growth. This Element will be fruitful for the Goat, bringing him equilibrium and the power of creation, a taste for beauty and harmony. What could be more ideal for an artistic, discriminating and sensitive Goat, the mother of nature? You will descend from the clouds, your walk nonchalant and your eyes bright. Your curiosity will be satisfied, for you will go tirelessly from discovery to discovery. Your life will be lived in gentleness, full of charm and good humour and imbued with art and harmony. However, be careful: Wood is an ambivalent Element subject to anger, passion and excess. This influence could impel you to outbursts and intemperate and disconcerting violence."],
@@ -214,7 +215,7 @@ const elementAnimalData = {
       ],
       "Some advice for a Fire Snake": ["Take things upon yourself, but moderate your flame; you too easily set things ablaze and stir up discord which can turn against you."],
       "The Year of the Fire Snake": ["The culminating point for a Fire Snake year will be summer, a period of creation. Your Yang tendency will stretch towards the 'Great Yang', which will bring an unquenchable dynamism."],
-      "Famous people born in the Year of the Fire Snake": "Robert Baden-Powell (1857), John Kennedy (1917), Franz Schubert (1797)"
+      "Famous people born in the Year of the Fire Snake": "Robert Baden-Powell (1857), John Kennedy (1917), Franz Schubert (1797), Gamal Abdel Nasser (January 1918)"
     },
     horse: {
       "Characteristics of the Fire Horse": ["The Fire element is of midday, the South and summer. Fire is Yang, it is the Element which warms, burns, animates, quickens, transforms and overthrows. The Fire inside a Horse will become a formidable source of energy, a constant reservoir he can resort to. His need for perpetual movement, action and voyages; physical emotional and intellectual adventures will all be supported. The Fire Horse will always thirst for light, in all its forms; forever unsatisfied, he will always wish for something better, something just beyond his grasp. However, he should beware of the Fire within him which, if he does not remain its master, will quickly consume him. All of the Horse's strength depends on his capacity to transform energy, a task he should never neglect."],
@@ -224,7 +225,8 @@ const elementAnimalData = {
       "The Year of the Fire Horse": [
         "The culminating point for a Fire Horse year will be summer, a period of creation. Your Yang tendency will incline towards the Great Yang, bringing dynamism and vitality.",
         "A favourable year for action and creation. You should be successful in many areas."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Horse": "Josephine Baker (1906), Samuel Beckett (1906), Buffalo Bill (1846), Dmitri Shostakovich (1906), Davy Crockett (1786), John Huston (1906), Henri Charrière (1906), Rembrandt (1606), Roberto Rossellini (1906)"
     },
     goat: {
       "Characteristics of the Fire Goat": ["The Fire element is of the midday, of the South, of summer. Fire is Yang; it is the Element which animates, quickens and transforms. The Fire inside a Goat will bring an increase in energy. It will be a force of inspiration, a catalyst for expressiveness; a source of inventive ardour and original images for this artistic and creative sign. However, the Goat should scrupulously attend to his Fire: should it become smothered and go out, the Goat will be reduced to a state of anxiety followed by repression and self-criticism, leading to a permanent and, finally, sterilizing self-doubt."],
@@ -303,7 +305,7 @@ const elementAnimalData = {
         "The Earth Rat will be extremely well-provided for, indeed well-off. Summer being the period of abundance, he will not have to search for nourishment. Freed from material contingencies, he should give himself to others, not imprison himself in a comfort essentially gangrenous and self-destructive.",
         "Tendency for the year: Creativity and productivity; knowing how to receive without forgetting to give!"
       ],
-      "Famous people born in the Year of the Earth Rat": "François-René de Chateaubriand (1768), Henrik Ibsen (1828), Leo Tolstoy (1828), Lawrence of Arabia (1888), Maurice Chevalier (1888)"
+      "Famous people born in the Year of the Earth Rat": "François-René de Chateaubriand (1768), Henrik Ibsen (1828), Leo Tolstoy (1828), Lawrence of Arabia (1888), Maurice Chevalier (1888), Charlemagne (748)"
     },
     ox: {
       "Characteristics of the Earth Ox": ["This is an afternoon Earth, the humid and hot Earth of summer. For the Ox, this heavy, abundant and fertile earth of rich grasslands, symbol of retreat and contemplation, is a paradise. Alas, it can also encroach upon him, stick to his hooves and deaden his tread; the grasslands may become a swamp. Although the Ox is close to the Earth, he should not be its prisoner. He must release it, not be buried beneath it, body and soul."],
@@ -362,7 +364,8 @@ const elementAnimalData = {
       "The Year of the Earth Horse": [
         "The Earth is a productive Element representing the centre.",
         "The culminating point of an Earth Horse year will be summer. The Horse will no longer be constrained to seek his daily bread and, free of all constraints, will recapture his taste for wide-open spaces and rediscover his freedome of movement. But he should guard against his excessive and fervent nature, for its lively and uncontrolled expression could lead him to make catastrophic errors."
-      ]
+      ],
+      "Famous people born in the Year of the Earth Horse": "Ingmar Bergman (1918), Eugène Delacroix (1798), Giacomo Puccini (1858), Theodore Roosevelt (1858), Anwar Sadat (1918), Aleksandr Solzhenitsyn (1918), Antonio Vivaldi (1678)"
     },
     goat: {
       "Characteristics of the Earth Goat": [
@@ -499,7 +502,7 @@ const elementAnimalData = {
         "The culminating point for a Metal Snake year will be autumn. The Yin tendency of the mid-season will unite with the Yang of the Snake, bringing moderation and equilibrium.",
         "Profit from the alternation of Yin and Yang to rediscover your ancestral suppleness; release your armour and relax morally and physically. You have everything to gain, for rigidity is not a necessary element in governing; learn that relaxation and suppleness do not signify weakness."
       ],
-      "Famous people born in the Year of the Metal Snake": "Lola Montez (1821), Mustafa Kemal Atatürk (1881), Bela Bartok (1881), Charles Baudelaire (1821), Fyodor Dostoyevsky (1821), Gustave Flaubert (1821), Pablo Picasso (1881), St Vincent of Paul (1581)"
+      "Famous people born in the Year of the Metal Snake": "Lola Montez (1821), Mustafa Kemal Atatürk (1881), Bela Bartok (1881), Charles Baudelaire (1821), Fyodor Dostoyevsky (1821), Gustave Flaubert (1821), Pablo Picasso (1881), St Vincent of Paul (1581), James Joyce (February 1882), Franklin D. Roosevelt (January 1882), Virginia Woolf (January 1882)"
     },
     horse: {
       "Characteristics of the Metal Horse": [
@@ -512,7 +515,8 @@ const elementAnimalData = {
       "The Year of the Metal Horse": [
         "The culminating point for a Metal Horse year will be the autumn.",
         "Revive your suppleness; be aware of your body and your instincts. Learn to relax and set aside your armour. In order to maintain perfect self-control, you must align yourself with your natural rhythms and movements - otherwise you will experience a revolt from the obscure forces of your psyche."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Horse": "Alfred Adler (1870), P.T. Barnum (1810), King Baudouin of Belgium (1930), Frédéric Chopin (1810), Vladimir Lenin (1870)"
     },
     goat: {
       "Characteristics of the Metal Goat": [
@@ -662,7 +666,7 @@ const elementAnimalData = {
         "The culminating point in a Water Snake year will be winter, a period of gestation. The Yin of Water will balance the Yang of the Snake.",
         "Profit from this year to restore your energies and regain your inner balance. You can be active, and successfully so, but avoid overwork and all excesses, which are so often followed by depression. Maintain your equilibrium and do not waste your energy, otherwise you will ruin everything by wanting to go too far too quickly."
       ],
-      "Famous people born in the Year of the Water Snake": "Alexander Borodin (1833), Johannes Brahms (1833), Nicolaus Copernicus (1473), Harold Lloyd (1893), Louis-Philippe I (1773), Mao Tse-tung (1893), Joan Miró (1893), Michel de Montaigne (1533), Alfred Nobel (1833), Mae West (1893)"
+      "Famous people born in the Year of the Water Snake": "Alexander Borodin (1833), Johannes Brahms (1833), Nicolaus Copernicus (1473), Harold Lloyd (1893), Louis-Philippe I (1773), Mao Tse-tung (1893), Joan Miró (1893), Michel de Montaigne (1533), Alfred Nobel (1833), Mae West (1893), Klemens von Metternich (1773)"
     },
     horse: {
       "The Water Horse (Fire Horse)": [
@@ -679,7 +683,8 @@ const elementAnimalData = {
       "The Year of the Water Horse (Fire Horse)": [
         "The culminating point in a Water Horse year will be winter, a period of gestation. The Yin of Water is brought to the boiling point by the Yang of the Horse, from which arises the Fire Horse.",
         "Seek equilibrium through a balance between action and reflection. Do not weaken your energies by impulsively throwing yourself into excessive physical or emotional adventures - reflect before becoming involved to avoid deceptions and failures. Do not allow yourself to be attracted to sleeping waters, but seek the invigorating source; you will succeed in doing many great things."
-      ]
+      ],
+      "Famous people born in the Year of the Water Horse": "Georges Braque (1882), César Franck (1822), Isaac Newton (January 1643), Louis Pasteur (1822)"
     },
     goat: {
       "Characteristics of the Water Goat": [
