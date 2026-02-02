@@ -1623,6 +1623,186 @@ describe('zodiac calculations', () => {
         expect(result.sign).toBe('Snake 🐍');
         expect(result.element).toBe('Metal ⛓');
       });
+
+      test('Honore de Balzac (born May 20, 1799) should be Goat with Earth element', () => {
+        const result = calculateChineseZodiac('1799-05-20', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Empress Josephine (born June 23, 1763) should be Goat with Water element', () => {
+        const result = calculateChineseZodiac('1763-06-23', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Simone de Beauvoir (born January 9, 1908) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1908-01-09', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Cyrano de Bergerac (born March 6, 1619) should be Goat with Earth element', () => {
+        const result = calculateChineseZodiac('1619-03-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Francois Boucher (born September 29, 1703) should be Goat with Water element', () => {
+        const result = calculateChineseZodiac('1703-09-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Cesare Borgia (born September 13, 1475) should be Goat with Wood element', () => {
+        const result = calculateChineseZodiac('1475-09-13', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Miguel de Cervantes (born September 29, 1547) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1547-09-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Pierre Curie (born May 15, 1859) should be Goat with Earth element', () => {
+        const result = calculateChineseZodiac('1859-05-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Claudette Colbert (born September 13, 1903) should be Rabbit with Water element', () => {
+        const result = calculateChineseZodiac('1903-09-13', '12:00', mockTimezone);
+        expect(result.sign).toBe('Rabbit 🐰');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Louis Daguerre (born November 18, 1787) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1787-11-18', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('James Dean (born February 8, 1931) should be Horse with Metal element', () => {
+        const result = calculateChineseZodiac('1931-02-08', '12:00', mockTimezone);
+        expect(result.sign).toBe('Horse 🐴');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Catherine Deneuve (born October 22, 1943) should be Goat with Water element', () => {
+        const result = calculateChineseZodiac('1943-10-22', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Thomas Edison (born February 11, 1847) should be Horse with Fire element', () => {
+        const result = calculateChineseZodiac('1847-02-11', '12:00', mockTimezone);
+        expect(result.sign).toBe('Horse 🐴');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('John Ford (born February 1, 1894) should be Snake with Water element', () => {
+        const result = calculateChineseZodiac('1894-02-01', '12:00', mockTimezone);
+        expect(result.sign).toBe('Snake 🐍');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Douglas Fairbanks (born May 23, 1883) should be Goat with Water element', () => {
+        const result = calculateChineseZodiac('1883-05-23', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Johnny Hallyday (born June 15, 1943) should be Goat with Water element', () => {
+        const result = calculateChineseZodiac('1943-06-15', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Franz Kafka (born July 3, 1883) should be Goat with Water element', () => {
+        const result = calculateChineseZodiac('1883-07-03', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Franz Liszt (born October 22, 1811) should be Goat with Metal element', () => {
+        const result = calculateChineseZodiac('1811-10-22', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Daphne du Maurier (born May 13, 1907) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1907-05-13', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Michelangelo (born March 6, 1475) should be Goat with Wood element', () => {
+        const result = calculateChineseZodiac('1475-03-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Alberto Moravia (born November 28, 1907) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1907-11-28', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Benito Mussolini (born July 29, 1883) should be Goat with Water element', () => {
+        const result = calculateChineseZodiac('1883-07-29', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Water 🌊');
+      });
+
+      test('Laurence Olivier (born May 22, 1907) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1907-05-22', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('Alexander Pushkin (born June 6, 1799) should be Goat with Earth element', () => {
+        const result = calculateChineseZodiac('1799-06-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Earth ⛰️');
+      });
+
+      test('Marcel Proust (born July 10, 1871) should be Goat with Metal element', () => {
+        const result = calculateChineseZodiac('1871-07-10', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Jonathan Swift (born November 30, 1667) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1667-11-30', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
+
+      test('William Makepeace Thackeray (born July 18, 1811) should be Goat with Metal element', () => {
+        const result = calculateChineseZodiac('1811-07-18', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Metal ⛓');
+      });
+
+      test('Mark Twain (born November 30, 1835) should be Goat with Wood element', () => {
+        const result = calculateChineseZodiac('1835-11-30', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('Rudolph Valentino (born May 6, 1895) should be Goat with Wood element', () => {
+        const result = calculateChineseZodiac('1895-05-06', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Wood 🪵');
+      });
+
+      test('John Wayne (born May 26, 1907) should be Goat with Fire element', () => {
+        const result = calculateChineseZodiac('1907-05-26', '12:00', mockTimezone);
+        expect(result.sign).toBe('Goat 🐐');
+        expect(result.element).toBe('Fire 🔥');
+      });
     });
   });
 

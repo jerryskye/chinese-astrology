@@ -87,7 +87,8 @@ const elementAnimalData = {
       "The Year of the Wood Goat": [
         "The culminating point for a Wood Goat year will be spring, a period of growth and prosperity. The Yang tendency of the Goat will be added to the Yang of springtime.",
         "You are going to have a harmonious year, evolving with good humour and curiosity by way of the arts and nature. So take care; control your vulnerability and ensure that it does not break this vernal gentleness."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Goat": "Cesare Borgia (1475), Michelangelo (1475)"
     },
     monkey: {
       "Characteristics of the Wood Monkey": [
@@ -226,7 +227,7 @@ const elementAnimalData = {
         "The culminating point for a Fire Horse year will be summer, a period of creation. Your Yang tendency will incline towards the Great Yang, bringing dynamism and vitality.",
         "A favourable year for action and creation. You should be successful in many areas."
       ],
-      "Famous people born in the Year of the Fire Horse": "Josephine Baker (1906), Samuel Beckett (1906), Buffalo Bill (1846), Dmitri Shostakovich (1906), Davy Crockett (1786), John Huston (1906), Henri Charrière (1906), Rembrandt (1606), Roberto Rossellini (1906)"
+      "Famous people born in the Year of the Fire Horse": "Josephine Baker (1906), Samuel Beckett (1906), Buffalo Bill (1846), Dmitri Shostakovich (1906), Davy Crockett (1786), John Huston (1906), Henri Charrière (1906), Rembrandt (1606), Roberto Rossellini (1906), Thomas Edison (February 1847)"
     },
     goat: {
       "Characteristics of the Fire Goat": ["The Fire element is of the midday, of the South, of summer. Fire is Yang; it is the Element which animates, quickens and transforms. The Fire inside a Goat will bring an increase in energy. It will be a force of inspiration, a catalyst for expressiveness; a source of inventive ardour and original images for this artistic and creative sign. However, the Goat should scrupulously attend to his Fire: should it become smothered and go out, the Goat will be reduced to a state of anxiety followed by repression and self-criticism, leading to a permanent and, finally, sterilizing self-doubt."],
@@ -236,7 +237,8 @@ const elementAnimalData = {
       "The Year of the Fire Goat": [
         "The culminating point for a Fire Goat year will be summer, a period of creation.",
         "An active year in which you can give free rein to your imagination, which will express itself in a concrete form and bring you much satisfaction. However, use your talents economically; do not dissipate your energies or they will go up in smoke."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Goat": "Simone de Beauvoir (January 1908), Miguel de Cervantes (1547), Louis Daguerre (1787), Daphne du Maurier (1907)"
     },
     monkey: {
       "Characteristics of the Fire Monkey": [
@@ -376,7 +378,7 @@ const elementAnimalData = {
       "The Earth Goat and others": ["The Earth Goat will be more realistic than the other Goats, which will cause him to be both more prudent and more mistrustful. Unlike the others, he will prefer to make money, accumulate it and speculate with it. He will possess some talent for work and a professional conscience, but will rarely have any breadth of vision, for his carefree and whimsical character will always get the upper hand. However, in an artistic profession - above all the stage - he will bring seriousness to everything he undertakes, and still amass some savings for rainy days. His dreams, tinged with a certain gravity and slightly romantic melancholy, can push him towards philosophy, religion or the occult sciences. While this will soothe his anxieties and provide a secure channel for his secret fears, his need for friendship and universal love will become inflamed by his passion for ritual and daily devotion."],
       "Some advice for an Earth Goat": ["The studious and far-sighted character of your earthly nature will never put an end to your tricks and impulsive pranks. So do not keep your head lowered, staring down at the toes of your boots: raise your eyes and contemplate the stars."],
       "The Year of the Earth Goat": ["The culminating point for an Earth Goat year is summer, when the Earth is hot and humid. You can turn towards what attracts you - the arts in general - for this year you will be free of material constraints and so, simply free. Know how to make the most of this year; avoid idleness and inertia, which would not be good for you. You need the broad daylight, the fresh open air and space."],
-      "Famous people born in the Year of the Earth Goat": "Eva Peron (1919)"
+      "Famous people born in the Year of the Earth Goat": "Eva Peron (1919), Honore de Balzac (1799), Cyrano de Bergerac (1619), Pierre Curie (1859)"
     },
     monkey: {
       "Characteristics of the Earth Monkey": [
@@ -516,7 +518,7 @@ const elementAnimalData = {
         "The culminating point for a Metal Horse year will be the autumn.",
         "Revive your suppleness; be aware of your body and your instincts. Learn to relax and set aside your armour. In order to maintain perfect self-control, you must align yourself with your natural rhythms and movements - otherwise you will experience a revolt from the obscure forces of your psyche."
       ],
-      "Famous people born in the Year of the Metal Horse": "Alfred Adler (1870), P.T. Barnum (1810), King Baudouin of Belgium (1930), Frédéric Chopin (1810), Vladimir Lenin (1870)"
+      "Famous people born in the Year of the Metal Horse": "Alfred Adler (1870), P.T. Barnum (1810), King Baudouin of Belgium (1930), Frédéric Chopin (1810), Vladimir Lenin (1870), James Dean (February 1931)"
     },
     goat: {
       "Characteristics of the Metal Goat": [
@@ -531,7 +533,7 @@ const elementAnimalData = {
         "The culminating point for a Metal Goat year will be autumn. The Yin tendency of the mid-season will balance the Yang of the Goat, bringing tolerance and moderation.",
         "Profit from this year to find again your suppleness and freedom. Leave your armour and your shield in the closet. A certain rigour will be all to the good if you can then accomplish a delicate piece of work. Use it, but keep a light touch and an open mind; this will be a gust of fresh air which will be up to you to prolong."
       ],
-      "Famous people born in the Year of the Metal Goat": "Confucius (551 BCE)"
+      "Famous people born in the Year of the Metal Goat": "Confucius (551 BCE), Franz Liszt (1811)"
     },
     monkey: {
     "Characteristics of the Metal Monkey": [
@@ -637,7 +639,7 @@ const elementAnimalData = {
         "The culminating point of a Water Rabbit year will be winter, a period of gestation.",
         "A year of reflection rather than action. However, do not become bogged down nor flounder about too much. If you do not sometimes leave your retreat you will have a false idea of things and of the world around you. Make this a year for projects and leave the flowers in your garden to bloom in their own good time. Practice cultivation in the fresh air, not in a greenhouse."
       ],
-      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783), Edvard Grieg (1843), Martin Luther (1483), Raphael (1483), Georges Simenon (February 1903), Cary Grant (1904)"
+      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783), Edvard Grieg (1843), Martin Luther (1483), Raphael (1483), Georges Simenon (1903), Cary Grant (January 1904), Claudette Colbert (1903)"
     },
     dragon: {
       "Characteristics of the Water Dragon": [
@@ -666,7 +668,7 @@ const elementAnimalData = {
         "The culminating point in a Water Snake year will be winter, a period of gestation. The Yin of Water will balance the Yang of the Snake.",
         "Profit from this year to restore your energies and regain your inner balance. You can be active, and successfully so, but avoid overwork and all excesses, which are so often followed by depression. Maintain your equilibrium and do not waste your energy, otherwise you will ruin everything by wanting to go too far too quickly."
       ],
-      "Famous people born in the Year of the Water Snake": "Alexander Borodin (1833), Johannes Brahms (1833), Nicolaus Copernicus (1473), Harold Lloyd (1893), Louis-Philippe I (1773), Mao Tse-tung (1893), Joan Miró (1893), Michel de Montaigne (1533), Alfred Nobel (1833), Mae West (1893), Klemens von Metternich (1773)"
+      "Famous people born in the Year of the Water Snake": "Alexander Borodin (1833), Johannes Brahms (1833), Nicolaus Copernicus (1473), Harold Lloyd (1893), Louis-Philippe I (1773), Mao Tse-tung (1893), Joan Miró (1893), Michel de Montaigne (1533), Alfred Nobel (1833), Mae West (1893), Klemens von Metternich (1773), John Ford (February 1894)"
     },
     horse: {
       "The Water Horse (Fire Horse)": [
@@ -700,7 +702,8 @@ const elementAnimalData = {
       "The Year of the Water Goat": [
         "The culminating point for a Water Goat year will be winter, a period of gestation. The Yin of Water will balance the Yang of the Goat.",
         "You will be at the height of your physical form, and this year will bring you the success you will have earned by your perseverance and dynamism. Turn aside from sleeping waters, they are bad for the Goat; even if they attract you - avoid them."
-      ]
+      ],
+      "Famous people born in the Year of the Water Goat": "Empress Josephine (1763), Francois Boucher (1703), Catherine Deneuve (1943), Douglas Fairbanks (1883), Johnny Hallyday (1943), Franz Kafka (1883)"
     },
     monkey: {
       "Characteristics of the Water Monkey": [
