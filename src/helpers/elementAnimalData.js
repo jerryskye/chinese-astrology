@@ -16,7 +16,8 @@ const elementAnimalData = {
       "The Year of the Wood Rat": [
         "The culminating point of a Wood Rat year will be springtime, the period of growth and prosperity. Leaving winter behind him, the Rat will move away from his Northern territory and travel East. His Yin aspect will tend towards the dynamism of the Yang. The Rat should profit from this season to brave new worlds and to create. Be supple in all senses of the term, know how to adapt yourself; this will be your winning card.",
         "Tendency of the year: A year for diplomacy and suppleness, favourable for international relations; a year also for expanding agricultural activities and for an increase in the family. But an egotistical attitude will bring about disasters and a pervasive climate of anarchy."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Rat": "William Shakespeare (1564), Henri de Toulouse-Lautrec (1864), Louis Lumière (1864), Jimmy Carter (1924), Benjamin Disraeli (1804), Galileo Galilei (1564)"
     },
     ox: {
       "Characteristics of the Wood Ox": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. The Wood Ox will tend to be more passionate than the Ox on its own; he will be quick to anger - which can represent a danger - and he will have a compulsion to lose his way, a summons to self-destructiveness. He is also in danger of being oversensitive, but his dignified attitude will conceal this. However, the scales will be balanced in his favour due to his strong will and great sense of equilibrium; he will survive. His need for harmony will always win out."],
@@ -26,21 +27,24 @@ const elementAnimalData = {
       "The Year of the Wood Ox": [
         "The culminating point for a Wood Ox year will be spring, a period of growth and prosperity. The Ox will set out from his winter habitat in the North and travel East. His Yin aspect will reach out towards the dynamism of the Yang. Springtime for an Ox is synonymous with birth, life and work. Therefore, no hesitations! Give of yourself fully during this season, so favourable for creation, but remember to be flexible and open, ready to listen and absorb every impression. In this year of renewal you can apply novel techniques and new methods. Open your eyes and prick up your ears because fortune favours you.",
         "Tendency of the year: Be flexible and diplomatic and profit from your good luck, but do not sink into egotism; share happiness and joy throughout the year. Deny your true spirit or thwart your good impulses and you may be faced with your world in ruins."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Ox": "Johann Sebastian Bach (1685), Dante Alighieri (1265), Rudyard Kipling (1865), Ferdinand de Lesseps (1805), Peter Sellers (1925), William Butler Yeats (1865), Hans Christian Andersen (1805), Richard Burton (1925)"
     },
     tiger: {
       "Characteristics of the Wood Tiger": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. Wood brings a little gentleness to our Tiger, softening his aggresive nature and opening his pride to nuances. In the spring, the seed buried deep in the soil during the long winter blossoms, and nature is reborn. Wood symbolizes the breaking of dawn and this will incite the Tiger to leave his hiding place. Wood stretches its branches towards the heavens in the direction of harmony, but also plunges its roots deep into the earth. This double movement is a balancing factor for the Tiger. But Wood is equally the symbol of passion, violence and even destruction and self-destruction. The Wood Tiger is thus an ambivalent person. Beneath his peaceful exterior his spirit is stirred by excessive and explosive impulses. For this reason others will find his behaviour strange and often disconcertring."],
       Health: ["The organ of Wood is the liver; its flavour is acid. Outbursts of anger and passion are at times necessary. But restrain yourself; if you go too far you will end up an anxious Tiger, turning round in circles in a cage of your obsessions and hallucinations."],
       "The Wood Tiger and others": ["The Wood Tiger will appear relaxed and at ease, giving the impression of taking things lightly. Alas, this is an illusion and a mask, behind which he skillfully hides a highly anxious nature. If he allows himself to be overcome by this anxiety he will head straight for failure. The Wood Tiger, however, will know how to improvise and give free rein to his fertile imagination; in this way creativity will win out over reasoning."],
       "Some advice for a Wood Tiger": ["You are passionate, engaging, at ease (at least on the surface) and a lover of liberty. The stage attracts you, the limelight awaits you, the crowd's eyes are fixed upon you. Allow your inspiration free rein."],
-      "The Year of the Wood Tiger": ["The culminating point for a Wood Tiger year will be springtime, a period of growth and prosperity. The Tiger will become extremely dynamic due to the Yang force which he bears withing him; thus he will be more enterprising and more creative. Profit from this period to start some new enterprise or develop your artistic talents - Wood is by nature poetic. However, always retain your flexibility; in this way you will find it easy to adapt and gain a new lease on life. This is the period to do so because your opportunism will be remarkably well paid."]
+      "The Year of the Wood Tiger": ["The culminating point for a Wood Tiger year will be springtime, a period of growth and prosperity. The Tiger will become extremely dynamic due to the Yang force which he bears withing him; thus he will be more enterprising and more creative. Profit from this period to start some new enterprise or develop your artistic talents - Wood is by nature poetic. However, always retain your flexibility; in this way you will find it easy to adapt and gain a new lease on life. This is the period to do so because your opportunism will be remarkably well paid."],
+      "Famous people born in the Year of the Wood Tiger": "Alec Guinness (1914), Oscar Wilde (1854), Madame Mao (1914)"
     },
     rabbit: {
       "Characteristics of the Wood Rabbit": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. It is an Element which suits the Rabbit perfectly. He will rediscover the mildness of the fertile and creative mid-season, which will restore his equilibrium, release his inventive powers and reinforce his taste for the beautiful. He will be pushed out of his nest and discover the spectacle of dawn. This Element will develop in the Rabbit a sense of adventure, a passion for travel and a love of nature. But Wood is also a symbol of violence, even of destruction and self-destruction. Although he will not lose his dignity nor his reserve, the Wood Rabbit will be vulnerable to internal jolts and passionate love storms which will leave him giddy and bewildered. If your instinctive impulses are allowed to dominate you, they will blind you. Overcome your aggresiveness; do not allow yourself to be drowned by your emotions."],
       Health: ["The organ of Wood is the liver; its flavour is acid. The Wood Rabbit will often be anxious, anguished and tormented. He will tend to worry and fret. Do not bite your paws, and be careful not to overeat."],
       "The Wood Rabbit and others": ["Socially, the Wood Rabbit is relaxed and calm and well in control of his anguished nature which, if unrestrained, would lead him to fail in all his enterprises and be catastrophic for those around him. His tendency to be self-destructive would be nourished and lead him to ruin. Faced with established rules, the Wood Rabbit opts for a supple attitude. He prefers to improvise and allow his imagination free rein, which encourages his creative spirit. The Wood Rabbit has poetic gifts and is attracted to the arts in general - unless he chooses horticulture or landscaping, which can please his sense of beauty and harmony while fulfilling his need for space and liberty."],
       "Some advice for a Wood Rabbit": ["You possess a good figure and are elegant, poetic and have an artistic soul. You do not appreciate restraints and obligations, so take responsibility for yourself and do not impose rigid restrictions on yourself or you will explode. Leave your anxiety in the cloakroom, polish your act as the aesthetic seducer and allow yourself to enjoy the applause."],
-      "The Year of the Wood Rabbit": ["The culminating point of a Wood Rabbit year will be spring, a period of growth and prosperity. He will be alive with a new energy urging him to create, whose principal source of inspiration will be nature. It is a year of harmony and suppleness which he must make use of with art and mastery. In some cases, however, the tendency may be reversed: there are criminal acts and conspiracies in the air."]
+      "The Year of the Wood Rabbit": ["The culminating point of a Wood Rabbit year will be spring, a period of growth and prosperity. He will be alive with a new energy urging him to create, whose principal source of inspiration will be nature. It is a year of harmony and suppleness which he must make use of with art and mastery. In some cases, however, the tendency may be reversed: there are criminal acts and conspiracies in the air."],
+      "Famous people born in the Year of the Wood Rabbit": "Thomas Carlyle (1795), John Keats (1795), Edith Piaf (1915), Orson Welles (1915)"
     },
     dragon: {
       "Characteristics of the Wood Dragon": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. The mid-season will be fertile and creative for the Dragon; it will bring equilibrium and the power to create; a taste for the beautiful, harmony and nature, inducing him to leave his subterranean grotto or come down from his nest. The Dragon will discover that there are treasures other than those he guards so jealously. Celestial, he will be able to place his feet more firmly on the ground; aquatic, he will discover the solid earth; and subterranean, he will surface and face the shining dawn. But Wood is also the symbol of excessive passion and anger; the Dragon should be careful of this tendency."],
@@ -53,14 +57,16 @@ const elementAnimalData = {
       "The Year of the Wood Dragon": [
         "The culminating point for a Wood Dragon year will be spring, a period of growth and prosperity.",
         "You will be full of renewed energy and will discover that you have a creative soul; nature will be your source of inspiration. It will bring you beauty, harmony and the suppleness necessary to accomplish your work."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Dragon": "Sarah Bernhardt (1844), Salvador Dalí (1904), Anatole France (1844), John Gielgud (1904), Graham Greene (1904), Immanuel Kant (1724), Friedrich Nietzsche (1844), Oppenheimer (1904), Francis Petrarch (1304), Nikolai Rimsky-Korsakov (1844), Paul Verlaine (1844)"
     },
     snake: {
       "Characteristics of the Wood Snake": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. Springtime will be fertile for the Snake, bringing him equilibrium and a sense of creation, encouraging him to develop his taste and desire for harmony and beauty. Nature will become his ally and inspiration, a fountain to which the Snake will go to slake his thirst, to become stronger and to discover nature's multiple powers and secrets. But Wood also contains passion, anger and vulnerability which, if excessive, has a tendency to cause one to lose all sense of proportion and, in turn, become destructive and devastating. The Snake should remain vigilant and lucid and try not to give in to this negative aspect of his Element."],
       Health: ["The organ of Wood is the liver; its flavour is acid. The Wood Snake will be anxious and tormented. He will suffer from a psychosomatic illness and will often need to compensate by overeating. Cakes and chocolates may then please him, but they will not please his liver."],
       "The Wood Snake and others": ["The Wood Element will have a positive influence on the Snake's social life. Aware of his weaknesses, such as his anxiety and self-questioning, he will respond to his predicament with a relaxed attitude, preferring his imagination to run free rather than be constricted by the rigid structures of a society in which he feels asphyxiated. This is a just and reasonable attitude especially suiting the Snake, who prefers the circle to the square and the curve to the angle. With deliberate improvisation, the Snake will extricate himself marvellously from the most difficult situations; he will glide and sneak in and out and let the storm pass; then, when it is all over, he will reappear, tranquil and calm. Inventive and creative, he will be a painter, poet, musician, craftsman, or even a gardener, nurseryman or landscape architect - someone who combines beauty with space."],
       "Some advice for a Wood Snake": ["You are a symbol of harmony, charm and beauty; you dream of space and liberty. Relax and yield to the imaginative. You have the soul of an artist, so do not close yourself up in an office or allow yourself to be choked by conventional pursuits. Being of Wood, you would end up drying up."],
-      "The Year of the Wood Snake": ["The culminating point for a Wood Snake year will be spring, a period of growth and prosperity. Beauty and harmony will be your companions during this year. The Wood Snake will be in his best physical and mental form, supple and intuitive."]
+      "The Year of the Wood Snake": ["The culminating point for a Wood Snake year will be spring, a period of growth and prosperity. Beauty and harmony will be your companions during this year. The Wood Snake will be in his best physical and mental form, supple and intuitive."],
+      "Famous people born in the Year of the Wood Snake": "Gabriel Faure (1845), Arthur Fleming (1905), Henry Fonda (1905), Greta Garbo (1905), Jean-Paul Sartre (1905), Cicero (106 BCE)"
     },
     horse: {
       "Characteristics of the Wood Horse": ["Wood is of the morning and of springtime. Its temperate nature loves harmony and beauty. This season will be fruitful and creative for this elegant Horse. It will bring equilibrium and power and, by moderating his impetuous spirit and strengthening his creative powers, develop his sense of beauty and need for harmony to the maximum. Nature in its entirety will be offered to the Horse, attracting him far from the stable, offering him the promise of new spaces to conquer and lands to discover, which will satisfy his impatient, passionate nature. But, like the Horse, Wood is also passionate, excessive and easily carried away, and the Wood Horse will thus often be vulnerable, jealous and possessive."],
@@ -70,7 +76,8 @@ const elementAnimalData = {
       "The Year of the Wood Horse": [
         "The culminating point for a Wood Horse year will be spring, a period of growth and prosperity.",
         "This will be a creative year, full of new energy and strength, ideas and projects. Apparently insoluble conflicts and problems can be resolved."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Horse": "Edgar Degas (1834), Aldous Huxley (1894), Nikita Khrushchev (1894), Jean Renoir (1894), Duke of Windsor (Edward VIII) (1894)"
     },
     goat: {
       "Characteristics of the Wood Goat": ["Wood is of the morning and of springtime. Its temperate nature loves harmony, beauty and elegance. Springtime is a symbol of gentleness, a period in which all of nature awakens and opens itself to the forces of youth, creation and growth. This Element will be fruitful for the Goat, bringing him equilibrium and the power of creation, a taste for beauty and harmony. What could be more ideal for an artistic, discriminating and sensitive Goat, the mother of nature? You will descend from the clouds, your walk nonchalant and your eyes bright. Your curiosity will be satisfied, for you will go tirelessly from discovery to discovery. Your life will be lived in gentleness, full of charm and good humour and imbued with art and harmony. However, be careful: Wood is an ambivalent Element subject to anger, passion and excess. This influence could impel you to outbursts and intemperate and disconcerting violence."],
@@ -80,7 +87,8 @@ const elementAnimalData = {
       "The Year of the Wood Goat": [
         "The culminating point for a Wood Goat year will be spring, a period of growth and prosperity. The Yang tendency of the Goat will be added to the Yang of springtime.",
         "You are going to have a harmonious year, evolving with good humour and curiosity by way of the arts and nature. So take care; control your vulnerability and ensure that it does not break this vernal gentleness."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Goat": "Cesare Borgia (1475), Michelangelo (1475)"
     },
     monkey: {
       "Characteristics of the Wood Monkey": [
@@ -103,7 +111,8 @@ const elementAnimalData = {
       "The Year of the Wood Rooster": [
         "The culminating point for a Wood Rooster year will be spring, a period of growth and prosperity.",
         "Profit from this year to recharge your batteries. Be creative, discover Mother Nature and do not give in to anger; be supple, tolerant and seek harmony."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Rooster": "Johann Strauss II (1825), Cardinal Richelieu (1585)"
     },
     dog: {
       "Characteristics of the Wood Dog": [
@@ -132,7 +141,8 @@ const elementAnimalData = {
       "The Year of the Wood Pig": [
         "The culminating point for a Wood Pig year will be spring, a period of growth and prosperity.",
         "A harmonious and balanced year, favourable for artists and creators. Remain in contact with nature, which will sharpen your sensitivity. Be more diplomatic and tolerant; accept the fact that others may not always think as you do."
-      ]
+      ],
+      "Famous people born in the Year of the Wood Pig": "Jack London (1876), Wolfgang Amadeus Mozart (1756), Konrad Adenauer (1876)"
     }
   },
   fire: {
@@ -147,7 +157,8 @@ const elementAnimalData = {
       "The Year of the Fire Rat": [
         "The culminating point of the Fire Rat will be summer, the period of creation, of material or spiritual advances, an active period but one which tends to become devouring. Leaving winter behind him, the Rat will move away from his Northern territory and travel South, to warm himself under the summer sun. Abandoning his Yin aspect, he will stretch towards the hyperdynamic 'great Yang'.",
         "Tendency of the year: This is a year favourable to cultural development, but there lurks a danger of overreaction in all areas, often synonymous with a general sense of uneasiness, sometimes disguised by a destructive whirl of activity."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Rat": "Charlotte Brontë (1816), Mata Hari (1876), Pablo Casals (1876), Manuel de Falla (1876)"
     },
     ox: {
       "Characteristics of the Fire Ox": ["The Fire element is of the midday, of the South, of summer. Fire is Yang; it is the element which animates; it quickens and transforms. For the Ox, Fire will be a flame to emblazon his feeling for harmony and beauty; for this dreamer it will be a creative, or perhaps even mystical, spark. But it can also blind or devour him. Fire is light or joy - also, at times, the symbol of destruction."],
@@ -157,14 +168,16 @@ const elementAnimalData = {
       "The Year of the Fire Ox": [
         "The culminating point for a Fire Ox year will be summer, a period of creation and material and spiritual progress; an active year which you will move through at high speed. Take care not to run out of breath, slow down if necessary and do not overdo things.",
         "Tendency of the year: An excellent, rich and productive year, fertile in every sense and in all directions. Nevertheless, try to relax: hypertention can lead to depression. Fire heats and animates, but it also consumes: a single spark can ignite an entire town."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Ox": "Marquis de Lafayette (1757), William Blake (1757), Richard the Lionheart (1157), Peter Paul Rubens (1577), Isadora Duncan (1877)"
     },
     tiger: {
       "Characteristics of the Fire Tiger": ["The Fire element is of midday, of the South, of summer. Fire is Yang, it animates, quickens and transforms. For the Tiger, Fire will be a flame of energy and dynamism, a creative, stimulating and rapid force. Refrain from pulling on this feline's whiskers, for he will leap at your throat. Ideas will flash and fly as fast as lightning and answers will be right on target. But be careful of asking questions to which he can find no solution, for the Fire Tiger can be as explosive as nitroglycerin."],
       Health: ["The organ of Fire is the heart; its flavour is bitter. The Fire Tiger should look after his heart. Living under high pressure, he should slow down a little if he wishes to avoid a heart attack."],
       "The Fire Tiger and others": ["Fire is often a symbol of war. As an Element of lucidity and clairvoyance, it is also a symbol of passion and violence. Happily, the moderation of the Tiger and his double Yin-Yang nature will balance and temper this sometimes destructive Element. Although the Fire Tiger is impetuous and ardent, he is also lucid and active; a loyal, royal and virtuous Tiger - unless, of course, he joins a circus."],
       "Some advice for a Fire Tiger": ["By playing with Fire you risk burning your boasts and transforming your life into a desert. A little moderation is called for."],
-      "The Year of the Fire Tiger": ["The culminating point for a Fire Tiger year will be summer, a period of creation and spiritual progress. While it is a hyperactive year, do not allow the Fire which devours to overwhelm you. Leaving the East to go South, the Fire Tiger will be doubly Yang, approaching the 'great Yang'. An overwhelming year: be careful of fire smouldering under ashes and smoking in the bowels of volcanoes."]
+      "The Year of the Fire Tiger": ["The culminating point for a Fire Tiger year will be summer, a period of creation and spiritual progress. While it is a hyperactive year, do not allow the Fire which devours to overwhelm you. Leaving the East to go South, the Fire Tiger will be doubly Yang, approaching the 'great Yang'. An overwhelming year: be careful of fire smouldering under ashes and smoking in the bowels of volcanoes."],
+      "Famous people born in the Year of the Fire Tiger": "Sun Yat-sen (1866), H. G. Wells (1866), Queen Christina of Sweden (1626), Elizabeth II (1926), Francisco Goya (1746), Wassily Kandinsky (1866), Jerry Lewis (1926), Marilyn Monroe (1926), Fidel Castro (1926)"
     },
     rabbit: {
       "Characteristics of the Fire Rabbit": [
@@ -174,7 +187,8 @@ const elementAnimalData = {
       Health: ["The organ of Fire is the heart; its flavour is bitter. Fire of summer and of the South, it will consume the Yin of the Rabbit. Be careful of changes in temperature. Avoid outbursts of anger and distrust your tendency towards aggressiveness - do not allow yourself to become violent. Keep a close watch on your heart. Eat vegetables rather than meat."],
       "The Fire Rabbit and others": ["Fire is often a symbol of war, passion and violence. The Fire Rabbit prefers aggressiveness and open confrontation to diplomatic compromise; coming to terms is not his strong point. A man of action and combat, he combines energy with daring. However, due to his prudence and reserve, he will not hesitate, if need be, to send others to the frontline so that he can be the first to reap any rewards. The Fire Rabbit will be artistic, original and anticonformist, and will be happy in this environment provided his life is well-organized."],
       "Some advice for a Fire Rabbit": ["Although you are strongly attracted to distinguished and bold actions and wild adventures, you should remain faithful to your deepest nature. Reason should always be in control of your excesses, which are not always sincere unless they are symptomatic of an inner crisis and are thus therapeutic."],
-      "The Year of the Fire Rabbit": ["The culminating point of a Fire Rabbit year will be summer, a period of creation, material and spiritual uplift and action, but often slightly consuming. The Rabbit will leave the full moon of mid-autumn to warm himself in the summer sun of the South. His Yin tendency will move towards the Great Yang, which will provide him with remarkable dynamism."]
+      "The Year of the Fire Rabbit": ["The culminating point of a Fire Rabbit year will be summer, a period of creation, material and spiritual uplift and action, but often slightly consuming. The Rabbit will leave the full moon of mid-autumn to warm himself in the summer sun of the South. His Yin tendency will move towards the Great Yang, which will provide him with remarkable dynamism."],
+      "Famous people born in the Year of the Fire Rabbit": "Pierre Bonnard (1867), Marie Curie (1867), Giuseppe Garibaldi (1807), Luigi Pirandello (1867), Arturo Toscanini (1867), Charles Perrault (1628), Emanuel Swedenborg (1688)"
     },
     dragon: {
       "Characteristics of the Fire Dragon": [
@@ -187,7 +201,8 @@ const elementAnimalData = {
       "The Year of the Fire Dragon": [
         "The culminating point in a Fire Dragon year will be summer, a period of creation. Your Yang tendency will bring you indestructible dynamism.",
         "This will be a year of action and creation, of material success and spiritual elevation. However, do not let your Fire devour your body and soul. At a critical moment, a sudden leap can assure you unexpected triumph."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Dragon": "Sigmund Freud (1856), Edward Heath (1916), François Mitterrand (1916), Philippe Pétain (1856), G. B. Shaw (1856), Harold Wilson (1916)"
     },
     snake: {
       "Characteristics of the Fire Snake": [
@@ -200,7 +215,8 @@ const elementAnimalData = {
         "Alas, tolerance will not be his strong point; he will sometimes have to know how to throw water on his Fire, unless he is to end by mounting the pyre that he himself has lit."
       ],
       "Some advice for a Fire Snake": ["Take things upon yourself, but moderate your flame; you too easily set things ablaze and stir up discord which can turn against you."],
-      "The Year of the Fire Snake": ["The culminating point for a Fire Snake year will be summer, a period of creation. Your Yang tendency will stretch towards the 'Great Yang', which will bring an unquenchable dynamism."]
+      "The Year of the Fire Snake": ["The culminating point for a Fire Snake year will be summer, a period of creation. Your Yang tendency will stretch towards the 'Great Yang', which will bring an unquenchable dynamism."],
+      "Famous people born in the Year of the Fire Snake": "Robert Baden-Powell (1857), John Kennedy (1917), Franz Schubert (1797), Gamal Abdel Nasser (January 1918)"
     },
     horse: {
       "Characteristics of the Fire Horse": ["The Fire element is of midday, the South and summer. Fire is Yang, it is the Element which warms, burns, animates, quickens, transforms and overthrows. The Fire inside a Horse will become a formidable source of energy, a constant reservoir he can resort to. His need for perpetual movement, action and voyages; physical emotional and intellectual adventures will all be supported. The Fire Horse will always thirst for light, in all its forms; forever unsatisfied, he will always wish for something better, something just beyond his grasp. However, he should beware of the Fire within him which, if he does not remain its master, will quickly consume him. All of the Horse's strength depends on his capacity to transform energy, a task he should never neglect."],
@@ -210,7 +226,8 @@ const elementAnimalData = {
       "The Year of the Fire Horse": [
         "The culminating point for a Fire Horse year will be summer, a period of creation. Your Yang tendency will incline towards the Great Yang, bringing dynamism and vitality.",
         "A favourable year for action and creation. You should be successful in many areas."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Horse": "Josephine Baker (1906), Samuel Beckett (1906), Buffalo Bill (1846), Dmitri Shostakovich (1906), Davy Crockett (1786), John Huston (1906), Henri Charrière (1906), Rembrandt (1606), Roberto Rossellini (1906), Thomas Edison (February 1847)"
     },
     goat: {
       "Characteristics of the Fire Goat": ["The Fire element is of the midday, of the South, of summer. Fire is Yang; it is the Element which animates, quickens and transforms. The Fire inside a Goat will bring an increase in energy. It will be a force of inspiration, a catalyst for expressiveness; a source of inventive ardour and original images for this artistic and creative sign. However, the Goat should scrupulously attend to his Fire: should it become smothered and go out, the Goat will be reduced to a state of anxiety followed by repression and self-criticism, leading to a permanent and, finally, sterilizing self-doubt."],
@@ -220,7 +237,8 @@ const elementAnimalData = {
       "The Year of the Fire Goat": [
         "The culminating point for a Fire Goat year will be summer, a period of creation.",
         "An active year in which you can give free rein to your imagination, which will express itself in a concrete form and bring you much satisfaction. However, use your talents economically; do not dissipate your energies or they will go up in smoke."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Goat": "Simone de Beauvoir (January 1908), Miguel de Cervantes (1547), Louis Daguerre (1787), Daphne du Maurier (1907)"
     },
     monkey: {
       "Characteristics of the Fire Monkey": [
@@ -243,7 +261,8 @@ const elementAnimalData = {
       "The Year of the Fire Rooster": [
         "The culminating point for a Fire Rooster year will be summer, a period of creation.",
         "This will be an active and enriching year, both materially and spiritually, and you will be full of energy. However, do not do too much nor spread yourself too thin or you will tire and lose confidence."
-      ]
+      ],
+
     },
     dog: {
       "Characteristics of the Fire Dog": [
@@ -259,7 +278,8 @@ const elementAnimalData = {
       "The Year of the Fire Dog": [
         "The culminating point for a Fire Dog year will be the summer, a period of creation.",
         "An active, aggressive year, full of energy, which will bring you material success or attainment of that spiritual universe which so attracts you. But be careful: do not disperse your energy nor consume yourself with vain display."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Dog": "Desiderius Erasmus (1466)"
     },
     pig: {
       "Characteristics of the Fire Pig": [
@@ -272,7 +292,8 @@ const elementAnimalData = {
       "The Year of the Fire Pig": [
         "The culminating point for a Fire Pig year will be the summer, a period of creation.",
         "This will be a year of action; you will be able to use your energies to be aggressive and courageous. Luck will smile on you during the entire year. However, learn how to control yourself: do not give in to outbursts of anger and avoid dispersing your gifts too widely. A year full of creativity lies before you."
-      ]
+      ],
+      "Famous people born in the Year of the Fire Pig": "Chiang Kai-shek (1887)"
     }
   },
   earth: {
@@ -285,7 +306,8 @@ const elementAnimalData = {
         "The culminating point - summer.",
         "The Earth Rat will be extremely well-provided for, indeed well-off. Summer being the period of abundance, he will not have to search for nourishment. Freed from material contingencies, he should give himself to others, not imprison himself in a comfort essentially gangrenous and self-destructive.",
         "Tendency for the year: Creativity and productivity; knowing how to receive without forgetting to give!"
-      ]
+      ],
+      "Famous people born in the Year of the Earth Rat": "François-René de Chateaubriand (1768), Henrik Ibsen (1828), Leo Tolstoy (1828), Lawrence of Arabia (1888), Maurice Chevalier (1888), Charlemagne (748)"
     },
     ox: {
       "Characteristics of the Earth Ox": ["This is an afternoon Earth, the humid and hot Earth of summer. For the Ox, this heavy, abundant and fertile earth of rich grasslands, symbol of retreat and contemplation, is a paradise. Alas, it can also encroach upon him, stick to his hooves and deaden his tread; the grasslands may become a swamp. Although the Ox is close to the Earth, he should not be its prisoner. He must release it, not be buried beneath it, body and soul."],
@@ -295,21 +317,24 @@ const elementAnimalData = {
       "The Year of the Earth Ox": [
         "The culminating point is summer. The Earth Ox will be in his element. Because it is a year of abundance and fertility, he will have no material problems. The Ox will feel even freer than usual and will want to discover other lands. He should, however, be prepared for a gregarious life, be outgoing and keep his egotism under control, rather than wrapping himself up in comfortable solitude.",
         "Tendency of the year: Propitious for creators and productive for businessmen and craftsmen; but do not forget that there are other animals on this earth. The more brilliant and original the talent, the more likely it is to be recognized."
-      ]
+      ],
+      "Famous people born in the Year of the Earth Ox": "Niccolò Machiavelli (1469), Charlie Chaplin (1889), Jean Cocteau (1889), Geronimo (1829), Martin Heidegger (1889), Adolf Hitler (1889), Napoléon Bonaparte (1769), Jawaharlal Nehru (1889), Arthur Wellesley, 1st Duke of Wellington (1769), Pergolese (January 1710)"
     },
     tiger: {
       "Characteristics of the Earth Tiger": ["This is an afternoon Earth, the humid and hot Earth of summer. It is a favourable Element for the Tiger, who will blossom. It will be a place of meditation, a refuge and a hiding place from which he can safely watch out for prey. But he should be careful not to become too dependent on it or allow himself to be trapped by the sticky warmth which saturates his robe. It is important that his Yang aspect should serve as a catalyst for his actions, inciting him to leave his refuge and wander at will. For the Tiger, the Earth Element can be a little too comfortable, and he risks anaesthetizing his irreplaceable dynamic virtues."],
       Health: ["The Earth's organ is the spleen; its flavour is sweet. Unless he leaves his chosen lair, the Earth Tiger will be reduced quickly to a heavy tomcat. Encroachment of the body means encroachment of the mind. No Tiger sleeps on cotton-wool, and so he must stretch his limbs, roar his warcry and do his exercises. Do not overeat - choose raw vegetable as your diet."],
       "The Earth Tiger and others": ["The Tiger has his feet firmly on the ground. He behaves prudently, sometimes even egotistically. His sense of propriety is highly developed but he only attains his objectives at the price of repeated and often endless efforts. He will be crafty enough to intimidate those who question him and will make an excellent financier or a clever banker. Within the family circle he has a tendency to play the despotic patriarch. Mrs Earth Tiger often appears charming and fascinating, but can also appear slightly vampish."],
       "Some advice for an Earth Tiger": ["Although you dream of fortresses or impregnable castles, go out a bit, expand your horizons and do not retreat or contemplate too much or stand stiffly by your safe deposit box. The Earth Tiger is first and foremost a seducer; so, if you do not want to be offered a basket to sleep in, show your fangs, get on the road and stop locking your door."],
-      "The Year of the Earth Tiger": ["The culminating point for an Earth Tiger year is summer. The Tiger will find comfort and security, abundance and good hunting during this season. However, profit from this period by finding time to turn towards others. Do not over-cultivate your feeling of superiority; this could rebound and disrupt your peace."]
+      "The Year of the Earth Tiger": ["The culminating point for an Earth Tiger year is summer. The Tiger will find comfort and security, abundance and good hunting during this season. However, profit from this period by finding time to turn towards others. Do not over-cultivate your feeling of superiority; this could rebound and disrupt your peace."],
+      "Famous people born in the Year of the Earth Tiger": "Louis XIV (1638), Karl Marx (1818), Joseph Stalin (1878), Emily Brontë (1818), Robespierre (1758)"
     },
     rabbit: {
       "Characteristics of the Earth Rabbit": ["This is an afternoon Earth, the humid and hot Earth of summer. It is the symbol of the well-cushioned, soft nest, of comfort and abundance; an Earth of slow and profound transformations. It is a blessing for the Rabbit, a warm refuge for repose and solitude, inviting him to meditate and dream. Here he will be far from the aggressions of the outside world, safe from indiscreet looks, trials and tribulations. But care is needed: the Rabbit tends to be a bit of a stay-at-home, and the Earth Element is likely to aggravate this tendency, turning him into a lazy and sated animal."],
       Health: ["The Earth's organ is the spleen; its flavour is sweet. A sensualist, complete with moustache and cushions, inclined to the good life, the Earth Rabbit should leave his nest and indulge in sports for the sake of his mental health. If the Earth Rabbit does not rouse himself he will become a short-winded, fat miser."],
       "The Earth Rabbit and others": ["The Rabbit will certainly have his paws on the ground. Materialistic and prudent, he will be a good financier, subtle banker or a shrewd businessman. He will be the kind of whom one says 'he made himself through sheer hard work'. And this is true: he is a hard worker who accumulates the fruits of his efforts and will amass money and speculate with it. He possesses a strong family sense and will often be a despotic parent, brooding over his offspring to the point of smothering them."],
       "Some advice for an Earth Rabbit": ["Above all, do not become too wrapped up in yourself. Broaden your horizons, take a holiday, mingle with others or participate in group work. Do not confine yourself to a world of mortgages and inventories. You need outdoor activity. Interest yourself in something other than your nest and your clover. Find a hobby. A little passion in your life would help loosen your overly rigid lifestyle."],
-      "The Year of the Earth Rabbit": ["The culminating point of an Earth Rabbit year is summer. It is a favourable year in which the Rabbit will no longer have to hunt to feed himself and he will be served on a silver platter. Thus freed from daily obligations, the Rabbit should offer his services to some charitable activity. Be watchful of your attitude towards your personal comforts - you could well become narcissistic."]
+      "The Year of the Earth Rabbit": ["The culminating point of an Earth Rabbit year is summer. It is a favourable year in which the Rabbit will no longer have to hunt to feed himself and he will be served on a silver platter. Thus freed from daily obligations, the Rabbit should offer his services to some charitable activity. Be watchful of your attitude towards your personal comforts - you could well become narcissistic."],
+      "Famous people born in the Year of the Earth Rabbit": "Emiliano Zapata (1879), Jean-Baptiste-Siméon Chardin (1699), Gustave Courbet (1819), Albert Einstein (1879), Paul Klee (1879), Catherine de Medici (1519), Jacques Offenbach (1819), Jean Racine (1639), Friedrich Schiller (1759), Leon Trotsky (1879), Queen Victoria (1819), Anne Bronte (January 1820), Georges Danton (1759), Douglas MacArthur (January 1880)"
     },
     dragon: {
       "Characteristics of the Earth Dragon": [
@@ -319,7 +344,8 @@ const elementAnimalData = {
       Health: ["The Earth's organ is the spleen; its flavour is sweet. If the Earth Dragon does not become active he may become morose and gain weight. If you do not take hold of yourself in time you may suffer from mental paralysis, and a shapeless Dragon will frighten no one - so stand up and exert some energy."],
       "The Earth Dragon and others": ["The Earth Dragon is more realistic than the other Dragons. He is materialistic, prudent and suspicious, and tends to enjoy accumulating wealth and speculating. He will be a hard and conscientious worker, but, due to his fear of taking risks, he may lack imagination. He will be an understanding father, and Mrs Dragon will be exceedingly material."],
       "Some advice for an Earth Dragon": ["You stay at home too much and think too much about your work; becoming maniacal and despotic. If you do not change your habits, people will start to avoid you. Add a bit of feeling to your relationships, become more fervent; learn to dream a little."],
-      "The Year of the Earth Dragon": ["The culminating point for an Earth Dragon year will be summer, which is favourable for the Dragon. Freed from material constraints, the Dragon can devote himself to creating and research. However, do not close yourself up in your ivory tower; open the doors, widen your horizons, listen to your heart. Isolation could lead to mistakes in judgement and to catastrophe."]
+      "The Year of the Earth Dragon": ["The culminating point for an Earth Dragon year will be summer, which is favourable for the Dragon. Freed from material constraints, the Dragon can devote himself to creating and research. However, do not close yourself up in your ivory tower; open the doors, widen your horizons, listen to your heart. Isolation could lead to mistakes in judgement and to catastrophe."],
+      "Famous people born in the Year of the Earth Dragon": "Honoré Daumier (1808), Louis David (1748), Maxim Gorky (1868), Napoleon III (1808), Tsar Nicolas II (1868), Karlheinz Stockhausen (1928), Roger Vadim (1928), Édouard Vuillard (1868), Louis Braille (January 1809), Charles Darwin (February 1809), Abraham Lincoln (February 1809), Martin Luther King Jr. (February 1929), Felix Mendelssohn (February 1809), Charles de Montesquieu (January 1689), Edgar Allan Poe (January 1809)"
     },
     snake: {
       "Characteristics of the Earth Snake": [
@@ -329,7 +355,8 @@ const elementAnimalData = {
       Health: ["The Earth's organ is the spleen; its flavour is sweet. The Earth Snake should not remain inactive; he needs fresh air. He must summon up a certain aggressiveness to stimulate him if he is to maintain his charm."],
       "The Earth Snake and others": ["He will be prudent and circumspect, not getting involved lightly, weighing everything carefully and studying the terrain. Distrustful and suspicious by nature, he will be a gifted speculator and a prudent manager, slowly, surely and meticulously amassing wealth - sometimes by debatable means - and adept at concealing it. He has a sense of responsibility and admirably fulfils his role as head of the family, although at times he can be slightly despotic."],
       "Some advice for an Earth Snake": ["You are often a stay-at-home: go out, communicate with others and keep up with the times; do not close yourself up in your dreams or your past. Put an end to your anxiety and, above all, to old habits - conventional bachelors and spinsters are not attractive. If you cannot overcome your distrust in the business world, at least make an effort to open up on a human level, especially on an emotional one. You will enjoy your success, for you can then breathe security while remaining creative."],
-      "The Year of the Earth Snake": ["The culminating point of an Earth Snake year will be summer. Summer is favourable for the Snake: free from all material constraints, discover the joys of creation, research and study. But do not close yourself up; leave your hole, come out from underneath the stone and take a sun - not a sleeping - cure. Be more sure of yourself, reach further towards the world and the people in it."]
+      "The Year of the Earth Snake": ["The culminating point of an Earth Snake year will be summer. Summer is favourable for the Snake: free from all material constraints, discover the joys of creation, research and study. But do not close yourself up; leave your hole, come out from underneath the stone and take a sun - not a sleeping - cure. Be more sure of yourself, reach further towards the world and the people in it."],
+      "Famous people born in the Year of the Earth Snake": "John Calvin (1509), Mahatma Gandhi (1869), Andre Gide (1869), William Ewart Gladstone (1809), Johann Wolfgang von Goethe (1749), Nikolai Gogol (1809), Princess Grace (1929), Henri Désiré Landru (1869), Henri Matisse (1869), Jacqueline Onassis (1929), Alfred Tennyson (1809)"
     },
     horse: {
       "Characteristics of the Earth Horse": ["This is an afternoon Earth, the humid and hot Earth of summer. It is the symbol of the well-cushioned, soft nest, of comfort and abundance; an Earth of slow and profound transformations. It is an Earth blessed for the Horse who tramples, works and conquers it. But the Earth is also a symbol of refuge, repose and reverie, inviting the Horse to reflect and meditate. Although in communion with the Earth Element, the Horse should not be its prisoner, for then he will be reduced to a beast of burden and will lose his celestial character, deprived of his starry course among the angels of heaven. The Earth will claim him as it supports his hooves."],
@@ -339,7 +366,8 @@ const elementAnimalData = {
       "The Year of the Earth Horse": [
         "The Earth is a productive Element representing the centre.",
         "The culminating point of an Earth Horse year will be summer. The Horse will no longer be constrained to seek his daily bread and, free of all constraints, will recapture his taste for wide-open spaces and rediscover his freedome of movement. But he should guard against his excessive and fervent nature, for its lively and uncontrolled expression could lead him to make catastrophic errors."
-      ]
+      ],
+      "Famous people born in the Year of the Earth Horse": "Ingmar Bergman (1918), Eugène Delacroix (1798), Giacomo Puccini (1858), Theodore Roosevelt (1858), Anwar Sadat (1918), Aleksandr Solzhenitsyn (1918), Antonio Vivaldi (1678)"
     },
     goat: {
       "Characteristics of the Earth Goat": [
@@ -349,7 +377,8 @@ const elementAnimalData = {
       Health: ["The Earth's organ is the spleen; its flavour is sweet. The Earth Goat should make sure to remain active, otherwise he will become morose and gain weight, which would considerably impede his excursions into the world of dreams and fantasy. Meditation would then rapidly become lax and self-destructive. Live outdoors: you have nothing in common with the underground crawling creatures; above all, your are light and airy and belong to the heavens."],
       "The Earth Goat and others": ["The Earth Goat will be more realistic than the other Goats, which will cause him to be both more prudent and more mistrustful. Unlike the others, he will prefer to make money, accumulate it and speculate with it. He will possess some talent for work and a professional conscience, but will rarely have any breadth of vision, for his carefree and whimsical character will always get the upper hand. However, in an artistic profession - above all the stage - he will bring seriousness to everything he undertakes, and still amass some savings for rainy days. His dreams, tinged with a certain gravity and slightly romantic melancholy, can push him towards philosophy, religion or the occult sciences. While this will soothe his anxieties and provide a secure channel for his secret fears, his need for friendship and universal love will become inflamed by his passion for ritual and daily devotion."],
       "Some advice for an Earth Goat": ["The studious and far-sighted character of your earthly nature will never put an end to your tricks and impulsive pranks. So do not keep your head lowered, staring down at the toes of your boots: raise your eyes and contemplate the stars."],
-      "The Year of the Earth Goat": ["The culminating point for an Earth Goat year is summer, when the Earth is hot and humid. You can turn towards what attracts you - the arts in general - for this year you will be free of material constraints and so, simply free. Know how to make the most of this year; avoid idleness and inertia, which would not be good for you. You need the broad daylight, the fresh open air and space."]
+      "The Year of the Earth Goat": ["The culminating point for an Earth Goat year is summer, when the Earth is hot and humid. You can turn towards what attracts you - the arts in general - for this year you will be free of material constraints and so, simply free. Know how to make the most of this year; avoid idleness and inertia, which would not be good for you. You need the broad daylight, the fresh open air and space."],
+      "Famous people born in the Year of the Earth Goat": "Eva Peron (1919), Honore de Balzac (1799), Cyrano de Bergerac (1619), Pierre Curie (1859)"
     },
     monkey: {
       "Characteristics of the Earth Monkey": [
@@ -373,7 +402,8 @@ const elementAnimalData = {
       "The Year of the Earth Rooster": [
         "The culminating point for an Earth Rooster year will be summer.",
         "It will be a favourable time for the Rooster, who will no longer need to worry about how he is to eat. Freed from this constraint, the Earth Rooster should overcome his egotism, open his heart and enlarge his horizons beyond his 'territory'."
-      ]
+      ],
+      "Famous people born in the Year of the Earth Rooster": "Eugène Ionesco (1909)"
     },
     dog: {
       "Characteristics of the Earth Dog": [
@@ -409,7 +439,8 @@ const elementAnimalData = {
         "The culminating point will be autumn, when he must beware of self-destruction.",
         "The winter Rat will leave the North for the West, his Yin tendency will be reinforced by the Yin of autumn, and this may be accompanied by a loss of speed, of energy and of dynamism. There is a danger of regression.",
         "Tendency of the year: A period of dryness, of hardening; a period favourable for a dictatorial regime favouring a military state."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Rat": "Luis Buñuel (1900), Claude Monet (1840), Auguste Rodin (1840), Pyotr Ilyich Tchaikovsky (1840), Émile Zola (1840), Antoine de Saint-Exupéry (1900), Lucrezia Borgia (1480), Charles I (1600), Carl von Clausewitz (1780), Heinrich Himmler (1900)"
     },
     ox: {
       "Characteristics of the Metal Ox": ["Metal is of the night, of the autumn and of cold. It symbolizes clarity, purity and precision. You tend to be rigid, perhaps even austere. You are an excellent administrator and an organizer who will be an incisive and implacable leader. You need the concrete, the real, and to the devil with sensitivity and nice feelings; the important thing is to achieve the goal. A touch moralistic, you are attracted to the mystical and the ascetic. Will you therefore choose isolation and give up society? Does your body, so strongly allied to the Earth, seem so heavy? In short, be careful: there is danger of your being too austere and a killjoy."],
@@ -419,7 +450,8 @@ const elementAnimalData = {
       "The Year of the Metal Ox": [
         "The culminating point in the year of a Metal Ox will be autumn. He will leave the wintery North to travel West. His Yin tendency will be strengthened by the Yin of autumn, a combination associated with lethargy and a perceptible lessening of dynamic force.",
         "Tendency of the year: Hardening and dryness, both physically and morally. Be careful not to adopt 'regulations' at odds with your nature: at best these will bring you temporary victory, but more likely prolonged depression. One thinks one has wone, but one has lost more than from defeat. Too late and one will ask, who was the true victor?"
-      ]
+      ],
+      "Famous people born in the Year of the Metal Ox": "Madame de Pompadour (1721), Georges Clemenceau (1841), Walt Disney (1901), Jean Dubuffet (1901), Antonín Dvořák (1841), Alberto Giacometti (1901), André Malraux (1901), Pierre-Auguste Renoir (1841), Charles Lindbergh (February 1902), Barbara Cartland (1901)"
     },
     tiger: {
       "Characteristics of the Metal Tiger": [
@@ -432,7 +464,8 @@ const elementAnimalData = {
       "The Year of the Metal Tiger": [
         "The culminating point in a Metal Tiger year will be autumn.",
         "You will leave the East for the West; your Yin tendency will be strengthened by the Yin aspect of autumn, which sometimes causes a loss of energy and dynamism. Beware of self-destructive or masochistic tendencies; be less stiff and less introverted. Work at becoming physically and mentally supple - otherwise you will be exposed to the worst violence of your feelings."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Tiger": "Dwight D. Eisenhower (1890), Ho Chi Minh (1890), Vyacheslav Molotov (1890), Agatha Christie (1890), Beethoven (1770), Charles de Gaulle (1890)"
     },
     rabbit: {
       "Characteristics of the Metal Rabbit": [
@@ -442,7 +475,8 @@ const elementAnimalData = {
       Health: ["Metal's organ is the lung; its flavour is pungent. In seeking an equilibrium, the Metal Rabbit must keep a watch on his lungs, for their proper function is a source of physical and spiritual harmony. Blockages of all kinds can be dangerous. Do not allow your organs and heart to dry up!"],
       "The Metal Rabbit and others": ["The Metal Rabbit is energetic, constant and a man of his word. He can be a warrior or a man of the law. He commands, judges and decides. He has a good feel for organizations, but at times may be slightly too blunt in his approach - plain-speaking will come more easily to him than tact and diplomacy. Maintain the moral and physical suppleness of the Rabbit; a stiff neck and a dry, cold heart are not in the nature of your symbolic animal. Rediscover agility, grace and patience. Be energetic, but do not forget that the excessive, in any form, turns against its author. File down your claws and become more supple; indulgence is not necessarily self-indulgence."],
       "Some advice for a Metal Rabbit": ["Do some relaxing exercises or yoga. Write poems and listen to music; do not encase yourself in an iron corset - it will harm your fur."],
-      "The Year of the Metal Rabbit": ["The culminating point of a Metal Rabbit year will be autumn. You will often experience a loss of energy and dynamism, and suffer from depression and a lack of self-confidence. This may perhaps be due to a lack of suppleness or a certain moral stiffness which does not suit your deepest nature. A period of waiting and uncertainty."]
+      "The Year of the Metal Rabbit": ["The culminating point of a Metal Rabbit year will be autumn. You will often experience a loss of energy and dynamism, and suffer from depression and a lack of self-confidence. This may perhaps be due to a lack of suppleness or a certain moral stiffness which does not suit your deepest nature. A period of waiting and uncertainty."],
+      "Famous people born in the Year of the Metal Rabbit": "Max Ernst (1891), Henry Miller (1891), Sergei Prokofiev (1891), Erwin Rommel (1891), Walter Scott (1771), Joan of Arc (1412), Lewis Carroll (1832), Frederick the Great (1712), Édouard Manet (1832)"
     },
     dragon: {
       "Characteristics of the Metal Dragon": [
@@ -455,7 +489,8 @@ const elementAnimalData = {
       "The Year of the Metal Dragon": [
         "The culminating point in a Metal Dragon year will be autumn. The Yin tendency of the mid-season will blend with the Yang of the Dragon, making him more temperate and balanced.",
         "Do not confuse suppleness with relaxation or a loss of energy. Use this period to pay more attention to yourself and to others; this will be favourable for you if you do not allow yourself to feel guilty because you are letting go. There are times when it is better to bend than to break, which requires strength and self-control."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Dragon": "Friedrich Engels (1820)"
     },
     snake: {
       "Characteristics of the Metal Snake": [
@@ -468,7 +503,8 @@ const elementAnimalData = {
       "The Year of the Metal Snake": [
         "The culminating point for a Metal Snake year will be autumn. The Yin tendency of the mid-season will unite with the Yang of the Snake, bringing moderation and equilibrium.",
         "Profit from the alternation of Yin and Yang to rediscover your ancestral suppleness; release your armour and relax morally and physically. You have everything to gain, for rigidity is not a necessary element in governing; learn that relaxation and suppleness do not signify weakness."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Snake": "Lola Montez (1821), Mustafa Kemal Atatürk (1881), Bela Bartok (1881), Charles Baudelaire (1821), Fyodor Dostoyevsky (1821), Gustave Flaubert (1821), Pablo Picasso (1881), St Vincent of Paul (1581), James Joyce (February 1882), Franklin D. Roosevelt (January 1882), Virginia Woolf (January 1882)"
     },
     horse: {
       "Characteristics of the Metal Horse": [
@@ -481,7 +517,8 @@ const elementAnimalData = {
       "The Year of the Metal Horse": [
         "The culminating point for a Metal Horse year will be the autumn.",
         "Revive your suppleness; be aware of your body and your instincts. Learn to relax and set aside your armour. In order to maintain perfect self-control, you must align yourself with your natural rhythms and movements - otherwise you will experience a revolt from the obscure forces of your psyche."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Horse": "Alfred Adler (1870), P.T. Barnum (1810), King Baudouin of Belgium (1930), Frédéric Chopin (1810), Vladimir Lenin (1870), James Dean (February 1931)"
     },
     goat: {
       "Characteristics of the Metal Goat": [
@@ -495,7 +532,8 @@ const elementAnimalData = {
       "The Year of the Metal Goat": [
         "The culminating point for a Metal Goat year will be autumn. The Yin tendency of the mid-season will balance the Yang of the Goat, bringing tolerance and moderation.",
         "Profit from this year to find again your suppleness and freedom. Leave your armour and your shield in the closet. A certain rigour will be all to the good if you can then accomplish a delicate piece of work. Use it, but keep a light touch and an open mind; this will be a gust of fresh air which will be up to you to prolong."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Goat": "Confucius (551 BCE), Franz Liszt (1811)"
     },
     monkey: {
     "Characteristics of the Metal Monkey": [
@@ -521,7 +559,8 @@ const elementAnimalData = {
       "The Year of the Metal Rooster": [
         "The culminating point for a Metal Rooster year will be autumn.",
         "Do not neglect your physical form; do the necessary exercises, for this will improve your general equilibrium. Take care not to be too excessive or you will stiffen and suffer from an erroneous vision of the world. Take time to listen to your body and your heart. In this way you will become more sensitive to the needs of others."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Rooster": "Anne Boleyn (1501)"
     },
     dog: {
       "Characteristics of the Metal Dog": [
@@ -535,7 +574,8 @@ const elementAnimalData = {
       "The Year of the Metal Dog": [
         "The culminating point in a Metal Dog year will be autumn.",
         "Try to enlarge your horizons, open your heart and pay attention to your body's needs. Your general equilibrium depends on this. Learn to be attentive to others and meditate on 'a healthy mind in a healthy body'."
-      ]
+      ],
+      "Famous people born in the Year of the Metal Dog": ""
     },
     pig: {
       "Characteristics of the Metal Pig": [
@@ -562,7 +602,8 @@ const elementAnimalData = {
         "The culminating point in the Water Rat year will be winter, a period of gestation. The Yin influence reinforces itself and the Northern Rat will remain in the North, linked to his Water element.",
         "The Water Rat in a Water year will have a tendency to splash and flounder in the mud. He should make use of this year to mature his ideas, time being on his side, but not to the extent that he should allow himself to be undermined by inertia.",
         "The tendencies for such a year suggest that it can be excellent for women - for creative work, legal schemes and change - but there is a risk that plans entered into precipitously will be frustrating. Reflection will be more valuable than impulse."
-      ]
+      ],
+      "Famous people born in the Year of the Water Rat": "Percy Bysshe Shelley (1792), Richard Nixon (January 1913), Peter the Great (1672), George Washington (1732), Werner von Braun (1912), Joseph Haydn (1732), Gioachino Rossini (1792)"
     },
     ox: {
       "Characteristics of the Water Ox": ["Water of winter nights, rigour and severity; calm and deep Water to be feared and respected; still Water sheltering underwater demons asleep in its depths; fetid and muddy Water of the marsh, a refuge of crawling creatures. Water can be a token of the total arrest of motion; or, for an Ox searching for peace, beauty and harmony, it can be limpid and bracing. Of the Yin tendency and coming from the North, the Ox can become a wall, a closed, placid mask - reserved, distant and mysterious."],
@@ -572,14 +613,16 @@ const elementAnimalData = {
       "The Year of the Water Ox": [
         "The culminating point for the Water Ox year will be winter, a period of gestation. The Yin reinforces the Yin, and the Ox of the North remains in the North, united with Water. You hardly move at all, so make use of this period of immersion to assess your true position, so that you can eventually set forth in a spirit of confidence and boldness. This waiting should not be a period of resignation; do not let things 'go mouldy' but instead recharge your batteries.",
         "Tendency of the year: More favourable for the female Oxen than for the males, and good for creators and artists. Changes are imminent, but reflect more than twice before taking the plunge."
-      ]
+      ],
+      "Famous people born in the Year of the Water Ox": "Albert Camus (1913), Vivien Leigh (1913), Cecil Rhodes (1853), Vincent van Gogh (1853)"
     },
     tiger: {
       "Characteristics of the Water Tiger": ["Water of winter nights, rigour and severity; calm and deep Water to be feared and respected; still Water sheltering underwater demons asleep in its depths; fetid and muddy Water of the marsh, a refuge of crawling creatures. Water Tiger, who can make any domain his own territory or his particular universe, will quickly become acclimatised to the humid Element: mud, marshes, reeds or the heat of the rainforest will stick to his Yin skin. As to the coldness, rigorousness and severity of ice - the symbol of the arrest of all motion - the Tiger will know how to dominate and invigorate it by bringing the dynamic Yang element to Water: in effect, a story of scoring a point and bringing grist to his mill! What is more, the Tiger is almost the only feline who adores swimming."],
       Health: ["The Water organ is the kidney; its flavour is salty. The Water Tiger will probably enjoy mudbaths, but he should not indulge in them for too long for if he does, gently but surely he will get bogged down. He has to keep on the move, take trips and avoid being transfixed by any one place or idea. Water should be his tonic; it is the best way for him to recharge his batteries."],
       "The Water Tiger and others": ["The Water Tiger will be sedate, calm and reserved; he knows how to listen. Not unexpectedly for a Tiger, he will thus govern with ease. By controlling passions and curbing effusiveness he will be a peaceful, prudent leader, an energetic liberal. Not in the least bit mystical, he will concentrate on political and social issues and humanitarian causes, directing campaigns with firmness and suppleness. Mr Water Tiger will be a good father, if slightly overprotective and overbearing; and Mrs Tiger, although dominating, will be courageous and generous."],
       "Some advice for a Water Tiger": ["Beware of taking yourself too seriously: your ideas, noble as they are, should be put into practice, otherwise you and your fur coat will end badly. If you hold back your energy too much you will wander permanently over mined territory and may be blown up. A Water Tiger must assume his own responsibilities."],
-      "The Year of the Water Tiger": ["The culminating point for the Water Tiger year will be winter, a period of gestation. It should be a period for invigorating yourself, not for floundering. Try to give your ideas and projects careful consideration during this period; make use of the time to reflect on them. But do so with a positive attitude; do not be morose or your thinking will deteriorate, bringing about a slow but certain degradation. Too much hesitation can be fatal for you."]
+      "The Year of the Water Tiger": ["The culminating point for the Water Tiger year will be winter, a period of gestation. It should be a period for invigorating yourself, not for floundering. Try to give your ideas and projects careful consideration during this period; make use of the time to reflect on them. But do so with a positive attitude; do not be morose or your thinking will deteriorate, bringing about a slow but certain degradation. Too much hesitation can be fatal for you."],
+      "Famous people born in the Year of the Water Tiger": "John Steinbeck (1902), Mary, Queen of Scots (1542), Paganini (1782), Stendhal (January 1783)"
     },
     rabbit: {
       "Characteristics of the Water Rabbit": [
@@ -595,7 +638,8 @@ const elementAnimalData = {
       "The Year of the Water Rabbit": [
         "The culminating point of a Water Rabbit year will be winter, a period of gestation.",
         "A year of reflection rather than action. However, do not become bogged down nor flounder about too much. If you do not sometimes leave your retreat you will have a false idea of things and of the world around you. Make this a year for projects and leave the flowers in your garden to bloom in their own good time. Practice cultivation in the fresh air, not in a greenhouse."
-      ]
+      ],
+      "Famous people born in the Year of the Water Rabbit": "Simón Bolívar (1783), Edvard Grieg (1843), Martin Luther (1483), Raphael (1483), Georges Simenon (1903), Cary Grant (January 1904), Claudette Colbert (1903)"
     },
     dragon: {
       "Characteristics of the Water Dragon": [
@@ -609,7 +653,8 @@ const elementAnimalData = {
         "The culminating point in a Water Dragon year will be winter, a period of gestation. The Yin of Water will balance the Yang of the Dragon.",
         "A year in which action and reflection will alternate. Remain vigilant and distrust sleeping waters. If you go deep-sea diving, do not forget to come to the surface eventually.",
         "Intense effort is needed to avoid having your most grandiose projects and enterprises bogged down."
-      ]
+      ],
+      "Famous people born in the Year of the Water Dragon": "Pearl Buck (1892), Eiffel (1832), Francisco Franco (1892), Haile Selassie (1892), Arthur Honegger (1892), Novalis (1772), Mary Pickford (1892), Jean-Jacques Rousseau (1712), Josip Broz Tito (1892)"
     },
     snake: {
       "Characteristics of the Water Snake": [
@@ -622,7 +667,8 @@ const elementAnimalData = {
       "The Year of the Water Snake": [
         "The culminating point in a Water Snake year will be winter, a period of gestation. The Yin of Water will balance the Yang of the Snake.",
         "Profit from this year to restore your energies and regain your inner balance. You can be active, and successfully so, but avoid overwork and all excesses, which are so often followed by depression. Maintain your equilibrium and do not waste your energy, otherwise you will ruin everything by wanting to go too far too quickly."
-      ]
+      ],
+      "Famous people born in the Year of the Water Snake": "Alexander Borodin (1833), Johannes Brahms (1833), Nicolaus Copernicus (1473), Harold Lloyd (1893), Louis-Philippe I (1773), Mao Tse-tung (1893), Joan Miró (1893), Michel de Montaigne (1533), Alfred Nobel (1833), Mae West (1893), Klemens von Metternich (1773), John Ford (February 1894)"
     },
     horse: {
       "The Water Horse (Fire Horse)": [
@@ -639,7 +685,8 @@ const elementAnimalData = {
       "The Year of the Water Horse (Fire Horse)": [
         "The culminating point in a Water Horse year will be winter, a period of gestation. The Yin of Water is brought to the boiling point by the Yang of the Horse, from which arises the Fire Horse.",
         "Seek equilibrium through a balance between action and reflection. Do not weaken your energies by impulsively throwing yourself into excessive physical or emotional adventures - reflect before becoming involved to avoid deceptions and failures. Do not allow yourself to be attracted to sleeping waters, but seek the invigorating source; you will succeed in doing many great things."
-      ]
+      ],
+      "Famous people born in the Year of the Water Horse": "Georges Braque (1882), César Franck (1822), Isaac Newton (January 1643), Louis Pasteur (1822)"
     },
     goat: {
       "Characteristics of the Water Goat": [
@@ -655,7 +702,8 @@ const elementAnimalData = {
       "The Year of the Water Goat": [
         "The culminating point for a Water Goat year will be winter, a period of gestation. The Yin of Water will balance the Yang of the Goat.",
         "You will be at the height of your physical form, and this year will bring you the success you will have earned by your perseverance and dynamism. Turn aside from sleeping waters, they are bad for the Goat; even if they attract you - avoid them."
-      ]
+      ],
+      "Famous people born in the Year of the Water Goat": "Empress Josephine (1763), Francois Boucher (1703), Catherine Deneuve (1943), Douglas Fairbanks (1883), Johnny Hallyday (1943), Franz Kafka (1883)"
     },
     monkey: {
       "Characteristics of the Water Monkey": [
